@@ -66,43 +66,43 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker5 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker6 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
-            this.comboBox12 = new System.Windows.Forms.ComboBox();
-            this.comboBox13 = new System.Windows.Forms.ComboBox();
-            this.comboBox14 = new System.Windows.Forms.ComboBox();
-            this.comboBox15 = new System.Windows.Forms.ComboBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
             this.textBox16 = new System.Windows.Forms.TextBox();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.comboBox15 = new System.Windows.Forms.ComboBox();
+            this.comboBox14 = new System.Windows.Forms.ComboBox();
+            this.comboBox13 = new System.Windows.Forms.ComboBox();
+            this.comboBox12 = new System.Windows.Forms.ComboBox();
+            this.comboBox11 = new System.Windows.Forms.ComboBox();
+            this.comboBox10 = new System.Windows.Forms.ComboBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.comboBox9 = new System.Windows.Forms.ComboBox();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.dateTimePicker6 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker5 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -529,65 +529,227 @@
             this.groupBox7.TabIndex = 23;
             this.groupBox7.TabStop = false;
             // 
-            // label18
+            // textBox16
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(15, 26);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(52, 15);
-            this.label18.TabIndex = 28;
-            this.label18.Text = "Search";
+            this.textBox16.Location = new System.Drawing.Point(815, 241);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(166, 20);
+            this.textBox16.TabIndex = 64;
             // 
-            // label19
+            // textBox15
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(230, 26);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(52, 15);
-            this.label19.TabIndex = 29;
-            this.label19.Text = "Search";
+            this.textBox15.Location = new System.Drawing.Point(816, 203);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(166, 20);
+            this.textBox15.TabIndex = 63;
             // 
-            // label20
+            // textBox14
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(402, 26);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(52, 15);
-            this.label20.TabIndex = 30;
-            this.label20.Text = "Search";
+            this.textBox14.Location = new System.Drawing.Point(816, 167);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(166, 20);
+            this.textBox14.TabIndex = 62;
             // 
-            // label21
+            // textBox13
             // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(647, 26);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(52, 15);
-            this.label21.TabIndex = 31;
-            this.label21.Text = "Search";
+            this.textBox13.Location = new System.Drawing.Point(816, 129);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(166, 20);
+            this.textBox13.TabIndex = 61;
             // 
-            // label22
+            // textBox12
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(813, 26);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(52, 15);
-            this.label22.TabIndex = 32;
-            this.label22.Text = "Search";
+            this.textBox12.Location = new System.Drawing.Point(815, 93);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(166, 20);
+            this.textBox12.TabIndex = 60;
             // 
-            // label23
+            // textBox11
             // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(1005, 26);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(52, 15);
-            this.label23.TabIndex = 33;
-            this.label23.Text = "Search";
+            this.textBox11.Location = new System.Drawing.Point(815, 59);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(166, 20);
+            this.textBox11.TabIndex = 59;
+            // 
+            // comboBox15
+            // 
+            this.comboBox15.FormattingEnabled = true;
+            this.comboBox15.Location = new System.Drawing.Point(650, 238);
+            this.comboBox15.Name = "comboBox15";
+            this.comboBox15.Size = new System.Drawing.Size(121, 21);
+            this.comboBox15.TabIndex = 58;
+            // 
+            // comboBox14
+            // 
+            this.comboBox14.FormattingEnabled = true;
+            this.comboBox14.Location = new System.Drawing.Point(650, 200);
+            this.comboBox14.Name = "comboBox14";
+            this.comboBox14.Size = new System.Drawing.Size(121, 21);
+            this.comboBox14.TabIndex = 57;
+            // 
+            // comboBox13
+            // 
+            this.comboBox13.FormattingEnabled = true;
+            this.comboBox13.Location = new System.Drawing.Point(650, 167);
+            this.comboBox13.Name = "comboBox13";
+            this.comboBox13.Size = new System.Drawing.Size(121, 21);
+            this.comboBox13.TabIndex = 56;
+            // 
+            // comboBox12
+            // 
+            this.comboBox12.FormattingEnabled = true;
+            this.comboBox12.Location = new System.Drawing.Point(650, 128);
+            this.comboBox12.Name = "comboBox12";
+            this.comboBox12.Size = new System.Drawing.Size(121, 21);
+            this.comboBox12.TabIndex = 55;
+            // 
+            // comboBox11
+            // 
+            this.comboBox11.FormattingEnabled = true;
+            this.comboBox11.Location = new System.Drawing.Point(650, 90);
+            this.comboBox11.Name = "comboBox11";
+            this.comboBox11.Size = new System.Drawing.Size(121, 21);
+            this.comboBox11.TabIndex = 54;
+            // 
+            // comboBox10
+            // 
+            this.comboBox10.FormattingEnabled = true;
+            this.comboBox10.Location = new System.Drawing.Point(650, 58);
+            this.comboBox10.Name = "comboBox10";
+            this.comboBox10.Size = new System.Drawing.Size(121, 21);
+            this.comboBox10.TabIndex = 53;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(405, 238);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(202, 20);
+            this.textBox10.TabIndex = 52;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(405, 199);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(202, 20);
+            this.textBox9.TabIndex = 51;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(405, 163);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(202, 20);
+            this.textBox8.TabIndex = 50;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(405, 128);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(202, 20);
+            this.textBox7.TabIndex = 49;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(405, 89);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(202, 20);
+            this.textBox6.TabIndex = 48;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(405, 55);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(202, 20);
+            this.textBox5.TabIndex = 47;
+            // 
+            // comboBox9
+            // 
+            this.comboBox9.FormattingEnabled = true;
+            this.comboBox9.Location = new System.Drawing.Point(233, 237);
+            this.comboBox9.Name = "comboBox9";
+            this.comboBox9.Size = new System.Drawing.Size(151, 21);
+            this.comboBox9.TabIndex = 46;
+            // 
+            // comboBox8
+            // 
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Location = new System.Drawing.Point(233, 199);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(151, 21);
+            this.comboBox8.TabIndex = 45;
+            // 
+            // comboBox7
+            // 
+            this.comboBox7.FormattingEnabled = true;
+            this.comboBox7.Location = new System.Drawing.Point(233, 163);
+            this.comboBox7.Name = "comboBox7";
+            this.comboBox7.Size = new System.Drawing.Size(151, 21);
+            this.comboBox7.TabIndex = 44;
+            // 
+            // comboBox6
+            // 
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Location = new System.Drawing.Point(233, 128);
+            this.comboBox6.Name = "comboBox6";
+            this.comboBox6.Size = new System.Drawing.Size(151, 21);
+            this.comboBox6.TabIndex = 43;
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Location = new System.Drawing.Point(233, 89);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(151, 21);
+            this.comboBox5.TabIndex = 42;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(233, 53);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(151, 21);
+            this.comboBox4.TabIndex = 41;
+            // 
+            // dateTimePicker6
+            // 
+            this.dateTimePicker6.Location = new System.Drawing.Point(9, 238);
+            this.dateTimePicker6.Name = "dateTimePicker6";
+            this.dateTimePicker6.Size = new System.Drawing.Size(180, 20);
+            this.dateTimePicker6.TabIndex = 40;
+            // 
+            // dateTimePicker5
+            // 
+            this.dateTimePicker5.Location = new System.Drawing.Point(9, 200);
+            this.dateTimePicker5.Name = "dateTimePicker5";
+            this.dateTimePicker5.Size = new System.Drawing.Size(180, 20);
+            this.dateTimePicker5.TabIndex = 39;
+            // 
+            // dateTimePicker4
+            // 
+            this.dateTimePicker4.Location = new System.Drawing.Point(9, 164);
+            this.dateTimePicker4.Name = "dateTimePicker4";
+            this.dateTimePicker4.Size = new System.Drawing.Size(180, 20);
+            this.dateTimePicker4.TabIndex = 38;
+            // 
+            // dateTimePicker3
+            // 
+            this.dateTimePicker3.Location = new System.Drawing.Point(9, 128);
+            this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.Size = new System.Drawing.Size(180, 20);
+            this.dateTimePicker3.TabIndex = 37;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(9, 90);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(180, 20);
+            this.dateTimePicker2.TabIndex = 36;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(9, 55);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(180, 20);
+            this.dateTimePicker1.TabIndex = 35;
             // 
             // label24
             // 
@@ -599,227 +761,65 @@
             this.label24.TabIndex = 34;
             this.label24.Text = "Search";
             // 
-            // dateTimePicker1
+            // label23
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(9, 55);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(180, 20);
-            this.dateTimePicker1.TabIndex = 35;
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(1005, 26);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(52, 15);
+            this.label23.TabIndex = 33;
+            this.label23.Text = "Search";
             // 
-            // dateTimePicker2
+            // label22
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(9, 90);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(180, 20);
-            this.dateTimePicker2.TabIndex = 36;
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(813, 26);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(52, 15);
+            this.label22.TabIndex = 32;
+            this.label22.Text = "Search";
             // 
-            // dateTimePicker3
+            // label21
             // 
-            this.dateTimePicker3.Location = new System.Drawing.Point(9, 128);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(180, 20);
-            this.dateTimePicker3.TabIndex = 37;
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(647, 26);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(52, 15);
+            this.label21.TabIndex = 31;
+            this.label21.Text = "Search";
             // 
-            // dateTimePicker4
+            // label20
             // 
-            this.dateTimePicker4.Location = new System.Drawing.Point(9, 164);
-            this.dateTimePicker4.Name = "dateTimePicker4";
-            this.dateTimePicker4.Size = new System.Drawing.Size(180, 20);
-            this.dateTimePicker4.TabIndex = 38;
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(402, 26);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(52, 15);
+            this.label20.TabIndex = 30;
+            this.label20.Text = "Search";
             // 
-            // dateTimePicker5
+            // label19
             // 
-            this.dateTimePicker5.Location = new System.Drawing.Point(9, 200);
-            this.dateTimePicker5.Name = "dateTimePicker5";
-            this.dateTimePicker5.Size = new System.Drawing.Size(180, 20);
-            this.dateTimePicker5.TabIndex = 39;
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(230, 26);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(52, 15);
+            this.label19.TabIndex = 29;
+            this.label19.Text = "Search";
             // 
-            // dateTimePicker6
+            // label18
             // 
-            this.dateTimePicker6.Location = new System.Drawing.Point(9, 238);
-            this.dateTimePicker6.Name = "dateTimePicker6";
-            this.dateTimePicker6.Size = new System.Drawing.Size(180, 20);
-            this.dateTimePicker6.TabIndex = 40;
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(233, 53);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(151, 21);
-            this.comboBox4.TabIndex = 41;
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(233, 89);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(151, 21);
-            this.comboBox5.TabIndex = 42;
-            // 
-            // comboBox6
-            // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(233, 128);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(151, 21);
-            this.comboBox6.TabIndex = 43;
-            // 
-            // comboBox7
-            // 
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Location = new System.Drawing.Point(233, 163);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(151, 21);
-            this.comboBox7.TabIndex = 44;
-            // 
-            // comboBox8
-            // 
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Location = new System.Drawing.Point(233, 199);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(151, 21);
-            this.comboBox8.TabIndex = 45;
-            // 
-            // comboBox9
-            // 
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Location = new System.Drawing.Point(233, 237);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(151, 21);
-            this.comboBox9.TabIndex = 46;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(405, 55);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(202, 20);
-            this.textBox5.TabIndex = 47;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(405, 89);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(202, 20);
-            this.textBox6.TabIndex = 48;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(405, 128);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(202, 20);
-            this.textBox7.TabIndex = 49;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(405, 163);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(202, 20);
-            this.textBox8.TabIndex = 50;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(405, 199);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(202, 20);
-            this.textBox9.TabIndex = 51;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(405, 238);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(202, 20);
-            this.textBox10.TabIndex = 52;
-            // 
-            // comboBox10
-            // 
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Location = new System.Drawing.Point(650, 58);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(121, 21);
-            this.comboBox10.TabIndex = 53;
-            // 
-            // comboBox11
-            // 
-            this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.Location = new System.Drawing.Point(650, 90);
-            this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(121, 21);
-            this.comboBox11.TabIndex = 54;
-            // 
-            // comboBox12
-            // 
-            this.comboBox12.FormattingEnabled = true;
-            this.comboBox12.Location = new System.Drawing.Point(650, 128);
-            this.comboBox12.Name = "comboBox12";
-            this.comboBox12.Size = new System.Drawing.Size(121, 21);
-            this.comboBox12.TabIndex = 55;
-            // 
-            // comboBox13
-            // 
-            this.comboBox13.FormattingEnabled = true;
-            this.comboBox13.Location = new System.Drawing.Point(650, 167);
-            this.comboBox13.Name = "comboBox13";
-            this.comboBox13.Size = new System.Drawing.Size(121, 21);
-            this.comboBox13.TabIndex = 56;
-            // 
-            // comboBox14
-            // 
-            this.comboBox14.FormattingEnabled = true;
-            this.comboBox14.Location = new System.Drawing.Point(650, 200);
-            this.comboBox14.Name = "comboBox14";
-            this.comboBox14.Size = new System.Drawing.Size(121, 21);
-            this.comboBox14.TabIndex = 57;
-            // 
-            // comboBox15
-            // 
-            this.comboBox15.FormattingEnabled = true;
-            this.comboBox15.Location = new System.Drawing.Point(650, 238);
-            this.comboBox15.Name = "comboBox15";
-            this.comboBox15.Size = new System.Drawing.Size(121, 21);
-            this.comboBox15.TabIndex = 58;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(815, 59);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(166, 20);
-            this.textBox11.TabIndex = 59;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(815, 93);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(166, 20);
-            this.textBox12.TabIndex = 60;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(816, 129);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(166, 20);
-            this.textBox13.TabIndex = 61;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Location = new System.Drawing.Point(816, 167);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(166, 20);
-            this.textBox14.TabIndex = 62;
-            // 
-            // textBox15
-            // 
-            this.textBox15.Location = new System.Drawing.Point(816, 203);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(166, 20);
-            this.textBox15.TabIndex = 63;
-            // 
-            // textBox16
-            // 
-            this.textBox16.Location = new System.Drawing.Point(815, 241);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(166, 20);
-            this.textBox16.TabIndex = 64;
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(15, 26);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(52, 15);
+            this.label18.TabIndex = 28;
+            this.label18.Text = "Search";
             // 
             // AuditLogs_Analyst
             // 
@@ -840,7 +840,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox1);
             this.Name = "AuditLogs_Analyst";
-            this.Text = "Form1";
+            this.Text = "AuditLogs_Analyst";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
