@@ -36,5 +36,10 @@ namespace CyberTrack_Analyst
         {
 
         }
+
+        private void AllCases_Analyst_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -61,5 +61,15 @@ namespace CyberTrack_Analyst
         {
 
         }
+
+        private void AuditLogs_Analyst_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AuditLogsGB_Analyst_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

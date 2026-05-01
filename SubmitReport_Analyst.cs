@@ -41,5 +41,10 @@ namespace CyberTrack_Analyst
         {
 
         }
+
+        private void SubmitIncident_Analyst_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -30,29 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AllCasesAuditTrail_Analyst));
             this.SEWMA_ANALYST = new System.Windows.Forms.GroupBox();
-            this.AUDITTRAILgb_ANALYST = new System.Windows.Forms.GroupBox();
-            this.AUDITTRAILdgv_ANALYST = new System.Windows.Forms.DataGridView();
-            this.TITLE_ANALYST = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Status1_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AssignedTo1_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Severity1_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.UpdatedAt_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Notes_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AUDITTRAILlbl_ANALYST = new System.Windows.Forms.Label();
             this.AFFECTEDSYSgb_ANALYST = new System.Windows.Forms.GroupBox();
-            this.AFFECTEDSYSdgv_ANALYST = new System.Windows.Forms.DataGridView();
-            this.EmailServer_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.EmployeeWS_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.ImpactLevel_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.label4 = new System.Windows.Forms.Label();
+            this.dgvAllCasesAffectedSystems_Analyst = new System.Windows.Forms.DataGridView();
+            this.lblAllCasesAffectedSystems_Analyst = new System.Windows.Forms.Label();
             this.groupBox4_ANALYST = new System.Windows.Forms.GroupBox();
-            this.dataGridView1_ANALYST = new System.Windows.Forms.DataGridView();
-            this.Reporter_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AssignedTo_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ReportedAt_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.LastUpdated_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SLADeadline_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CASEINFO_ANALYST = new System.Windows.Forms.Label();
+            this.dgvAllCasesCaseInformation_Analyst = new System.Windows.Forms.DataGridView();
+            this.lblAllCasesCaseInformation_Analyst = new System.Windows.Forms.Label();
+            this.btnAllCasesAuditTrail_Analyst = new System.Windows.Forms.Button();
+            this.btnAllCasesEvidence_Analyst = new System.Windows.Forms.Button();
+            this.btnAllCasesStatusWorkflow_Analyst = new System.Windows.Forms.Button();
+            this.groupBox3_ANALYST = new System.Windows.Forms.GroupBox();
+            this.txtAllCasesIncidentDesc_Analyst = new System.Windows.Forms.TextBox();
+            this.lblAllCasesIncidentDesc_Analyst = new System.Windows.Forms.Label();
             this.txtAllCasesCategory_ANALYST = new System.Windows.Forms.TextBox();
             this.txtAllCasesStatus_ANALYST = new System.Windows.Forms.TextBox();
             this.txtAllCasesSeverity_ANALYST = new System.Windows.Forms.TextBox();
@@ -60,14 +49,17 @@
             this.txtAllCasesPlaceholderDesc_ANALYST = new System.Windows.Forms.TextBox();
             this.lblAllCasesPlaceHolder_ANALYST = new System.Windows.Forms.Label();
             this.txtAllCasesCaseID_ANALYST = new System.Windows.Forms.TextBox();
-            this.btnEXPORT_ANALYST = new System.Windows.Forms.Button();
+            this.btnAllCasesExport_Analyst = new System.Windows.Forms.Button();
             this.lblLogs_Analyst = new System.Windows.Forms.Label();
             this.btnBACKTOCASES_ANALYST = new System.Windows.Forms.Button();
-            this.groupBox7_Analyst = new System.Windows.Forms.GroupBox();
+            this.AUDITTRAILgb_ANALYST = new System.Windows.Forms.GroupBox();
+            this.dgvAllCasesAuditTrail_Analyst = new System.Windows.Forms.DataGridView();
+            this.lblAllCasesAuditTrail_Analyst = new System.Windows.Forms.Label();
+            this.grbLogo_Analyst = new System.Windows.Forms.GroupBox();
             this.picCyberTrackLogo_Analyst = new System.Windows.Forms.PictureBox();
             this.lblIncidentManagementSystem_Analyst = new System.Windows.Forms.Label();
             this.lblCyberTrack_Analyst = new System.Windows.Forms.Label();
-            this.groupBox1_Analyst = new System.Windows.Forms.GroupBox();
+            this.grbPermissions_Analyst = new System.Windows.Forms.GroupBox();
             this.txtDelete_Analyst = new System.Windows.Forms.TextBox();
             this.txtUpdate_Analyst = new System.Windows.Forms.TextBox();
             this.txtCreate_Analyst = new System.Windows.Forms.TextBox();
@@ -75,49 +67,57 @@
             this.lblUpdate_Analyst = new System.Windows.Forms.Label();
             this.lblCreate_Analyst = new System.Windows.Forms.Label();
             this.lblPermissions_Analyst = new System.Windows.Forms.Label();
-            this.groupBox2_Analyst = new System.Windows.Forms.GroupBox();
+            this.grbUserLogo_Analyst = new System.Windows.Forms.GroupBox();
             this.picUserPhoto_Analyst = new System.Windows.Forms.PictureBox();
             this.lblUserRole_Analyst = new System.Windows.Forms.Label();
             this.lblUserName_Analyst = new System.Windows.Forms.Label();
-            this.btnAUDITTRAIL_ANALYST = new System.Windows.Forms.Button();
-            this.btnEVIDENCE_ANALYST = new System.Windows.Forms.Button();
-            this.btnSTATUSWORKFLOW_ANALYST = new System.Windows.Forms.Button();
-            this.groupBox3_ANALYST = new System.Windows.Forms.GroupBox();
-            this.INCIDENTDESC_ANALYST = new System.Windows.Forms.TextBox();
-            this.label2_ANALYST = new System.Windows.Forms.Label();
+            this.txtAllCasesTitle_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cmbAllCasesStatus_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.cmbAllCasesAssignedTo2_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.cmbAllCasesSeverity2_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.txtAllCasesUpdatedAt_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtAllCasesNotes_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cmbAllCasesReporter_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.cmbAllCasesAssignedTo_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.txtAllCasesReportedAt_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtAllCasesLastUpdated_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtAllCasesSLADeadline_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.chk_AllCasesEmailServer_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.chkAllCasesEmployeeWorkstation_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.cmbAllCasesImpactLevel_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.SEWMA_ANALYST.SuspendLayout();
-            this.AUDITTRAILgb_ANALYST.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.AUDITTRAILdgv_ANALYST)).BeginInit();
             this.AFFECTEDSYSgb_ANALYST.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.AFFECTEDSYSdgv_ANALYST)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesAffectedSystems_Analyst)).BeginInit();
             this.groupBox4_ANALYST.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1_ANALYST)).BeginInit();
-            this.grpSTATUSGB_ANALYST.SuspendLayout();
-            this.groupBox7_Analyst.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_Analyst)).BeginInit();
-            this.groupBox1_Analyst.SuspendLayout();
-            this.groupBox2_Analyst.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_Analyst)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesCaseInformation_Analyst)).BeginInit();
             this.groupBox3_ANALYST.SuspendLayout();
+            this.grpSTATUSGB_ANALYST.SuspendLayout();
+            this.AUDITTRAILgb_ANALYST.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesAuditTrail_Analyst)).BeginInit();
+            this.grbLogo_Analyst.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_Analyst)).BeginInit();
+            this.grbPermissions_Analyst.SuspendLayout();
+            this.grbUserLogo_Analyst.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_Analyst)).BeginInit();
             this.SuspendLayout();
             // 
             // SEWMA_ANALYST
             // 
-            this.SEWMA_ANALYST.Controls.Add(this.btnAUDITTRAIL_ANALYST);
-            this.SEWMA_ANALYST.Controls.Add(this.btnEVIDENCE_ANALYST);
-            this.SEWMA_ANALYST.Controls.Add(this.btnSTATUSWORKFLOW_ANALYST);
+            this.SEWMA_ANALYST.Controls.Add(this.AFFECTEDSYSgb_ANALYST);
+            this.SEWMA_ANALYST.Controls.Add(this.groupBox4_ANALYST);
+            this.SEWMA_ANALYST.Controls.Add(this.btnAllCasesAuditTrail_Analyst);
+            this.SEWMA_ANALYST.Controls.Add(this.btnAllCasesEvidence_Analyst);
+            this.SEWMA_ANALYST.Controls.Add(this.btnAllCasesStatusWorkflow_Analyst);
             this.SEWMA_ANALYST.Controls.Add(this.groupBox3_ANALYST);
             this.SEWMA_ANALYST.Controls.Add(this.txtAllCasesCategory_ANALYST);
             this.SEWMA_ANALYST.Controls.Add(this.txtAllCasesStatus_ANALYST);
             this.SEWMA_ANALYST.Controls.Add(this.txtAllCasesSeverity_ANALYST);
             this.SEWMA_ANALYST.Controls.Add(this.grpSTATUSGB_ANALYST);
             this.SEWMA_ANALYST.Controls.Add(this.txtAllCasesCaseID_ANALYST);
-            this.SEWMA_ANALYST.Controls.Add(this.btnEXPORT_ANALYST);
+            this.SEWMA_ANALYST.Controls.Add(this.btnAllCasesExport_Analyst);
             this.SEWMA_ANALYST.Controls.Add(this.lblLogs_Analyst);
             this.SEWMA_ANALYST.Controls.Add(this.btnBACKTOCASES_ANALYST);
             this.SEWMA_ANALYST.Controls.Add(this.AUDITTRAILgb_ANALYST);
-            this.SEWMA_ANALYST.Controls.Add(this.AFFECTEDSYSgb_ANALYST);
-            this.SEWMA_ANALYST.Controls.Add(this.groupBox4_ANALYST);
             this.SEWMA_ANALYST.Location = new System.Drawing.Point(12, 92);
             this.SEWMA_ANALYST.Name = "SEWMA_ANALYST";
             this.SEWMA_ANALYST.Size = new System.Drawing.Size(1260, 957);
@@ -125,182 +125,130 @@
             this.SEWMA_ANALYST.TabStop = false;
             this.SEWMA_ANALYST.Enter += new System.EventHandler(this.SEWMA_ANALYST_Enter);
             // 
-            // AUDITTRAILgb_ANALYST
-            // 
-            this.AUDITTRAILgb_ANALYST.Controls.Add(this.AUDITTRAILdgv_ANALYST);
-            this.AUDITTRAILgb_ANALYST.Controls.Add(this.AUDITTRAILlbl_ANALYST);
-            this.AUDITTRAILgb_ANALYST.Location = new System.Drawing.Point(9, 396);
-            this.AUDITTRAILgb_ANALYST.Name = "AUDITTRAILgb_ANALYST";
-            this.AUDITTRAILgb_ANALYST.Size = new System.Drawing.Size(655, 527);
-            this.AUDITTRAILgb_ANALYST.TabIndex = 64;
-            this.AUDITTRAILgb_ANALYST.TabStop = false;
-            // 
-            // AUDITTRAILdgv_ANALYST
-            // 
-            this.AUDITTRAILdgv_ANALYST.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.AUDITTRAILdgv_ANALYST.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.TITLE_ANALYST,
-            this.Status1_Analyst,
-            this.AssignedTo1_Analyst,
-            this.Severity1_Analyst,
-            this.UpdatedAt_Analyst,
-            this.Notes_Analyst});
-            this.AUDITTRAILdgv_ANALYST.Location = new System.Drawing.Point(6, 65);
-            this.AUDITTRAILdgv_ANALYST.Name = "AUDITTRAILdgv_ANALYST";
-            this.AUDITTRAILdgv_ANALYST.Size = new System.Drawing.Size(635, 446);
-            this.AUDITTRAILdgv_ANALYST.TabIndex = 29;
-            // 
-            // TITLE_ANALYST
-            // 
-            this.TITLE_ANALYST.HeaderText = "Title";
-            this.TITLE_ANALYST.Name = "TITLE_ANALYST";
-            // 
-            // Status1_Analyst
-            // 
-            this.Status1_Analyst.HeaderText = "Status";
-            this.Status1_Analyst.Name = "Status1_Analyst";
-            // 
-            // AssignedTo1_Analyst
-            // 
-            this.AssignedTo1_Analyst.HeaderText = "Assigned To";
-            this.AssignedTo1_Analyst.Name = "AssignedTo1_Analyst";
-            // 
-            // Severity1_Analyst
-            // 
-            this.Severity1_Analyst.HeaderText = "Severity";
-            this.Severity1_Analyst.Name = "Severity1_Analyst";
-            // 
-            // UpdatedAt_Analyst
-            // 
-            this.UpdatedAt_Analyst.HeaderText = "Updated At";
-            this.UpdatedAt_Analyst.Name = "UpdatedAt_Analyst";
-            // 
-            // Notes_Analyst
-            // 
-            this.Notes_Analyst.HeaderText = "Notes";
-            this.Notes_Analyst.Name = "Notes_Analyst";
-            // 
-            // AUDITTRAILlbl_ANALYST
-            // 
-            this.AUDITTRAILlbl_ANALYST.AutoSize = true;
-            this.AUDITTRAILlbl_ANALYST.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AUDITTRAILlbl_ANALYST.Location = new System.Drawing.Point(11, 25);
-            this.AUDITTRAILlbl_ANALYST.Name = "AUDITTRAILlbl_ANALYST";
-            this.AUDITTRAILlbl_ANALYST.Size = new System.Drawing.Size(100, 16);
-            this.AUDITTRAILlbl_ANALYST.TabIndex = 28;
-            this.AUDITTRAILlbl_ANALYST.Text = "AUDIT TRAIL";
-            // 
             // AFFECTEDSYSgb_ANALYST
             // 
-            this.AFFECTEDSYSgb_ANALYST.Controls.Add(this.AFFECTEDSYSdgv_ANALYST);
-            this.AFFECTEDSYSgb_ANALYST.Controls.Add(this.label4);
-            this.AFFECTEDSYSgb_ANALYST.Location = new System.Drawing.Point(688, 651);
+            this.AFFECTEDSYSgb_ANALYST.Controls.Add(this.dgvAllCasesAffectedSystems_Analyst);
+            this.AFFECTEDSYSgb_ANALYST.Controls.Add(this.lblAllCasesAffectedSystems_Analyst);
+            this.AFFECTEDSYSgb_ANALYST.Location = new System.Drawing.Point(688, 650);
             this.AFFECTEDSYSgb_ANALYST.Name = "AFFECTEDSYSgb_ANALYST";
             this.AFFECTEDSYSgb_ANALYST.Size = new System.Drawing.Size(559, 204);
-            this.AFFECTEDSYSgb_ANALYST.TabIndex = 63;
+            this.AFFECTEDSYSgb_ANALYST.TabIndex = 64;
             this.AFFECTEDSYSgb_ANALYST.TabStop = false;
             // 
-            // AFFECTEDSYSdgv_ANALYST
+            // dgvAllCasesAffectedSystems_Analyst
             // 
-            this.AFFECTEDSYSdgv_ANALYST.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.AFFECTEDSYSdgv_ANALYST.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.EmailServer_Analyst,
-            this.EmployeeWS_Analyst,
-            this.ImpactLevel_Analyst});
-            this.AFFECTEDSYSdgv_ANALYST.Location = new System.Drawing.Point(7, 47);
-            this.AFFECTEDSYSdgv_ANALYST.Name = "AFFECTEDSYSdgv_ANALYST";
-            this.AFFECTEDSYSdgv_ANALYST.Size = new System.Drawing.Size(544, 150);
-            this.AFFECTEDSYSdgv_ANALYST.TabIndex = 30;
+            this.dgvAllCasesAffectedSystems_Analyst.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAllCasesAffectedSystems_Analyst.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.chk_AllCasesEmailServer_Analyst,
+            this.chkAllCasesEmployeeWorkstation_Analyst,
+            this.cmbAllCasesImpactLevel_Analyst});
+            this.dgvAllCasesAffectedSystems_Analyst.Location = new System.Drawing.Point(7, 47);
+            this.dgvAllCasesAffectedSystems_Analyst.Name = "dgvAllCasesAffectedSystems_Analyst";
+            this.dgvAllCasesAffectedSystems_Analyst.Size = new System.Drawing.Size(544, 150);
+            this.dgvAllCasesAffectedSystems_Analyst.TabIndex = 30;
             // 
-            // EmailServer_Analyst
+            // lblAllCasesAffectedSystems_Analyst
             // 
-            this.EmailServer_Analyst.FillWeight = 250F;
-            this.EmailServer_Analyst.HeaderText = "Email Server";
-            this.EmailServer_Analyst.Name = "EmailServer_Analyst";
-            this.EmailServer_Analyst.Width = 175;
-            // 
-            // EmployeeWS_Analyst
-            // 
-            this.EmployeeWS_Analyst.FillWeight = 250F;
-            this.EmployeeWS_Analyst.HeaderText = "Employee Workstation";
-            this.EmployeeWS_Analyst.Name = "EmployeeWS_Analyst";
-            this.EmployeeWS_Analyst.Width = 175;
-            // 
-            // ImpactLevel_Analyst
-            // 
-            this.ImpactLevel_Analyst.FillWeight = 250F;
-            this.ImpactLevel_Analyst.HeaderText = "Impact Level";
-            this.ImpactLevel_Analyst.Name = "ImpactLevel_Analyst";
-            this.ImpactLevel_Analyst.Width = 150;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(8, 16);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(162, 16);
-            this.label4.TabIndex = 29;
-            this.label4.Text = "AFFECTED SYSTEMS";
+            this.lblAllCasesAffectedSystems_Analyst.AutoSize = true;
+            this.lblAllCasesAffectedSystems_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAllCasesAffectedSystems_Analyst.Location = new System.Drawing.Point(8, 16);
+            this.lblAllCasesAffectedSystems_Analyst.Name = "lblAllCasesAffectedSystems_Analyst";
+            this.lblAllCasesAffectedSystems_Analyst.Size = new System.Drawing.Size(162, 16);
+            this.lblAllCasesAffectedSystems_Analyst.TabIndex = 29;
+            this.lblAllCasesAffectedSystems_Analyst.Text = "AFFECTED SYSTEMS";
             // 
             // groupBox4_ANALYST
             // 
-            this.groupBox4_ANALYST.Controls.Add(this.dataGridView1_ANALYST);
-            this.groupBox4_ANALYST.Controls.Add(this.CASEINFO_ANALYST);
+            this.groupBox4_ANALYST.Controls.Add(this.dgvAllCasesCaseInformation_Analyst);
+            this.groupBox4_ANALYST.Controls.Add(this.lblAllCasesCaseInformation_Analyst);
             this.groupBox4_ANALYST.Location = new System.Drawing.Point(688, 223);
             this.groupBox4_ANALYST.Name = "groupBox4_ANALYST";
             this.groupBox4_ANALYST.Size = new System.Drawing.Size(559, 406);
-            this.groupBox4_ANALYST.TabIndex = 62;
+            this.groupBox4_ANALYST.TabIndex = 80;
             this.groupBox4_ANALYST.TabStop = false;
             // 
-            // dataGridView1_ANALYST
+            // dgvAllCasesCaseInformation_Analyst
             // 
-            this.dataGridView1_ANALYST.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1_ANALYST.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Reporter_Analyst,
-            this.AssignedTo_Analyst,
-            this.ReportedAt_Analyst,
-            this.LastUpdated_Analyst,
-            this.SLADeadline_Analyst});
-            this.dataGridView1_ANALYST.Location = new System.Drawing.Point(11, 45);
-            this.dataGridView1_ANALYST.Name = "dataGridView1_ANALYST";
-            this.dataGridView1_ANALYST.Size = new System.Drawing.Size(540, 355);
-            this.dataGridView1_ANALYST.TabIndex = 29;
+            this.dgvAllCasesCaseInformation_Analyst.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAllCasesCaseInformation_Analyst.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.cmbAllCasesReporter_Analyst,
+            this.cmbAllCasesAssignedTo_Analyst,
+            this.txtAllCasesReportedAt_Analyst,
+            this.txtAllCasesLastUpdated_Analyst,
+            this.txtAllCasesSLADeadline_Analyst});
+            this.dgvAllCasesCaseInformation_Analyst.Location = new System.Drawing.Point(11, 45);
+            this.dgvAllCasesCaseInformation_Analyst.Name = "dgvAllCasesCaseInformation_Analyst";
+            this.dgvAllCasesCaseInformation_Analyst.Size = new System.Drawing.Size(540, 355);
+            this.dgvAllCasesCaseInformation_Analyst.TabIndex = 29;
             // 
-            // Reporter_Analyst
+            // lblAllCasesCaseInformation_Analyst
             // 
-            this.Reporter_Analyst.HeaderText = "Reporter";
-            this.Reporter_Analyst.Name = "Reporter_Analyst";
+            this.lblAllCasesCaseInformation_Analyst.AutoSize = true;
+            this.lblAllCasesCaseInformation_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAllCasesCaseInformation_Analyst.Location = new System.Drawing.Point(8, 16);
+            this.lblAllCasesCaseInformation_Analyst.Name = "lblAllCasesCaseInformation_Analyst";
+            this.lblAllCasesCaseInformation_Analyst.Size = new System.Drawing.Size(155, 16);
+            this.lblAllCasesCaseInformation_Analyst.TabIndex = 28;
+            this.lblAllCasesCaseInformation_Analyst.Text = "CASE INFORMATION";
             // 
-            // AssignedTo_Analyst
+            // btnAllCasesAuditTrail_Analyst
             // 
-            this.AssignedTo_Analyst.HeaderText = "Assigned To";
-            this.AssignedTo_Analyst.Name = "AssignedTo_Analyst";
+            this.btnAllCasesAuditTrail_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAllCasesAuditTrail_Analyst.Location = new System.Drawing.Point(461, 321);
+            this.btnAllCasesAuditTrail_Analyst.Name = "btnAllCasesAuditTrail_Analyst";
+            this.btnAllCasesAuditTrail_Analyst.Size = new System.Drawing.Size(218, 42);
+            this.btnAllCasesAuditTrail_Analyst.TabIndex = 79;
+            this.btnAllCasesAuditTrail_Analyst.Text = "AUDIT TRAIL";
+            this.btnAllCasesAuditTrail_Analyst.UseVisualStyleBackColor = true;
             // 
-            // ReportedAt_Analyst
+            // btnAllCasesEvidence_Analyst
             // 
-            this.ReportedAt_Analyst.HeaderText = "Reported At";
-            this.ReportedAt_Analyst.Name = "ReportedAt_Analyst";
+            this.btnAllCasesEvidence_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAllCasesEvidence_Analyst.Location = new System.Drawing.Point(234, 321);
+            this.btnAllCasesEvidence_Analyst.Name = "btnAllCasesEvidence_Analyst";
+            this.btnAllCasesEvidence_Analyst.Size = new System.Drawing.Size(218, 42);
+            this.btnAllCasesEvidence_Analyst.TabIndex = 78;
+            this.btnAllCasesEvidence_Analyst.Text = "EVIDENCE";
+            this.btnAllCasesEvidence_Analyst.UseVisualStyleBackColor = true;
             // 
-            // LastUpdated_Analyst
+            // btnAllCasesStatusWorkflow_Analyst
             // 
-            this.LastUpdated_Analyst.HeaderText = "Last Updated";
-            this.LastUpdated_Analyst.Name = "LastUpdated_Analyst";
+            this.btnAllCasesStatusWorkflow_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAllCasesStatusWorkflow_Analyst.Location = new System.Drawing.Point(6, 321);
+            this.btnAllCasesStatusWorkflow_Analyst.Name = "btnAllCasesStatusWorkflow_Analyst";
+            this.btnAllCasesStatusWorkflow_Analyst.Size = new System.Drawing.Size(218, 42);
+            this.btnAllCasesStatusWorkflow_Analyst.TabIndex = 77;
+            this.btnAllCasesStatusWorkflow_Analyst.Text = "STATUS WORKFLOW";
+            this.btnAllCasesStatusWorkflow_Analyst.UseVisualStyleBackColor = true;
             // 
-            // SLADeadline_Analyst
+            // groupBox3_ANALYST
             // 
-            this.SLADeadline_Analyst.HeaderText = "SLA Deadline";
-            this.SLADeadline_Analyst.Name = "SLADeadline_Analyst";
+            this.groupBox3_ANALYST.Controls.Add(this.txtAllCasesIncidentDesc_Analyst);
+            this.groupBox3_ANALYST.Controls.Add(this.lblAllCasesIncidentDesc_Analyst);
+            this.groupBox3_ANALYST.Location = new System.Drawing.Point(6, 223);
+            this.groupBox3_ANALYST.Name = "groupBox3_ANALYST";
+            this.groupBox3_ANALYST.Size = new System.Drawing.Size(673, 92);
+            this.groupBox3_ANALYST.TabIndex = 76;
+            this.groupBox3_ANALYST.TabStop = false;
             // 
-            // CASEINFO_ANALYST
+            // txtAllCasesIncidentDesc_Analyst
             // 
-            this.CASEINFO_ANALYST.AutoSize = true;
-            this.CASEINFO_ANALYST.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CASEINFO_ANALYST.Location = new System.Drawing.Point(8, 16);
-            this.CASEINFO_ANALYST.Name = "CASEINFO_ANALYST";
-            this.CASEINFO_ANALYST.Size = new System.Drawing.Size(155, 16);
-            this.CASEINFO_ANALYST.TabIndex = 28;
-            this.CASEINFO_ANALYST.Text = "CASE INFORMATION";
+            this.txtAllCasesIncidentDesc_Analyst.Location = new System.Drawing.Point(9, 35);
+            this.txtAllCasesIncidentDesc_Analyst.Multiline = true;
+            this.txtAllCasesIncidentDesc_Analyst.Name = "txtAllCasesIncidentDesc_Analyst";
+            this.txtAllCasesIncidentDesc_Analyst.ReadOnly = true;
+            this.txtAllCasesIncidentDesc_Analyst.Size = new System.Drawing.Size(652, 51);
+            this.txtAllCasesIncidentDesc_Analyst.TabIndex = 27;
+            // 
+            // lblAllCasesIncidentDesc_Analyst
+            // 
+            this.lblAllCasesIncidentDesc_Analyst.AutoSize = true;
+            this.lblAllCasesIncidentDesc_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAllCasesIncidentDesc_Analyst.Location = new System.Drawing.Point(7, 16);
+            this.lblAllCasesIncidentDesc_Analyst.Name = "lblAllCasesIncidentDesc_Analyst";
+            this.lblAllCasesIncidentDesc_Analyst.Size = new System.Drawing.Size(184, 16);
+            this.lblAllCasesIncidentDesc_Analyst.TabIndex = 26;
+            this.lblAllCasesIncidentDesc_Analyst.Text = "INCIDENT DESCRIPTION";
             // 
             // txtAllCasesCategory_ANALYST
             // 
@@ -363,15 +311,15 @@
             this.txtAllCasesCaseID_ANALYST.Size = new System.Drawing.Size(100, 20);
             this.txtAllCasesCaseID_ANALYST.TabIndex = 71;
             // 
-            // btnEXPORT_ANALYST
+            // btnAllCasesExport_Analyst
             // 
-            this.btnEXPORT_ANALYST.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEXPORT_ANALYST.Location = new System.Drawing.Point(1085, 19);
-            this.btnEXPORT_ANALYST.Name = "btnEXPORT_ANALYST";
-            this.btnEXPORT_ANALYST.Size = new System.Drawing.Size(162, 42);
-            this.btnEXPORT_ANALYST.TabIndex = 70;
-            this.btnEXPORT_ANALYST.Text = "EXPORT";
-            this.btnEXPORT_ANALYST.UseVisualStyleBackColor = true;
+            this.btnAllCasesExport_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAllCasesExport_Analyst.Location = new System.Drawing.Point(1085, 19);
+            this.btnAllCasesExport_Analyst.Name = "btnAllCasesExport_Analyst";
+            this.btnAllCasesExport_Analyst.Size = new System.Drawing.Size(162, 42);
+            this.btnAllCasesExport_Analyst.TabIndex = 70;
+            this.btnAllCasesExport_Analyst.Text = "EXPORT";
+            this.btnAllCasesExport_Analyst.UseVisualStyleBackColor = true;
             // 
             // lblLogs_Analyst
             // 
@@ -393,16 +341,51 @@
             this.btnBACKTOCASES_ANALYST.Text = "Back To Cases";
             this.btnBACKTOCASES_ANALYST.UseVisualStyleBackColor = true;
             // 
-            // groupBox7_Analyst
+            // AUDITTRAILgb_ANALYST
             // 
-            this.groupBox7_Analyst.Controls.Add(this.picCyberTrackLogo_Analyst);
-            this.groupBox7_Analyst.Controls.Add(this.lblIncidentManagementSystem_Analyst);
-            this.groupBox7_Analyst.Controls.Add(this.lblCyberTrack_Analyst);
-            this.groupBox7_Analyst.Location = new System.Drawing.Point(12, 12);
-            this.groupBox7_Analyst.Name = "groupBox7_Analyst";
-            this.groupBox7_Analyst.Size = new System.Drawing.Size(754, 74);
-            this.groupBox7_Analyst.TabIndex = 78;
-            this.groupBox7_Analyst.TabStop = false;
+            this.AUDITTRAILgb_ANALYST.Controls.Add(this.dgvAllCasesAuditTrail_Analyst);
+            this.AUDITTRAILgb_ANALYST.Controls.Add(this.lblAllCasesAuditTrail_Analyst);
+            this.AUDITTRAILgb_ANALYST.Location = new System.Drawing.Point(9, 396);
+            this.AUDITTRAILgb_ANALYST.Name = "AUDITTRAILgb_ANALYST";
+            this.AUDITTRAILgb_ANALYST.Size = new System.Drawing.Size(655, 527);
+            this.AUDITTRAILgb_ANALYST.TabIndex = 64;
+            this.AUDITTRAILgb_ANALYST.TabStop = false;
+            // 
+            // dgvAllCasesAuditTrail_Analyst
+            // 
+            this.dgvAllCasesAuditTrail_Analyst.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAllCasesAuditTrail_Analyst.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.txtAllCasesTitle_Analyst,
+            this.cmbAllCasesStatus_Analyst,
+            this.cmbAllCasesAssignedTo2_Analyst,
+            this.cmbAllCasesSeverity2_Analyst,
+            this.txtAllCasesUpdatedAt_Analyst,
+            this.txtAllCasesNotes_Analyst});
+            this.dgvAllCasesAuditTrail_Analyst.Location = new System.Drawing.Point(6, 65);
+            this.dgvAllCasesAuditTrail_Analyst.Name = "dgvAllCasesAuditTrail_Analyst";
+            this.dgvAllCasesAuditTrail_Analyst.Size = new System.Drawing.Size(635, 446);
+            this.dgvAllCasesAuditTrail_Analyst.TabIndex = 29;
+            // 
+            // lblAllCasesAuditTrail_Analyst
+            // 
+            this.lblAllCasesAuditTrail_Analyst.AutoSize = true;
+            this.lblAllCasesAuditTrail_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAllCasesAuditTrail_Analyst.Location = new System.Drawing.Point(11, 25);
+            this.lblAllCasesAuditTrail_Analyst.Name = "lblAllCasesAuditTrail_Analyst";
+            this.lblAllCasesAuditTrail_Analyst.Size = new System.Drawing.Size(100, 16);
+            this.lblAllCasesAuditTrail_Analyst.TabIndex = 28;
+            this.lblAllCasesAuditTrail_Analyst.Text = "AUDIT TRAIL";
+            // 
+            // grbLogo_Analyst
+            // 
+            this.grbLogo_Analyst.Controls.Add(this.picCyberTrackLogo_Analyst);
+            this.grbLogo_Analyst.Controls.Add(this.lblIncidentManagementSystem_Analyst);
+            this.grbLogo_Analyst.Controls.Add(this.lblCyberTrack_Analyst);
+            this.grbLogo_Analyst.Location = new System.Drawing.Point(12, 12);
+            this.grbLogo_Analyst.Name = "grbLogo_Analyst";
+            this.grbLogo_Analyst.Size = new System.Drawing.Size(754, 74);
+            this.grbLogo_Analyst.TabIndex = 78;
+            this.grbLogo_Analyst.TabStop = false;
             // 
             // picCyberTrackLogo_Analyst
             // 
@@ -433,20 +416,20 @@
             this.lblCyberTrack_Analyst.TabIndex = 26;
             this.lblCyberTrack_Analyst.Text = "CYBERTRACK";
             // 
-            // groupBox1_Analyst
+            // grbPermissions_Analyst
             // 
-            this.groupBox1_Analyst.Controls.Add(this.txtDelete_Analyst);
-            this.groupBox1_Analyst.Controls.Add(this.txtUpdate_Analyst);
-            this.groupBox1_Analyst.Controls.Add(this.txtCreate_Analyst);
-            this.groupBox1_Analyst.Controls.Add(this.lblDelete_Analyst);
-            this.groupBox1_Analyst.Controls.Add(this.lblUpdate_Analyst);
-            this.groupBox1_Analyst.Controls.Add(this.lblCreate_Analyst);
-            this.groupBox1_Analyst.Controls.Add(this.lblPermissions_Analyst);
-            this.groupBox1_Analyst.Location = new System.Drawing.Point(772, 12);
-            this.groupBox1_Analyst.Name = "groupBox1_Analyst";
-            this.groupBox1_Analyst.Size = new System.Drawing.Size(311, 74);
-            this.groupBox1_Analyst.TabIndex = 76;
-            this.groupBox1_Analyst.TabStop = false;
+            this.grbPermissions_Analyst.Controls.Add(this.txtDelete_Analyst);
+            this.grbPermissions_Analyst.Controls.Add(this.txtUpdate_Analyst);
+            this.grbPermissions_Analyst.Controls.Add(this.txtCreate_Analyst);
+            this.grbPermissions_Analyst.Controls.Add(this.lblDelete_Analyst);
+            this.grbPermissions_Analyst.Controls.Add(this.lblUpdate_Analyst);
+            this.grbPermissions_Analyst.Controls.Add(this.lblCreate_Analyst);
+            this.grbPermissions_Analyst.Controls.Add(this.lblPermissions_Analyst);
+            this.grbPermissions_Analyst.Location = new System.Drawing.Point(772, 12);
+            this.grbPermissions_Analyst.Name = "grbPermissions_Analyst";
+            this.grbPermissions_Analyst.Size = new System.Drawing.Size(311, 74);
+            this.grbPermissions_Analyst.TabIndex = 76;
+            this.grbPermissions_Analyst.TabStop = false;
             // 
             // txtDelete_Analyst
             // 
@@ -518,16 +501,16 @@
             this.lblPermissions_Analyst.TabIndex = 4;
             this.lblPermissions_Analyst.Text = "Permissions";
             // 
-            // groupBox2_Analyst
+            // grbUserLogo_Analyst
             // 
-            this.groupBox2_Analyst.Controls.Add(this.picUserPhoto_Analyst);
-            this.groupBox2_Analyst.Controls.Add(this.lblUserRole_Analyst);
-            this.groupBox2_Analyst.Controls.Add(this.lblUserName_Analyst);
-            this.groupBox2_Analyst.Location = new System.Drawing.Point(1089, 12);
-            this.groupBox2_Analyst.Name = "groupBox2_Analyst";
-            this.groupBox2_Analyst.Size = new System.Drawing.Size(183, 74);
-            this.groupBox2_Analyst.TabIndex = 77;
-            this.groupBox2_Analyst.TabStop = false;
+            this.grbUserLogo_Analyst.Controls.Add(this.picUserPhoto_Analyst);
+            this.grbUserLogo_Analyst.Controls.Add(this.lblUserRole_Analyst);
+            this.grbUserLogo_Analyst.Controls.Add(this.lblUserName_Analyst);
+            this.grbUserLogo_Analyst.Location = new System.Drawing.Point(1089, 12);
+            this.grbUserLogo_Analyst.Name = "grbUserLogo_Analyst";
+            this.grbUserLogo_Analyst.Size = new System.Drawing.Size(183, 74);
+            this.grbUserLogo_Analyst.TabIndex = 77;
+            this.grbUserLogo_Analyst.TabStop = false;
             // 
             // picUserPhoto_Analyst
             // 
@@ -560,99 +543,140 @@
             this.lblUserName_Analyst.TabIndex = 5;
             this.lblUserName_Analyst.Text = "Skibidi Toilet";
             // 
-            // btnAUDITTRAIL_ANALYST
+            // txtAllCasesTitle_Analyst
             // 
-            this.btnAUDITTRAIL_ANALYST.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAUDITTRAIL_ANALYST.Location = new System.Drawing.Point(461, 321);
-            this.btnAUDITTRAIL_ANALYST.Name = "btnAUDITTRAIL_ANALYST";
-            this.btnAUDITTRAIL_ANALYST.Size = new System.Drawing.Size(218, 42);
-            this.btnAUDITTRAIL_ANALYST.TabIndex = 79;
-            this.btnAUDITTRAIL_ANALYST.Text = "AUDIT TRAIL";
-            this.btnAUDITTRAIL_ANALYST.UseVisualStyleBackColor = true;
+            this.txtAllCasesTitle_Analyst.HeaderText = "Title";
+            this.txtAllCasesTitle_Analyst.Name = "txtAllCasesTitle_Analyst";
+            this.txtAllCasesTitle_Analyst.ReadOnly = true;
             // 
-            // btnEVIDENCE_ANALYST
+            // cmbAllCasesStatus_Analyst
             // 
-            this.btnEVIDENCE_ANALYST.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEVIDENCE_ANALYST.Location = new System.Drawing.Point(234, 321);
-            this.btnEVIDENCE_ANALYST.Name = "btnEVIDENCE_ANALYST";
-            this.btnEVIDENCE_ANALYST.Size = new System.Drawing.Size(218, 42);
-            this.btnEVIDENCE_ANALYST.TabIndex = 78;
-            this.btnEVIDENCE_ANALYST.Text = "EVIDENCE";
-            this.btnEVIDENCE_ANALYST.UseVisualStyleBackColor = true;
+            this.cmbAllCasesStatus_Analyst.HeaderText = "Status";
+            this.cmbAllCasesStatus_Analyst.Name = "cmbAllCasesStatus_Analyst";
+            this.cmbAllCasesStatus_Analyst.ReadOnly = true;
+            this.cmbAllCasesStatus_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbAllCasesStatus_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             // 
-            // btnSTATUSWORKFLOW_ANALYST
+            // cmbAllCasesAssignedTo2_Analyst
             // 
-            this.btnSTATUSWORKFLOW_ANALYST.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSTATUSWORKFLOW_ANALYST.Location = new System.Drawing.Point(6, 321);
-            this.btnSTATUSWORKFLOW_ANALYST.Name = "btnSTATUSWORKFLOW_ANALYST";
-            this.btnSTATUSWORKFLOW_ANALYST.Size = new System.Drawing.Size(218, 42);
-            this.btnSTATUSWORKFLOW_ANALYST.TabIndex = 77;
-            this.btnSTATUSWORKFLOW_ANALYST.Text = "STATUS WORKFLOW";
-            this.btnSTATUSWORKFLOW_ANALYST.UseVisualStyleBackColor = true;
+            this.cmbAllCasesAssignedTo2_Analyst.HeaderText = "Assigned To";
+            this.cmbAllCasesAssignedTo2_Analyst.Name = "cmbAllCasesAssignedTo2_Analyst";
+            this.cmbAllCasesAssignedTo2_Analyst.ReadOnly = true;
+            this.cmbAllCasesAssignedTo2_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbAllCasesAssignedTo2_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             // 
-            // groupBox3_ANALYST
+            // cmbAllCasesSeverity2_Analyst
             // 
-            this.groupBox3_ANALYST.Controls.Add(this.INCIDENTDESC_ANALYST);
-            this.groupBox3_ANALYST.Controls.Add(this.label2_ANALYST);
-            this.groupBox3_ANALYST.Location = new System.Drawing.Point(6, 223);
-            this.groupBox3_ANALYST.Name = "groupBox3_ANALYST";
-            this.groupBox3_ANALYST.Size = new System.Drawing.Size(673, 92);
-            this.groupBox3_ANALYST.TabIndex = 76;
-            this.groupBox3_ANALYST.TabStop = false;
+            this.cmbAllCasesSeverity2_Analyst.HeaderText = "Severity";
+            this.cmbAllCasesSeverity2_Analyst.Name = "cmbAllCasesSeverity2_Analyst";
+            this.cmbAllCasesSeverity2_Analyst.ReadOnly = true;
+            this.cmbAllCasesSeverity2_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbAllCasesSeverity2_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             // 
-            // INCIDENTDESC_ANALYST
+            // txtAllCasesUpdatedAt_Analyst
             // 
-            this.INCIDENTDESC_ANALYST.Location = new System.Drawing.Point(9, 35);
-            this.INCIDENTDESC_ANALYST.Multiline = true;
-            this.INCIDENTDESC_ANALYST.Name = "INCIDENTDESC_ANALYST";
-            this.INCIDENTDESC_ANALYST.ReadOnly = true;
-            this.INCIDENTDESC_ANALYST.Size = new System.Drawing.Size(652, 51);
-            this.INCIDENTDESC_ANALYST.TabIndex = 27;
+            this.txtAllCasesUpdatedAt_Analyst.HeaderText = "Updated At";
+            this.txtAllCasesUpdatedAt_Analyst.Name = "txtAllCasesUpdatedAt_Analyst";
+            this.txtAllCasesUpdatedAt_Analyst.ReadOnly = true;
             // 
-            // label2_ANALYST
+            // txtAllCasesNotes_Analyst
             // 
-            this.label2_ANALYST.AutoSize = true;
-            this.label2_ANALYST.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2_ANALYST.Location = new System.Drawing.Point(7, 16);
-            this.label2_ANALYST.Name = "label2_ANALYST";
-            this.label2_ANALYST.Size = new System.Drawing.Size(184, 16);
-            this.label2_ANALYST.TabIndex = 26;
-            this.label2_ANALYST.Text = "INCIDENT DESCRIPTION";
+            this.txtAllCasesNotes_Analyst.HeaderText = "Notes";
+            this.txtAllCasesNotes_Analyst.Name = "txtAllCasesNotes_Analyst";
+            this.txtAllCasesNotes_Analyst.ReadOnly = true;
+            // 
+            // cmbAllCasesReporter_Analyst
+            // 
+            this.cmbAllCasesReporter_Analyst.HeaderText = "Reporter";
+            this.cmbAllCasesReporter_Analyst.Name = "cmbAllCasesReporter_Analyst";
+            this.cmbAllCasesReporter_Analyst.ReadOnly = true;
+            this.cmbAllCasesReporter_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbAllCasesReporter_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // cmbAllCasesAssignedTo_Analyst
+            // 
+            this.cmbAllCasesAssignedTo_Analyst.HeaderText = "Assigned To";
+            this.cmbAllCasesAssignedTo_Analyst.Name = "cmbAllCasesAssignedTo_Analyst";
+            this.cmbAllCasesAssignedTo_Analyst.ReadOnly = true;
+            this.cmbAllCasesAssignedTo_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbAllCasesAssignedTo_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // txtAllCasesReportedAt_Analyst
+            // 
+            this.txtAllCasesReportedAt_Analyst.HeaderText = "Reported At";
+            this.txtAllCasesReportedAt_Analyst.Name = "txtAllCasesReportedAt_Analyst";
+            this.txtAllCasesReportedAt_Analyst.ReadOnly = true;
+            // 
+            // txtAllCasesLastUpdated_Analyst
+            // 
+            this.txtAllCasesLastUpdated_Analyst.HeaderText = "Last Updated";
+            this.txtAllCasesLastUpdated_Analyst.Name = "txtAllCasesLastUpdated_Analyst";
+            this.txtAllCasesLastUpdated_Analyst.ReadOnly = true;
+            // 
+            // txtAllCasesSLADeadline_Analyst
+            // 
+            this.txtAllCasesSLADeadline_Analyst.HeaderText = "SLA Deadline";
+            this.txtAllCasesSLADeadline_Analyst.Name = "txtAllCasesSLADeadline_Analyst";
+            this.txtAllCasesSLADeadline_Analyst.ReadOnly = true;
+            // 
+            // chk_AllCasesEmailServer_Analyst
+            // 
+            this.chk_AllCasesEmailServer_Analyst.FillWeight = 250F;
+            this.chk_AllCasesEmailServer_Analyst.HeaderText = "Email Server";
+            this.chk_AllCasesEmailServer_Analyst.Name = "chk_AllCasesEmailServer_Analyst";
+            this.chk_AllCasesEmailServer_Analyst.ReadOnly = true;
+            this.chk_AllCasesEmailServer_Analyst.Width = 175;
+            // 
+            // chkAllCasesEmployeeWorkstation_Analyst
+            // 
+            this.chkAllCasesEmployeeWorkstation_Analyst.FillWeight = 250F;
+            this.chkAllCasesEmployeeWorkstation_Analyst.HeaderText = "Employee Workstation";
+            this.chkAllCasesEmployeeWorkstation_Analyst.Name = "chkAllCasesEmployeeWorkstation_Analyst";
+            this.chkAllCasesEmployeeWorkstation_Analyst.ReadOnly = true;
+            this.chkAllCasesEmployeeWorkstation_Analyst.Width = 175;
+            // 
+            // cmbAllCasesImpactLevel_Analyst
+            // 
+            this.cmbAllCasesImpactLevel_Analyst.FillWeight = 250F;
+            this.cmbAllCasesImpactLevel_Analyst.HeaderText = "Impact Level";
+            this.cmbAllCasesImpactLevel_Analyst.Name = "cmbAllCasesImpactLevel_Analyst";
+            this.cmbAllCasesImpactLevel_Analyst.ReadOnly = true;
+            this.cmbAllCasesImpactLevel_Analyst.Width = 150;
             // 
             // AllCasesAuditTrail_Analyst
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1284, 1061);
-            this.Controls.Add(this.groupBox7_Analyst);
-            this.Controls.Add(this.groupBox1_Analyst);
+            this.Controls.Add(this.grbLogo_Analyst);
+            this.Controls.Add(this.grbPermissions_Analyst);
             this.Controls.Add(this.SEWMA_ANALYST);
-            this.Controls.Add(this.groupBox2_Analyst);
+            this.Controls.Add(this.grbUserLogo_Analyst);
             this.Name = "AllCasesAuditTrail_Analyst";
             this.Text = "Form1";
             this.SEWMA_ANALYST.ResumeLayout(false);
             this.SEWMA_ANALYST.PerformLayout();
-            this.AUDITTRAILgb_ANALYST.ResumeLayout(false);
-            this.AUDITTRAILgb_ANALYST.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.AUDITTRAILdgv_ANALYST)).EndInit();
             this.AFFECTEDSYSgb_ANALYST.ResumeLayout(false);
             this.AFFECTEDSYSgb_ANALYST.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.AFFECTEDSYSdgv_ANALYST)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesAffectedSystems_Analyst)).EndInit();
             this.groupBox4_ANALYST.ResumeLayout(false);
             this.groupBox4_ANALYST.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1_ANALYST)).EndInit();
-            this.grpSTATUSGB_ANALYST.ResumeLayout(false);
-            this.grpSTATUSGB_ANALYST.PerformLayout();
-            this.groupBox7_Analyst.ResumeLayout(false);
-            this.groupBox7_Analyst.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_Analyst)).EndInit();
-            this.groupBox1_Analyst.ResumeLayout(false);
-            this.groupBox1_Analyst.PerformLayout();
-            this.groupBox2_Analyst.ResumeLayout(false);
-            this.groupBox2_Analyst.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_Analyst)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesCaseInformation_Analyst)).EndInit();
             this.groupBox3_ANALYST.ResumeLayout(false);
             this.groupBox3_ANALYST.PerformLayout();
+            this.grpSTATUSGB_ANALYST.ResumeLayout(false);
+            this.grpSTATUSGB_ANALYST.PerformLayout();
+            this.AUDITTRAILgb_ANALYST.ResumeLayout(false);
+            this.AUDITTRAILgb_ANALYST.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesAuditTrail_Analyst)).EndInit();
+            this.grbLogo_Analyst.ResumeLayout(false);
+            this.grbLogo_Analyst.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_Analyst)).EndInit();
+            this.grbPermissions_Analyst.ResumeLayout(false);
+            this.grbPermissions_Analyst.PerformLayout();
+            this.grbUserLogo_Analyst.ResumeLayout(false);
+            this.grbUserLogo_Analyst.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_Analyst)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -660,29 +684,9 @@
         #endregion
 
         private System.Windows.Forms.GroupBox SEWMA_ANALYST;
-        private System.Windows.Forms.GroupBox AFFECTEDSYSgb_ANALYST;
-        private System.Windows.Forms.DataGridView AFFECTEDSYSdgv_ANALYST;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn EmailServer_Analyst;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn EmployeeWS_Analyst;
-        private System.Windows.Forms.DataGridViewComboBoxColumn ImpactLevel_Analyst;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.GroupBox groupBox4_ANALYST;
-        private System.Windows.Forms.DataGridView dataGridView1_ANALYST;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Reporter_Analyst;
-        private System.Windows.Forms.DataGridViewTextBoxColumn AssignedTo_Analyst;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ReportedAt_Analyst;
-        private System.Windows.Forms.DataGridViewTextBoxColumn LastUpdated_Analyst;
-        private System.Windows.Forms.DataGridViewTextBoxColumn SLADeadline_Analyst;
-        private System.Windows.Forms.Label CASEINFO_ANALYST;
         private System.Windows.Forms.GroupBox AUDITTRAILgb_ANALYST;
-        private System.Windows.Forms.DataGridView AUDITTRAILdgv_ANALYST;
-        private System.Windows.Forms.Label AUDITTRAILlbl_ANALYST;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TITLE_ANALYST;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Status1_Analyst;
-        private System.Windows.Forms.DataGridViewTextBoxColumn AssignedTo1_Analyst;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Severity1_Analyst;
-        private System.Windows.Forms.DataGridViewTextBoxColumn UpdatedAt_Analyst;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Notes_Analyst;
+        private System.Windows.Forms.DataGridView dgvAllCasesAuditTrail_Analyst;
+        private System.Windows.Forms.Label lblAllCasesAuditTrail_Analyst;
         private System.Windows.Forms.TextBox txtAllCasesCategory_ANALYST;
         private System.Windows.Forms.TextBox txtAllCasesStatus_ANALYST;
         private System.Windows.Forms.TextBox txtAllCasesSeverity_ANALYST;
@@ -690,14 +694,14 @@
         private System.Windows.Forms.TextBox txtAllCasesPlaceholderDesc_ANALYST;
         private System.Windows.Forms.Label lblAllCasesPlaceHolder_ANALYST;
         private System.Windows.Forms.TextBox txtAllCasesCaseID_ANALYST;
-        private System.Windows.Forms.Button btnEXPORT_ANALYST;
+        private System.Windows.Forms.Button btnAllCasesExport_Analyst;
         private System.Windows.Forms.Label lblLogs_Analyst;
         private System.Windows.Forms.Button btnBACKTOCASES_ANALYST;
-        private System.Windows.Forms.GroupBox groupBox7_Analyst;
+        private System.Windows.Forms.GroupBox grbLogo_Analyst;
         private System.Windows.Forms.PictureBox picCyberTrackLogo_Analyst;
         private System.Windows.Forms.Label lblIncidentManagementSystem_Analyst;
         private System.Windows.Forms.Label lblCyberTrack_Analyst;
-        private System.Windows.Forms.GroupBox groupBox1_Analyst;
+        private System.Windows.Forms.GroupBox grbPermissions_Analyst;
         private System.Windows.Forms.TextBox txtDelete_Analyst;
         private System.Windows.Forms.TextBox txtUpdate_Analyst;
         private System.Windows.Forms.TextBox txtCreate_Analyst;
@@ -705,15 +709,35 @@
         private System.Windows.Forms.Label lblUpdate_Analyst;
         private System.Windows.Forms.Label lblCreate_Analyst;
         private System.Windows.Forms.Label lblPermissions_Analyst;
-        private System.Windows.Forms.GroupBox groupBox2_Analyst;
+        private System.Windows.Forms.GroupBox grbUserLogo_Analyst;
         private System.Windows.Forms.PictureBox picUserPhoto_Analyst;
         private System.Windows.Forms.Label lblUserRole_Analyst;
         private System.Windows.Forms.Label lblUserName_Analyst;
-        private System.Windows.Forms.Button btnAUDITTRAIL_ANALYST;
-        private System.Windows.Forms.Button btnEVIDENCE_ANALYST;
-        private System.Windows.Forms.Button btnSTATUSWORKFLOW_ANALYST;
+        private System.Windows.Forms.Button btnAllCasesAuditTrail_Analyst;
+        private System.Windows.Forms.Button btnAllCasesEvidence_Analyst;
+        private System.Windows.Forms.Button btnAllCasesStatusWorkflow_Analyst;
         private System.Windows.Forms.GroupBox groupBox3_ANALYST;
-        private System.Windows.Forms.TextBox INCIDENTDESC_ANALYST;
-        private System.Windows.Forms.Label label2_ANALYST;
+        private System.Windows.Forms.TextBox txtAllCasesIncidentDesc_Analyst;
+        private System.Windows.Forms.Label lblAllCasesIncidentDesc_Analyst;
+        private System.Windows.Forms.GroupBox groupBox4_ANALYST;
+        private System.Windows.Forms.DataGridView dgvAllCasesCaseInformation_Analyst;
+        private System.Windows.Forms.Label lblAllCasesCaseInformation_Analyst;
+        private System.Windows.Forms.GroupBox AFFECTEDSYSgb_ANALYST;
+        private System.Windows.Forms.DataGridView dgvAllCasesAffectedSystems_Analyst;
+        private System.Windows.Forms.Label lblAllCasesAffectedSystems_Analyst;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn chk_AllCasesEmailServer_Analyst;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn chkAllCasesEmployeeWorkstation_Analyst;
+        private System.Windows.Forms.DataGridViewComboBoxColumn cmbAllCasesImpactLevel_Analyst;
+        private System.Windows.Forms.DataGridViewComboBoxColumn cmbAllCasesReporter_Analyst;
+        private System.Windows.Forms.DataGridViewComboBoxColumn cmbAllCasesAssignedTo_Analyst;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtAllCasesReportedAt_Analyst;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtAllCasesLastUpdated_Analyst;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtAllCasesSLADeadline_Analyst;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtAllCasesTitle_Analyst;
+        private System.Windows.Forms.DataGridViewComboBoxColumn cmbAllCasesStatus_Analyst;
+        private System.Windows.Forms.DataGridViewComboBoxColumn cmbAllCasesAssignedTo2_Analyst;
+        private System.Windows.Forms.DataGridViewComboBoxColumn cmbAllCasesSeverity2_Analyst;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtAllCasesUpdatedAt_Analyst;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtAllCasesNotes_Analyst;
     }
 }
