@@ -46,16 +46,6 @@
             this.pictureBox4_Analyst = new System.Windows.Forms.PictureBox();
             this.groupBox3_Analyst = new System.Windows.Forms.GroupBox();
             this.dataGridView2_Analyst = new System.Windows.Forms.DataGridView();
-            this.CASE_ID_ANALYST = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TITLE_ANALYST = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SEVERITY_ANALYST = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.STATUS_ANALYST = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.CATEGORY_ANALYST = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.REPORTER_ANALYST = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ASSIGNED_TO_ANALYST = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.SLA_STATUS_ANALYST = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.REPORTED_ON_ANALYST = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ACTION_ANALYST = new System.Windows.Forms.DataGridViewButtonColumn();
             this.CasesManagement_Analyst = new System.Windows.Forms.Label();
             this.groupBox7_Analyst = new System.Windows.Forms.GroupBox();
             this.pictureBox1_Analyst = new System.Windows.Forms.PictureBox();
@@ -73,6 +63,16 @@
             this.pictureBox2_Analyst = new System.Windows.Forms.PictureBox();
             this.label8_Analyst = new System.Windows.Forms.Label();
             this.label7_Analyst = new System.Windows.Forms.Label();
+            this.CASE_ID_ANALYST = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TITLE_ANALYST = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SEVERITY_ANALYST = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.STATUS_ANALYST = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.CATEGORY_ANALYST = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.REPORTER_ANALYST = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ASSIGNED_TO_ANALYST = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.SLA_STATUS_ANALYST = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.REPORTED_ON_ANALYST = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ACTION_ANALYST = new System.Windows.Forms.DataGridViewButtonColumn();
             this.groupBox5_Analyst.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3_Analyst)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4_Analyst)).BeginInit();
@@ -258,7 +258,7 @@
             this.groupBox3_Analyst.Controls.Add(this.pictureBox4_Analyst);
             this.groupBox3_Analyst.Location = new System.Drawing.Point(12, 92);
             this.groupBox3_Analyst.Name = "groupBox3_Analyst";
-            this.groupBox3_Analyst.Size = new System.Drawing.Size(1260, 856);
+            this.groupBox3_Analyst.Size = new System.Drawing.Size(1260, 622);
             this.groupBox3_Analyst.TabIndex = 44;
             this.groupBox3_Analyst.TabStop = false;
             // 
@@ -278,90 +278,8 @@
             this.ACTION_ANALYST});
             this.dataGridView2_Analyst.Location = new System.Drawing.Point(20, 239);
             this.dataGridView2_Analyst.Name = "dataGridView2_Analyst";
-            this.dataGridView2_Analyst.Size = new System.Drawing.Size(1219, 379);
+            this.dataGridView2_Analyst.Size = new System.Drawing.Size(1219, 368);
             this.dataGridView2_Analyst.TabIndex = 70;
-            this.dataGridView2_Analyst.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_Analyst_CellContentClick);
-            // 
-            // CASE_ID_ANALYST
-            // 
-            this.CASE_ID_ANALYST.HeaderText = "CASE ID";
-            this.CASE_ID_ANALYST.Name = "CASE_ID_ANALYST";
-            this.CASE_ID_ANALYST.ReadOnly = true;
-            this.CASE_ID_ANALYST.Width = 118;
-            // 
-            // TITLE_ANALYST
-            // 
-            this.TITLE_ANALYST.HeaderText = "TITLE";
-            this.TITLE_ANALYST.Name = "TITLE_ANALYST";
-            this.TITLE_ANALYST.ReadOnly = true;
-            this.TITLE_ANALYST.Width = 117;
-            // 
-            // SEVERITY_ANALYST
-            // 
-            this.SEVERITY_ANALYST.HeaderText = "SEVERITY";
-            this.SEVERITY_ANALYST.Name = "SEVERITY_ANALYST";
-            this.SEVERITY_ANALYST.ReadOnly = true;
-            this.SEVERITY_ANALYST.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.SEVERITY_ANALYST.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.SEVERITY_ANALYST.Width = 118;
-            // 
-            // STATUS_ANALYST
-            // 
-            this.STATUS_ANALYST.HeaderText = "STATUS";
-            this.STATUS_ANALYST.Name = "STATUS_ANALYST";
-            this.STATUS_ANALYST.ReadOnly = true;
-            this.STATUS_ANALYST.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.STATUS_ANALYST.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.STATUS_ANALYST.Width = 117;
-            // 
-            // CATEGORY_ANALYST
-            // 
-            this.CATEGORY_ANALYST.HeaderText = "CATEGORY";
-            this.CATEGORY_ANALYST.Name = "CATEGORY_ANALYST";
-            this.CATEGORY_ANALYST.ReadOnly = true;
-            this.CATEGORY_ANALYST.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.CATEGORY_ANALYST.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.CATEGORY_ANALYST.Width = 118;
-            // 
-            // REPORTER_ANALYST
-            // 
-            this.REPORTER_ANALYST.HeaderText = "REPORTER";
-            this.REPORTER_ANALYST.Name = "REPORTER_ANALYST";
-            this.REPORTER_ANALYST.ReadOnly = true;
-            this.REPORTER_ANALYST.Width = 118;
-            // 
-            // ASSIGNED_TO_ANALYST
-            // 
-            this.ASSIGNED_TO_ANALYST.HeaderText = "ASSIGNED TO";
-            this.ASSIGNED_TO_ANALYST.Name = "ASSIGNED_TO_ANALYST";
-            this.ASSIGNED_TO_ANALYST.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.ASSIGNED_TO_ANALYST.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.ASSIGNED_TO_ANALYST.Width = 117;
-            // 
-            // SLA_STATUS_ANALYST
-            // 
-            this.SLA_STATUS_ANALYST.HeaderText = "SLA STATUS";
-            this.SLA_STATUS_ANALYST.Name = "SLA_STATUS_ANALYST";
-            this.SLA_STATUS_ANALYST.ReadOnly = true;
-            this.SLA_STATUS_ANALYST.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.SLA_STATUS_ANALYST.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.SLA_STATUS_ANALYST.Width = 118;
-            // 
-            // REPORTED_ON_ANALYST
-            // 
-            this.REPORTED_ON_ANALYST.HeaderText = "REPORTED ON";
-            this.REPORTED_ON_ANALYST.Name = "REPORTED_ON_ANALYST";
-            this.REPORTED_ON_ANALYST.ReadOnly = true;
-            this.REPORTED_ON_ANALYST.Width = 117;
-            // 
-            // ACTION_ANALYST
-            // 
-            this.ACTION_ANALYST.HeaderText = "ACTION";
-            this.ACTION_ANALYST.Name = "ACTION_ANALYST";
-            this.ACTION_ANALYST.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.ACTION_ANALYST.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.ACTION_ANALYST.Text = "MANAGE";
-            this.ACTION_ANALYST.Width = 118;
             // 
             // CasesManagement_Analyst
             // 
@@ -540,6 +458,79 @@
             this.label7_Analyst.TabIndex = 5;
             this.label7_Analyst.Text = "Skibidi Toilet";
             // 
+            // CASE_ID_ANALYST
+            // 
+            this.CASE_ID_ANALYST.HeaderText = "CASE ID";
+            this.CASE_ID_ANALYST.Name = "CASE_ID_ANALYST";
+            this.CASE_ID_ANALYST.Width = 118;
+            // 
+            // TITLE_ANALYST
+            // 
+            this.TITLE_ANALYST.HeaderText = "TITLE";
+            this.TITLE_ANALYST.Name = "TITLE_ANALYST";
+            this.TITLE_ANALYST.Width = 117;
+            // 
+            // SEVERITY_ANALYST
+            // 
+            this.SEVERITY_ANALYST.HeaderText = "SEVERITY";
+            this.SEVERITY_ANALYST.Name = "SEVERITY_ANALYST";
+            this.SEVERITY_ANALYST.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.SEVERITY_ANALYST.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.SEVERITY_ANALYST.Width = 118;
+            // 
+            // STATUS_ANALYST
+            // 
+            this.STATUS_ANALYST.HeaderText = "STATUS";
+            this.STATUS_ANALYST.Name = "STATUS_ANALYST";
+            this.STATUS_ANALYST.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.STATUS_ANALYST.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.STATUS_ANALYST.Width = 117;
+            // 
+            // CATEGORY_ANALYST
+            // 
+            this.CATEGORY_ANALYST.HeaderText = "CATEGORY";
+            this.CATEGORY_ANALYST.Name = "CATEGORY_ANALYST";
+            this.CATEGORY_ANALYST.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.CATEGORY_ANALYST.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.CATEGORY_ANALYST.Width = 118;
+            // 
+            // REPORTER_ANALYST
+            // 
+            this.REPORTER_ANALYST.HeaderText = "REPORTER";
+            this.REPORTER_ANALYST.Name = "REPORTER_ANALYST";
+            this.REPORTER_ANALYST.Width = 118;
+            // 
+            // ASSIGNED_TO_ANALYST
+            // 
+            this.ASSIGNED_TO_ANALYST.HeaderText = "ASSIGNED TO";
+            this.ASSIGNED_TO_ANALYST.Name = "ASSIGNED_TO_ANALYST";
+            this.ASSIGNED_TO_ANALYST.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.ASSIGNED_TO_ANALYST.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.ASSIGNED_TO_ANALYST.Width = 117;
+            // 
+            // SLA_STATUS_ANALYST
+            // 
+            this.SLA_STATUS_ANALYST.HeaderText = "SLA STATUS";
+            this.SLA_STATUS_ANALYST.Name = "SLA_STATUS_ANALYST";
+            this.SLA_STATUS_ANALYST.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.SLA_STATUS_ANALYST.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.SLA_STATUS_ANALYST.Width = 118;
+            // 
+            // REPORTED_ON_ANALYST
+            // 
+            this.REPORTED_ON_ANALYST.HeaderText = "REPORTED ON";
+            this.REPORTED_ON_ANALYST.Name = "REPORTED_ON_ANALYST";
+            this.REPORTED_ON_ANALYST.Width = 117;
+            // 
+            // ACTION_ANALYST
+            // 
+            this.ACTION_ANALYST.HeaderText = "ACTION";
+            this.ACTION_ANALYST.Name = "ACTION_ANALYST";
+            this.ACTION_ANALYST.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.ACTION_ANALYST.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.ACTION_ANALYST.Text = "MANAGE";
+            this.ACTION_ANALYST.Width = 118;
+            // 
             // AllCases_Analyst
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -551,7 +542,6 @@
             this.Controls.Add(this.groupBox3_Analyst);
             this.Name = "AllCases_Analyst";
             this.Text = "AllCases_Analyst";
-            this.Load += new System.EventHandler(this.AllCases_Analyst_Load);
             this.groupBox5_Analyst.ResumeLayout(false);
             this.groupBox5_Analyst.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3_Analyst)).EndInit();
@@ -608,7 +598,7 @@
         private System.Windows.Forms.Label label7_Analyst;
         private System.Windows.Forms.DataGridViewTextBoxColumn CASE_ID_ANALYST;
         private System.Windows.Forms.DataGridViewTextBoxColumn TITLE_ANALYST;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn SEVERITY_ANALYST;
+        private System.Windows.Forms.DataGridViewComboBoxColumn SEVERITY_ANALYST;
         private System.Windows.Forms.DataGridViewComboBoxColumn STATUS_ANALYST;
         private System.Windows.Forms.DataGridViewComboBoxColumn CATEGORY_ANALYST;
         private System.Windows.Forms.DataGridViewTextBoxColumn REPORTER_ANALYST;
