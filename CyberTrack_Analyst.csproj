@@ -66,6 +66,48 @@
     <Compile Include="AuditLogs_Analyst.Designer.cs">
       <DependentUpon>AuditLogs_Analyst.cs</DependentUpon>
     </Compile>
+    <Compile Include="AllCasesView_Analyst.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllCasesView_Analyst.Designer.cs">
+      <DependentUpon>AllCasesView_Analyst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllCasesEvidence_Analyst.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllCasesEvidence_Analyst.Designer.cs">
+      <DependentUpon>AllCasesEvidence_Analyst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllCasesBrowseFiles_Analyst.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllCasesBrowseFiles_Analyst.Designer.cs">
+      <DependentUpon>AllCasesBrowseFiles_Analyst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllCasesAuditTrail_Analyst.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllCasesAuditTrail_Analyst.Designer.cs">
+      <DependentUpon>AllCasesAuditTrail_Analyst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminProfileInformation_Analyst.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminProfileInformation_Analyst.Designer.cs">
+      <DependentUpon>AdminProfileInformation_Analyst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminProfileSecurity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminProfileSecurity.Designer.cs">
+      <DependentUpon>AdminProfileSecurity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminProfileNotifications_Analyst.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminProfileNotifications_Analyst.Designer.cs">
+      <DependentUpon>AdminProfileNotifications_Analyst.cs</DependentUpon>
+    </Compile>
     <Compile Include="SubmitReport_Analyst.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +122,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AdminProfileInformation_Analyst.resx">
+      <DependentUpon>AdminProfileInformation_Analyst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminProfileNotifications_Analyst.resx">
+      <DependentUpon>AdminProfileNotifications_Analyst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminProfileSecurity.resx">
+      <DependentUpon>AdminProfileSecurity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllCasesAuditTrail_Analyst.resx">
+      <DependentUpon>AllCasesAuditTrail_Analyst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllCasesEvidence_Analyst.resx">
+      <DependentUpon>AllCasesEvidence_Analyst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllCasesView_Analyst.resx">
+      <DependentUpon>AllCasesView_Analyst.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AllCases_Analyst.resx">
       <DependentUpon>AllCases_Analyst.cs</DependentUpon>
     </EmbeddedResource>
@@ -88,6 +148,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard_Analyst.resx">
       <DependentUpon>Dashboard_Analyst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllCasesBrowseFiles_Analyst.resx">
+      <DependentUpon>AllCasesBrowseFiles_Analyst.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm_Analyst.resx">
       <DependentUpon>MainForm_Analyst.cs</DependentUpon>

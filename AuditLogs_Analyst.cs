@@ -56,5 +56,10 @@ namespace CyberTrack_Analyst
         {
 
         }
+
+        private void textBox4_Analyst_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

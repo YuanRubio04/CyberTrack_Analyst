@@ -28,92 +28,67 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AuditLogs_Analyst));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.comboBox15 = new System.Windows.Forms.ComboBox();
-            this.comboBox14 = new System.Windows.Forms.ComboBox();
-            this.comboBox13 = new System.Windows.Forms.ComboBox();
-            this.comboBox12 = new System.Windows.Forms.ComboBox();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker6 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker5 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
+            this.groupBox5_Analyst = new System.Windows.Forms.GroupBox();
+            this.textBox3_Analyst = new System.Windows.Forms.TextBox();
+            this.resourcetypes_Analyst = new System.Windows.Forms.Label();
+            this.groupBox4_Analyst = new System.Windows.Forms.GroupBox();
+            this.textBox2_Analyst = new System.Windows.Forms.TextBox();
+            this.actiontypes_Analyst = new System.Windows.Forms.Label();
+            this.groupBox3_Analyst = new System.Windows.Forms.GroupBox();
+            this.textBox1_Analyst = new System.Windows.Forms.TextBox();
+            this.totalact_Analyst = new System.Windows.Forms.Label();
+            this.Logs_Analyst = new System.Windows.Forms.Label();
+            this.pictureBox4_Analyst = new System.Windows.Forms.PictureBox();
+            this.groupBox6_Analyst = new System.Windows.Forms.GroupBox();
+            this.comboBox3_Analyst = new System.Windows.Forms.ComboBox();
+            this.comboBox2_Analyst = new System.Windows.Forms.ComboBox();
+            this.comboBox1_Analyst = new System.Windows.Forms.ComboBox();
+            this.textBox4_Analyst = new System.Windows.Forms.TextBox();
+            this.Category_Analyst = new System.Windows.Forms.Label();
+            this.Status_Analyst = new System.Windows.Forms.Label();
+            this.Severity_Analyst = new System.Windows.Forms.Label();
+            this.Search_Analyst = new System.Windows.Forms.Label();
+            this.Filters_Analyst = new System.Windows.Forms.Label();
+            this.groupBox7_Analyst = new System.Windows.Forms.GroupBox();
+            this.pictureBox1_Analyst = new System.Windows.Forms.PictureBox();
+            this.IncidentManagementSystem_Analyst = new System.Windows.Forms.Label();
+            this.CyberTrack_Analyst = new System.Windows.Forms.Label();
+            this.groupBox1_Analyst = new System.Windows.Forms.GroupBox();
+            this.textBox9_Analyst = new System.Windows.Forms.TextBox();
+            this.textBox8_Analyst = new System.Windows.Forms.TextBox();
+            this.textBox7_Analyst = new System.Windows.Forms.TextBox();
+            this.label6_Analyst = new System.Windows.Forms.Label();
+            this.label5_Analyst = new System.Windows.Forms.Label();
+            this.Create_Analyst = new System.Windows.Forms.Label();
+            this.Permissions_Analyst = new System.Windows.Forms.Label();
+            this.groupBox2_Analyst = new System.Windows.Forms.GroupBox();
+            this.pictureBox2_Analyst = new System.Windows.Forms.PictureBox();
+            this.label8_Analyst = new System.Windows.Forms.Label();
+            this.label7_Analyst = new System.Windows.Forms.Label();
+            this.AuditTrail_Analyst = new System.Windows.Forms.Label();
+            this.dataGridView1_Analyst = new System.Windows.Forms.DataGridView();
+            this.TimeStamp_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Action_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.User_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ResourceType_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.ResourceID_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IPAddress_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Changes_Analyst = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.AuditLogsGB_Analyst = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.groupBox5.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.groupBox6.SuspendLayout();
-            this.groupBox7.SuspendLayout();
+            this.groupBox5_Analyst.SuspendLayout();
+            this.groupBox4_Analyst.SuspendLayout();
+            this.groupBox3_Analyst.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4_Analyst)).BeginInit();
+            this.groupBox6_Analyst.SuspendLayout();
+            this.groupBox7_Analyst.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1_Analyst)).BeginInit();
+            this.groupBox1_Analyst.SuspendLayout();
+            this.groupBox2_Analyst.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2_Analyst)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1_Analyst)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -124,741 +99,512 @@
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
-            // groupBox2
+            // groupBox5_Analyst
             // 
-            this.groupBox2.Controls.Add(this.pictureBox2);
-            this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Location = new System.Drawing.Point(1037, 18);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(200, 86);
-            this.groupBox2.TabIndex = 15;
-            this.groupBox2.TabStop = false;
+            this.groupBox5_Analyst.Controls.Add(this.textBox3_Analyst);
+            this.groupBox5_Analyst.Controls.Add(this.resourcetypes_Analyst);
+            this.groupBox5_Analyst.Location = new System.Drawing.Point(856, 219);
+            this.groupBox5_Analyst.Name = "groupBox5_Analyst";
+            this.groupBox5_Analyst.Size = new System.Drawing.Size(381, 100);
+            this.groupBox5_Analyst.TabIndex = 20;
+            this.groupBox5_Analyst.TabStop = false;
+            this.groupBox5_Analyst.Enter += new System.EventHandler(this.groupBox5_Enter);
             // 
-            // pictureBox2
+            // textBox3_Analyst
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(6, 28);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(44, 42);
-            this.pictureBox2.TabIndex = 5;
-            this.pictureBox2.TabStop = false;
+            this.textBox3_Analyst.Location = new System.Drawing.Point(9, 62);
+            this.textBox3_Analyst.Name = "textBox3_Analyst";
+            this.textBox3_Analyst.ReadOnly = true;
+            this.textBox3_Analyst.Size = new System.Drawing.Size(29, 20);
+            this.textBox3_Analyst.TabIndex = 5;
             // 
-            // label8
+            // resourcetypes_Analyst
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(100, 57);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(41, 13);
-            this.label8.TabIndex = 5;
-            this.label8.Text = "Analyst";
+            this.resourcetypes_Analyst.AutoSize = true;
+            this.resourcetypes_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.resourcetypes_Analyst.Location = new System.Drawing.Point(6, 25);
+            this.resourcetypes_Analyst.Name = "resourcetypes_Analyst";
+            this.resourcetypes_Analyst.Size = new System.Drawing.Size(130, 15);
+            this.resourcetypes_Analyst.TabIndex = 4;
+            this.resourcetypes_Analyst.Text = "RESOURCE TYPES";
             // 
-            // label7
+            // groupBox4_Analyst
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(73, 25);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(99, 16);
-            this.label7.TabIndex = 5;
-            this.label7.Text = "Skibidi Toilet";
+            this.groupBox4_Analyst.Controls.Add(this.textBox2_Analyst);
+            this.groupBox4_Analyst.Controls.Add(this.actiontypes_Analyst);
+            this.groupBox4_Analyst.Location = new System.Drawing.Point(425, 219);
+            this.groupBox4_Analyst.Name = "groupBox4_Analyst";
+            this.groupBox4_Analyst.Size = new System.Drawing.Size(385, 100);
+            this.groupBox4_Analyst.TabIndex = 21;
+            this.groupBox4_Analyst.TabStop = false;
+            this.groupBox4_Analyst.Enter += new System.EventHandler(this.groupBox4_Enter);
             // 
-            // groupBox1
+            // textBox2_Analyst
             // 
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Location = new System.Drawing.Point(722, 18);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(282, 100);
-            this.groupBox1.TabIndex = 14;
-            this.groupBox1.TabStop = false;
+            this.textBox2_Analyst.Location = new System.Drawing.Point(9, 62);
+            this.textBox2_Analyst.Name = "textBox2_Analyst";
+            this.textBox2_Analyst.ReadOnly = true;
+            this.textBox2_Analyst.Size = new System.Drawing.Size(29, 20);
+            this.textBox2_Analyst.TabIndex = 5;
             // 
-            // button3
+            // actiontypes_Analyst
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(235, 52);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(47, 22);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "NO";
-            this.button3.UseVisualStyleBackColor = true;
+            this.actiontypes_Analyst.AutoSize = true;
+            this.actiontypes_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.actiontypes_Analyst.Location = new System.Drawing.Point(6, 25);
+            this.actiontypes_Analyst.Name = "actiontypes_Analyst";
+            this.actiontypes_Analyst.Size = new System.Drawing.Size(103, 15);
+            this.actiontypes_Analyst.TabIndex = 4;
+            this.actiontypes_Analyst.Text = "ACTION TYPES";
             // 
-            // button2
+            // groupBox3_Analyst
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(147, 52);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(47, 22);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "YES";
-            this.button2.UseVisualStyleBackColor = true;
+            this.groupBox3_Analyst.Controls.Add(this.textBox1_Analyst);
+            this.groupBox3_Analyst.Controls.Add(this.totalact_Analyst);
+            this.groupBox3_Analyst.Location = new System.Drawing.Point(29, 219);
+            this.groupBox3_Analyst.Name = "groupBox3_Analyst";
+            this.groupBox3_Analyst.Size = new System.Drawing.Size(353, 100);
+            this.groupBox3_Analyst.TabIndex = 19;
+            this.groupBox3_Analyst.TabStop = false;
+            this.groupBox3_Analyst.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
-            // button1
+            // textBox1_Analyst
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(50, 52);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(47, 22);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "YES";
-            this.button1.UseVisualStyleBackColor = true;
+            this.textBox1_Analyst.Location = new System.Drawing.Point(9, 62);
+            this.textBox1_Analyst.Name = "textBox1_Analyst";
+            this.textBox1_Analyst.ReadOnly = true;
+            this.textBox1_Analyst.Size = new System.Drawing.Size(29, 20);
+            this.textBox1_Analyst.TabIndex = 5;
             // 
-            // label6
+            // totalact_Analyst
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(200, 57);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 13);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "Create";
+            this.totalact_Analyst.AutoSize = true;
+            this.totalact_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalact_Analyst.Location = new System.Drawing.Point(6, 25);
+            this.totalact_Analyst.Name = "totalact_Analyst";
+            this.totalact_Analyst.Size = new System.Drawing.Size(124, 15);
+            this.totalact_Analyst.TabIndex = 4;
+            this.totalact_Analyst.Text = "TOTAL ACTIVITIES";
+            this.totalact_Analyst.Click += new System.EventHandler(this.label14_Click);
             // 
-            // label5
+            // Logs_Analyst
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(103, 57);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 13);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Create";
+            this.Logs_Analyst.AutoSize = true;
+            this.Logs_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Logs_Analyst.Location = new System.Drawing.Point(92, 124);
+            this.Logs_Analyst.Name = "Logs_Analyst";
+            this.Logs_Analyst.Size = new System.Drawing.Size(107, 18);
+            this.Logs_Analyst.TabIndex = 17;
+            this.Logs_Analyst.Text = "AUDIT LOGS";
+            this.Logs_Analyst.Click += new System.EventHandler(this.label9_Click);
             // 
-            // label4
+            // pictureBox4_Analyst
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 57);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 13);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Create";
+            this.pictureBox4_Analyst.Location = new System.Drawing.Point(31, 124);
+            this.pictureBox4_Analyst.Name = "pictureBox4_Analyst";
+            this.pictureBox4_Analyst.Size = new System.Drawing.Size(44, 42);
+            this.pictureBox4_Analyst.TabIndex = 16;
+            this.pictureBox4_Analyst.TabStop = false;
+            this.pictureBox4_Analyst.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
-            // label3
+            // groupBox6_Analyst
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(6, 16);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(92, 16);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Permissions";
+            this.groupBox6_Analyst.Controls.Add(this.comboBox3_Analyst);
+            this.groupBox6_Analyst.Controls.Add(this.comboBox2_Analyst);
+            this.groupBox6_Analyst.Controls.Add(this.comboBox1_Analyst);
+            this.groupBox6_Analyst.Controls.Add(this.textBox4_Analyst);
+            this.groupBox6_Analyst.Controls.Add(this.Category_Analyst);
+            this.groupBox6_Analyst.Controls.Add(this.Status_Analyst);
+            this.groupBox6_Analyst.Controls.Add(this.Severity_Analyst);
+            this.groupBox6_Analyst.Controls.Add(this.Search_Analyst);
+            this.groupBox6_Analyst.Controls.Add(this.Filters_Analyst);
+            this.groupBox6_Analyst.Location = new System.Drawing.Point(29, 342);
+            this.groupBox6_Analyst.Name = "groupBox6_Analyst";
+            this.groupBox6_Analyst.Size = new System.Drawing.Size(1220, 173);
+            this.groupBox6_Analyst.TabIndex = 22;
+            this.groupBox6_Analyst.TabStop = false;
             // 
-            // label2
+            // comboBox3_Analyst
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(68, 46);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(150, 13);
-            this.label2.TabIndex = 13;
-            this.label2.Text = "Incident Management Systtem";
+            this.comboBox3_Analyst.FormattingEnabled = true;
+            this.comboBox3_Analyst.Location = new System.Drawing.Point(921, 115);
+            this.comboBox3_Analyst.Name = "comboBox3_Analyst";
+            this.comboBox3_Analyst.Size = new System.Drawing.Size(261, 21);
+            this.comboBox3_Analyst.TabIndex = 27;
             // 
-            // label1
+            // comboBox2_Analyst
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(65, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 18);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "CYBERTRACK";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Location = new System.Drawing.Point(14, 18);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(44, 42);
-            this.pictureBox3.TabIndex = 11;
-            this.pictureBox3.TabStop = false;
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.Controls.Add(this.textBox3);
-            this.groupBox5.Controls.Add(this.label12);
-            this.groupBox5.Location = new System.Drawing.Point(856, 219);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(381, 100);
-            this.groupBox5.TabIndex = 20;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Enter += new System.EventHandler(this.groupBox5_Enter);
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(9, 62);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(29, 20);
-            this.textBox3.TabIndex = 5;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(6, 25);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(130, 15);
-            this.label12.TabIndex = 4;
-            this.label12.Text = "RESOURCE TYPES";
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.textBox2);
-            this.groupBox4.Controls.Add(this.label11);
-            this.groupBox4.Location = new System.Drawing.Point(425, 219);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(385, 100);
-            this.groupBox4.TabIndex = 21;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(9, 62);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(29, 20);
-            this.textBox2.TabIndex = 5;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(6, 25);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(103, 15);
-            this.label11.TabIndex = 4;
-            this.label11.Text = "ACTION TYPES";
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.textBox1);
-            this.groupBox3.Controls.Add(this.label14);
-            this.groupBox3.Location = new System.Drawing.Point(29, 219);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(353, 100);
-            this.groupBox3.TabIndex = 19;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(9, 62);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(29, 20);
-            this.textBox1.TabIndex = 5;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(6, 25);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(124, 15);
-            this.label14.TabIndex = 4;
-            this.label14.Text = "TOTAL ACTIVITIES";
-            this.label14.Click += new System.EventHandler(this.label14_Click);
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(66, 147);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(107, 18);
-            this.label9.TabIndex = 17;
-            this.label9.Text = "AUDIT LOGS";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Location = new System.Drawing.Point(12, 136);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(44, 42);
-            this.pictureBox4.TabIndex = 16;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
-            // groupBox6
-            // 
-            this.groupBox6.Controls.Add(this.comboBox3);
-            this.groupBox6.Controls.Add(this.comboBox2);
-            this.groupBox6.Controls.Add(this.comboBox1);
-            this.groupBox6.Controls.Add(this.textBox4);
-            this.groupBox6.Controls.Add(this.label10);
-            this.groupBox6.Controls.Add(this.label13);
-            this.groupBox6.Controls.Add(this.label15);
-            this.groupBox6.Controls.Add(this.label16);
-            this.groupBox6.Controls.Add(this.label17);
-            this.groupBox6.Location = new System.Drawing.Point(29, 342);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(1220, 173);
-            this.groupBox6.TabIndex = 22;
-            this.groupBox6.TabStop = false;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(921, 115);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(261, 21);
-            this.comboBox3.TabIndex = 27;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.comboBox2_Analyst.FormattingEnabled = true;
+            this.comboBox2_Analyst.Items.AddRange(new object[] {
             "New",
             "Investigating",
             "Contained",
             "Closed"});
-            this.comboBox2.Location = new System.Drawing.Point(618, 115);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(261, 21);
-            this.comboBox2.TabIndex = 26;
+            this.comboBox2_Analyst.Location = new System.Drawing.Point(618, 115);
+            this.comboBox2_Analyst.Name = "comboBox2_Analyst";
+            this.comboBox2_Analyst.Size = new System.Drawing.Size(261, 21);
+            this.comboBox2_Analyst.TabIndex = 26;
             // 
-            // comboBox1
+            // comboBox1_Analyst
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.comboBox1_Analyst.FormattingEnabled = true;
+            this.comboBox1_Analyst.Items.AddRange(new object[] {
             "Low",
             "Medium",
             "High",
             "Critical"});
-            this.comboBox1.Location = new System.Drawing.Point(322, 115);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(261, 21);
-            this.comboBox1.TabIndex = 25;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(18, 116);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(247, 20);
-            this.textBox4.TabIndex = 24;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(918, 79);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(63, 15);
-            this.label10.TabIndex = 23;
-            this.label10.Text = "Category";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(615, 79);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(47, 15);
-            this.label13.TabIndex = 22;
-            this.label13.Text = "Status";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(319, 79);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(57, 15);
-            this.label15.TabIndex = 21;
-            this.label15.Text = "Severity";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(15, 80);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(52, 15);
-            this.label16.TabIndex = 20;
-            this.label16.Text = "Search";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(15, 16);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(75, 18);
-            this.label17.TabIndex = 19;
-            this.label17.Text = "FILTERS";
-            // 
-            // groupBox7
-            // 
-            this.groupBox7.Controls.Add(this.textBox16);
-            this.groupBox7.Controls.Add(this.textBox15);
-            this.groupBox7.Controls.Add(this.textBox14);
-            this.groupBox7.Controls.Add(this.textBox13);
-            this.groupBox7.Controls.Add(this.textBox12);
-            this.groupBox7.Controls.Add(this.textBox11);
-            this.groupBox7.Controls.Add(this.comboBox15);
-            this.groupBox7.Controls.Add(this.comboBox14);
-            this.groupBox7.Controls.Add(this.comboBox13);
-            this.groupBox7.Controls.Add(this.comboBox12);
-            this.groupBox7.Controls.Add(this.comboBox11);
-            this.groupBox7.Controls.Add(this.comboBox10);
-            this.groupBox7.Controls.Add(this.textBox10);
-            this.groupBox7.Controls.Add(this.textBox9);
-            this.groupBox7.Controls.Add(this.textBox8);
-            this.groupBox7.Controls.Add(this.textBox7);
-            this.groupBox7.Controls.Add(this.textBox6);
-            this.groupBox7.Controls.Add(this.textBox5);
-            this.groupBox7.Controls.Add(this.comboBox9);
-            this.groupBox7.Controls.Add(this.comboBox8);
-            this.groupBox7.Controls.Add(this.comboBox7);
-            this.groupBox7.Controls.Add(this.comboBox6);
-            this.groupBox7.Controls.Add(this.comboBox5);
-            this.groupBox7.Controls.Add(this.comboBox4);
-            this.groupBox7.Controls.Add(this.dateTimePicker6);
-            this.groupBox7.Controls.Add(this.dateTimePicker5);
-            this.groupBox7.Controls.Add(this.dateTimePicker4);
-            this.groupBox7.Controls.Add(this.dateTimePicker3);
-            this.groupBox7.Controls.Add(this.dateTimePicker2);
-            this.groupBox7.Controls.Add(this.dateTimePicker1);
-            this.groupBox7.Controls.Add(this.label24);
-            this.groupBox7.Controls.Add(this.label23);
-            this.groupBox7.Controls.Add(this.label22);
-            this.groupBox7.Controls.Add(this.label21);
-            this.groupBox7.Controls.Add(this.label20);
-            this.groupBox7.Controls.Add(this.label19);
-            this.groupBox7.Controls.Add(this.label18);
-            this.groupBox7.Location = new System.Drawing.Point(29, 565);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(1220, 285);
-            this.groupBox7.TabIndex = 23;
-            this.groupBox7.TabStop = false;
-            // 
-            // textBox16
-            // 
-            this.textBox16.Location = new System.Drawing.Point(815, 241);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(166, 20);
-            this.textBox16.TabIndex = 64;
-            // 
-            // textBox15
-            // 
-            this.textBox15.Location = new System.Drawing.Point(816, 203);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(166, 20);
-            this.textBox15.TabIndex = 63;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Location = new System.Drawing.Point(816, 167);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(166, 20);
-            this.textBox14.TabIndex = 62;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(816, 129);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(166, 20);
-            this.textBox13.TabIndex = 61;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(815, 93);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(166, 20);
-            this.textBox12.TabIndex = 60;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(815, 59);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(166, 20);
-            this.textBox11.TabIndex = 59;
-            // 
-            // comboBox15
-            // 
-            this.comboBox15.FormattingEnabled = true;
-            this.comboBox15.Location = new System.Drawing.Point(650, 238);
-            this.comboBox15.Name = "comboBox15";
-            this.comboBox15.Size = new System.Drawing.Size(121, 21);
-            this.comboBox15.TabIndex = 58;
-            // 
-            // comboBox14
-            // 
-            this.comboBox14.FormattingEnabled = true;
-            this.comboBox14.Location = new System.Drawing.Point(650, 200);
-            this.comboBox14.Name = "comboBox14";
-            this.comboBox14.Size = new System.Drawing.Size(121, 21);
-            this.comboBox14.TabIndex = 57;
-            // 
-            // comboBox13
-            // 
-            this.comboBox13.FormattingEnabled = true;
-            this.comboBox13.Location = new System.Drawing.Point(650, 167);
-            this.comboBox13.Name = "comboBox13";
-            this.comboBox13.Size = new System.Drawing.Size(121, 21);
-            this.comboBox13.TabIndex = 56;
-            // 
-            // comboBox12
-            // 
-            this.comboBox12.FormattingEnabled = true;
-            this.comboBox12.Location = new System.Drawing.Point(650, 128);
-            this.comboBox12.Name = "comboBox12";
-            this.comboBox12.Size = new System.Drawing.Size(121, 21);
-            this.comboBox12.TabIndex = 55;
-            // 
-            // comboBox11
-            // 
-            this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.Location = new System.Drawing.Point(650, 90);
-            this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(121, 21);
-            this.comboBox11.TabIndex = 54;
-            // 
-            // comboBox10
-            // 
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Location = new System.Drawing.Point(650, 58);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(121, 21);
-            this.comboBox10.TabIndex = 53;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(405, 238);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(202, 20);
-            this.textBox10.TabIndex = 52;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(405, 199);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(202, 20);
-            this.textBox9.TabIndex = 51;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(405, 163);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(202, 20);
-            this.textBox8.TabIndex = 50;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(405, 128);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(202, 20);
-            this.textBox7.TabIndex = 49;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(405, 89);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(202, 20);
-            this.textBox6.TabIndex = 48;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(405, 55);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(202, 20);
-            this.textBox5.TabIndex = 47;
-            // 
-            // comboBox9
-            // 
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Location = new System.Drawing.Point(233, 237);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(151, 21);
-            this.comboBox9.TabIndex = 46;
-            // 
-            // comboBox8
-            // 
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Location = new System.Drawing.Point(233, 199);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(151, 21);
-            this.comboBox8.TabIndex = 45;
-            // 
-            // comboBox7
-            // 
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Location = new System.Drawing.Point(233, 163);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(151, 21);
-            this.comboBox7.TabIndex = 44;
-            // 
-            // comboBox6
-            // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(233, 128);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(151, 21);
-            this.comboBox6.TabIndex = 43;
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(233, 89);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(151, 21);
-            this.comboBox5.TabIndex = 42;
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(233, 53);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(151, 21);
-            this.comboBox4.TabIndex = 41;
-            // 
-            // dateTimePicker6
-            // 
-            this.dateTimePicker6.Location = new System.Drawing.Point(9, 238);
-            this.dateTimePicker6.Name = "dateTimePicker6";
-            this.dateTimePicker6.Size = new System.Drawing.Size(180, 20);
-            this.dateTimePicker6.TabIndex = 40;
-            // 
-            // dateTimePicker5
-            // 
-            this.dateTimePicker5.Location = new System.Drawing.Point(9, 200);
-            this.dateTimePicker5.Name = "dateTimePicker5";
-            this.dateTimePicker5.Size = new System.Drawing.Size(180, 20);
-            this.dateTimePicker5.TabIndex = 39;
-            // 
-            // dateTimePicker4
-            // 
-            this.dateTimePicker4.Location = new System.Drawing.Point(9, 164);
-            this.dateTimePicker4.Name = "dateTimePicker4";
-            this.dateTimePicker4.Size = new System.Drawing.Size(180, 20);
-            this.dateTimePicker4.TabIndex = 38;
-            // 
-            // dateTimePicker3
-            // 
-            this.dateTimePicker3.Location = new System.Drawing.Point(9, 128);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(180, 20);
-            this.dateTimePicker3.TabIndex = 37;
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(9, 90);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(180, 20);
-            this.dateTimePicker2.TabIndex = 36;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(9, 55);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(180, 20);
-            this.dateTimePicker1.TabIndex = 35;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(1162, 26);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(52, 15);
-            this.label24.TabIndex = 34;
-            this.label24.Text = "Search";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(1005, 26);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(52, 15);
-            this.label23.TabIndex = 33;
-            this.label23.Text = "Search";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(813, 26);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(52, 15);
-            this.label22.TabIndex = 32;
-            this.label22.Text = "Search";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(647, 26);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(52, 15);
-            this.label21.TabIndex = 31;
-            this.label21.Text = "Search";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(402, 26);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(52, 15);
-            this.label20.TabIndex = 30;
-            this.label20.Text = "Search";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(230, 26);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(52, 15);
-            this.label19.TabIndex = 29;
-            this.label19.Text = "Search";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(15, 26);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(52, 15);
-            this.label18.TabIndex = 28;
-            this.label18.Text = "Search";
+            this.comboBox1_Analyst.Location = new System.Drawing.Point(310, 115);
+            this.comboBox1_Analyst.Name = "comboBox1_Analyst";
+            this.comboBox1_Analyst.Size = new System.Drawing.Size(261, 21);
+            this.comboBox1_Analyst.TabIndex = 25;
+            // 
+            // textBox4_Analyst
+            // 
+            this.textBox4_Analyst.Location = new System.Drawing.Point(18, 116);
+            this.textBox4_Analyst.Name = "textBox4_Analyst";
+            this.textBox4_Analyst.Size = new System.Drawing.Size(247, 20);
+            this.textBox4_Analyst.TabIndex = 24;
+            this.textBox4_Analyst.TextChanged += new System.EventHandler(this.textBox4_Analyst_TextChanged);
+            // 
+            // Category_Analyst
+            // 
+            this.Category_Analyst.AutoSize = true;
+            this.Category_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Category_Analyst.Location = new System.Drawing.Point(918, 79);
+            this.Category_Analyst.Name = "Category_Analyst";
+            this.Category_Analyst.Size = new System.Drawing.Size(63, 15);
+            this.Category_Analyst.TabIndex = 23;
+            this.Category_Analyst.Text = "Category";
+            // 
+            // Status_Analyst
+            // 
+            this.Status_Analyst.AutoSize = true;
+            this.Status_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Status_Analyst.Location = new System.Drawing.Point(615, 79);
+            this.Status_Analyst.Name = "Status_Analyst";
+            this.Status_Analyst.Size = new System.Drawing.Size(47, 15);
+            this.Status_Analyst.TabIndex = 22;
+            this.Status_Analyst.Text = "Status";
+            // 
+            // Severity_Analyst
+            // 
+            this.Severity_Analyst.AutoSize = true;
+            this.Severity_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Severity_Analyst.Location = new System.Drawing.Point(319, 79);
+            this.Severity_Analyst.Name = "Severity_Analyst";
+            this.Severity_Analyst.Size = new System.Drawing.Size(57, 15);
+            this.Severity_Analyst.TabIndex = 21;
+            this.Severity_Analyst.Text = "Severity";
+            // 
+            // Search_Analyst
+            // 
+            this.Search_Analyst.AutoSize = true;
+            this.Search_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Search_Analyst.Location = new System.Drawing.Point(15, 80);
+            this.Search_Analyst.Name = "Search_Analyst";
+            this.Search_Analyst.Size = new System.Drawing.Size(52, 15);
+            this.Search_Analyst.TabIndex = 20;
+            this.Search_Analyst.Text = "Search";
+            // 
+            // Filters_Analyst
+            // 
+            this.Filters_Analyst.AutoSize = true;
+            this.Filters_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Filters_Analyst.Location = new System.Drawing.Point(15, 16);
+            this.Filters_Analyst.Name = "Filters_Analyst";
+            this.Filters_Analyst.Size = new System.Drawing.Size(75, 18);
+            this.Filters_Analyst.TabIndex = 19;
+            this.Filters_Analyst.Text = "FILTERS";
+            // 
+            // groupBox7_Analyst
+            // 
+            this.groupBox7_Analyst.Controls.Add(this.pictureBox1_Analyst);
+            this.groupBox7_Analyst.Controls.Add(this.IncidentManagementSystem_Analyst);
+            this.groupBox7_Analyst.Controls.Add(this.CyberTrack_Analyst);
+            this.groupBox7_Analyst.Location = new System.Drawing.Point(12, 12);
+            this.groupBox7_Analyst.Name = "groupBox7_Analyst";
+            this.groupBox7_Analyst.Size = new System.Drawing.Size(754, 74);
+            this.groupBox7_Analyst.TabIndex = 67;
+            this.groupBox7_Analyst.TabStop = false;
+            // 
+            // pictureBox1_Analyst
+            // 
+            this.pictureBox1_Analyst.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1_Analyst.Image")));
+            this.pictureBox1_Analyst.Location = new System.Drawing.Point(6, 19);
+            this.pictureBox1_Analyst.Name = "pictureBox1_Analyst";
+            this.pictureBox1_Analyst.Size = new System.Drawing.Size(44, 42);
+            this.pictureBox1_Analyst.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1_Analyst.TabIndex = 25;
+            this.pictureBox1_Analyst.TabStop = false;
+            // 
+            // IncidentManagementSystem_Analyst
+            // 
+            this.IncidentManagementSystem_Analyst.AutoSize = true;
+            this.IncidentManagementSystem_Analyst.Location = new System.Drawing.Point(60, 47);
+            this.IncidentManagementSystem_Analyst.Name = "IncidentManagementSystem_Analyst";
+            this.IncidentManagementSystem_Analyst.Size = new System.Drawing.Size(150, 13);
+            this.IncidentManagementSystem_Analyst.TabIndex = 27;
+            this.IncidentManagementSystem_Analyst.Text = "Incident Management Systtem";
+            // 
+            // CyberTrack_Analyst
+            // 
+            this.CyberTrack_Analyst.AutoSize = true;
+            this.CyberTrack_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CyberTrack_Analyst.Location = new System.Drawing.Point(57, 19);
+            this.CyberTrack_Analyst.Name = "CyberTrack_Analyst";
+            this.CyberTrack_Analyst.Size = new System.Drawing.Size(119, 18);
+            this.CyberTrack_Analyst.TabIndex = 26;
+            this.CyberTrack_Analyst.Text = "CYBERTRACK";
+            // 
+            // groupBox1_Analyst
+            // 
+            this.groupBox1_Analyst.Controls.Add(this.textBox9_Analyst);
+            this.groupBox1_Analyst.Controls.Add(this.textBox8_Analyst);
+            this.groupBox1_Analyst.Controls.Add(this.textBox7_Analyst);
+            this.groupBox1_Analyst.Controls.Add(this.label6_Analyst);
+            this.groupBox1_Analyst.Controls.Add(this.label5_Analyst);
+            this.groupBox1_Analyst.Controls.Add(this.Create_Analyst);
+            this.groupBox1_Analyst.Controls.Add(this.Permissions_Analyst);
+            this.groupBox1_Analyst.Location = new System.Drawing.Point(772, 12);
+            this.groupBox1_Analyst.Name = "groupBox1_Analyst";
+            this.groupBox1_Analyst.Size = new System.Drawing.Size(311, 74);
+            this.groupBox1_Analyst.TabIndex = 65;
+            this.groupBox1_Analyst.TabStop = false;
+            // 
+            // textBox9_Analyst
+            // 
+            this.textBox9_Analyst.Location = new System.Drawing.Point(257, 40);
+            this.textBox9_Analyst.Multiline = true;
+            this.textBox9_Analyst.Name = "textBox9_Analyst";
+            this.textBox9_Analyst.ReadOnly = true;
+            this.textBox9_Analyst.Size = new System.Drawing.Size(47, 20);
+            this.textBox9_Analyst.TabIndex = 25;
+            this.textBox9_Analyst.Text = "NO";
+            this.textBox9_Analyst.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox8_Analyst
+            // 
+            this.textBox8_Analyst.Location = new System.Drawing.Point(157, 40);
+            this.textBox8_Analyst.Multiline = true;
+            this.textBox8_Analyst.Name = "textBox8_Analyst";
+            this.textBox8_Analyst.ReadOnly = true;
+            this.textBox8_Analyst.Size = new System.Drawing.Size(47, 20);
+            this.textBox8_Analyst.TabIndex = 24;
+            this.textBox8_Analyst.Text = "YES";
+            this.textBox8_Analyst.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox7_Analyst
+            // 
+            this.textBox7_Analyst.Location = new System.Drawing.Point(51, 40);
+            this.textBox7_Analyst.Multiline = true;
+            this.textBox7_Analyst.Name = "textBox7_Analyst";
+            this.textBox7_Analyst.ReadOnly = true;
+            this.textBox7_Analyst.Size = new System.Drawing.Size(47, 20);
+            this.textBox7_Analyst.TabIndex = 23;
+            this.textBox7_Analyst.Text = "YES";
+            this.textBox7_Analyst.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label6_Analyst
+            // 
+            this.label6_Analyst.AutoSize = true;
+            this.label6_Analyst.Location = new System.Drawing.Point(210, 43);
+            this.label6_Analyst.Name = "label6_Analyst";
+            this.label6_Analyst.Size = new System.Drawing.Size(41, 13);
+            this.label6_Analyst.TabIndex = 6;
+            this.label6_Analyst.Text = "Delete:";
+            // 
+            // label5_Analyst
+            // 
+            this.label5_Analyst.AutoSize = true;
+            this.label5_Analyst.Location = new System.Drawing.Point(106, 43);
+            this.label5_Analyst.Name = "label5_Analyst";
+            this.label5_Analyst.Size = new System.Drawing.Size(45, 13);
+            this.label5_Analyst.TabIndex = 5;
+            this.label5_Analyst.Text = "Update:";
+            // 
+            // Create_Analyst
+            // 
+            this.Create_Analyst.AutoSize = true;
+            this.Create_Analyst.Location = new System.Drawing.Point(6, 43);
+            this.Create_Analyst.Name = "Create_Analyst";
+            this.Create_Analyst.Size = new System.Drawing.Size(41, 13);
+            this.Create_Analyst.TabIndex = 4;
+            this.Create_Analyst.Text = "Create:";
+            // 
+            // Permissions_Analyst
+            // 
+            this.Permissions_Analyst.AutoSize = true;
+            this.Permissions_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Permissions_Analyst.Location = new System.Drawing.Point(6, 16);
+            this.Permissions_Analyst.Name = "Permissions_Analyst";
+            this.Permissions_Analyst.Size = new System.Drawing.Size(92, 16);
+            this.Permissions_Analyst.TabIndex = 4;
+            this.Permissions_Analyst.Text = "Permissions";
+            // 
+            // groupBox2_Analyst
+            // 
+            this.groupBox2_Analyst.Controls.Add(this.pictureBox2_Analyst);
+            this.groupBox2_Analyst.Controls.Add(this.label8_Analyst);
+            this.groupBox2_Analyst.Controls.Add(this.label7_Analyst);
+            this.groupBox2_Analyst.Location = new System.Drawing.Point(1089, 12);
+            this.groupBox2_Analyst.Name = "groupBox2_Analyst";
+            this.groupBox2_Analyst.Size = new System.Drawing.Size(183, 74);
+            this.groupBox2_Analyst.TabIndex = 66;
+            this.groupBox2_Analyst.TabStop = false;
+            // 
+            // pictureBox2_Analyst
+            // 
+            this.pictureBox2_Analyst.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2_Analyst.BackgroundImage")));
+            this.pictureBox2_Analyst.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2_Analyst.ErrorImage = null;
+            this.pictureBox2_Analyst.InitialImage = null;
+            this.pictureBox2_Analyst.Location = new System.Drawing.Point(11, 19);
+            this.pictureBox2_Analyst.Name = "pictureBox2_Analyst";
+            this.pictureBox2_Analyst.Size = new System.Drawing.Size(44, 42);
+            this.pictureBox2_Analyst.TabIndex = 5;
+            this.pictureBox2_Analyst.TabStop = false;
+            // 
+            // label8_Analyst
+            // 
+            this.label8_Analyst.AutoSize = true;
+            this.label8_Analyst.Location = new System.Drawing.Point(71, 47);
+            this.label8_Analyst.Name = "label8_Analyst";
+            this.label8_Analyst.Size = new System.Drawing.Size(56, 13);
+            this.label8_Analyst.TabIndex = 5;
+            this.label8_Analyst.Text = "ANALYST";
+            // 
+            // label7_Analyst
+            // 
+            this.label7_Analyst.AutoSize = true;
+            this.label7_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7_Analyst.Location = new System.Drawing.Point(71, 19);
+            this.label7_Analyst.Name = "label7_Analyst";
+            this.label7_Analyst.Size = new System.Drawing.Size(99, 16);
+            this.label7_Analyst.TabIndex = 5;
+            this.label7_Analyst.Text = "Skibidi Toilet";
+            // 
+            // AuditTrail_Analyst
+            // 
+            this.AuditTrail_Analyst.AutoSize = true;
+            this.AuditTrail_Analyst.Location = new System.Drawing.Point(92, 153);
+            this.AuditTrail_Analyst.Name = "AuditTrail_Analyst";
+            this.AuditTrail_Analyst.Size = new System.Drawing.Size(178, 13);
+            this.AuditTrail_Analyst.TabIndex = 28;
+            this.AuditTrail_Analyst.Text = "Complete Audit Trail - N Of N Entries";
+            // 
+            // dataGridView1_Analyst
+            // 
+            this.dataGridView1_Analyst.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1_Analyst.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.TimeStamp_Analyst,
+            this.Action_Analyst,
+            this.User_Analyst,
+            this.ResourceType_Analyst,
+            this.ResourceID_Analyst,
+            this.IPAddress_Analyst,
+            this.Changes_Analyst});
+            this.dataGridView1_Analyst.Location = new System.Drawing.Point(31, 540);
+            this.dataGridView1_Analyst.Name = "dataGridView1_Analyst";
+            this.dataGridView1_Analyst.Size = new System.Drawing.Size(1218, 394);
+            this.dataGridView1_Analyst.TabIndex = 68;
+            // 
+            // TimeStamp_Analyst
+            // 
+            this.TimeStamp_Analyst.HeaderText = "Timestamp";
+            this.TimeStamp_Analyst.Name = "TimeStamp_Analyst";
+            this.TimeStamp_Analyst.Width = 200;
+            // 
+            // Action_Analyst
+            // 
+            this.Action_Analyst.HeaderText = "Action";
+            this.Action_Analyst.Name = "Action_Analyst";
+            this.Action_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Action_Analyst.Width = 150;
+            // 
+            // User_Analyst
+            // 
+            this.User_Analyst.HeaderText = "User";
+            this.User_Analyst.Name = "User_Analyst";
+            this.User_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.User_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.User_Analyst.Width = 200;
+            // 
+            // ResourceType_Analyst
+            // 
+            this.ResourceType_Analyst.HeaderText = "Resource Type";
+            this.ResourceType_Analyst.Name = "ResourceType_Analyst";
+            this.ResourceType_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // ResourceID_Analyst
+            // 
+            this.ResourceID_Analyst.HeaderText = "ResourceID";
+            this.ResourceID_Analyst.Name = "ResourceID_Analyst";
+            this.ResourceID_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.ResourceID_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.ResourceID_Analyst.Width = 200;
+            // 
+            // IPAddress_Analyst
+            // 
+            this.IPAddress_Analyst.HeaderText = "IP Address";
+            this.IPAddress_Analyst.Name = "IPAddress_Analyst";
+            this.IPAddress_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.IPAddress_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.IPAddress_Analyst.Width = 200;
+            // 
+            // Changes_Analyst
+            // 
+            this.Changes_Analyst.HeaderText = "Changes";
+            this.Changes_Analyst.Name = "Changes_Analyst";
+            this.Changes_Analyst.Width = 130;
+            // 
+            // AuditLogsGB_Analyst
+            // 
+            this.AuditLogsGB_Analyst.Location = new System.Drawing.Point(12, 101);
+            this.AuditLogsGB_Analyst.Name = "AuditLogsGB_Analyst";
+            this.AuditLogsGB_Analyst.Size = new System.Drawing.Size(1300, 869);
+            this.AuditLogsGB_Analyst.TabIndex = 69;
+            this.AuditLogsGB_Analyst.TabStop = false;
+            this.AuditLogsGB_Analyst.Text = "groupBox1";
             // 
             // AuditLogs_Analyst
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1261, 899);
-            this.Controls.Add(this.groupBox7);
-            this.Controls.Add(this.groupBox6);
-            this.Controls.Add(this.groupBox5);
-            this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox3);
+            this.ClientSize = new System.Drawing.Size(1284, 1061);
+            this.Controls.Add(this.dataGridView1_Analyst);
+            this.Controls.Add(this.AuditTrail_Analyst);
+            this.Controls.Add(this.groupBox7_Analyst);
+            this.Controls.Add(this.groupBox1_Analyst);
+            this.Controls.Add(this.groupBox6_Analyst);
+            this.Controls.Add(this.groupBox2_Analyst);
+            this.Controls.Add(this.groupBox5_Analyst);
+            this.Controls.Add(this.groupBox4_Analyst);
+            this.Controls.Add(this.groupBox3_Analyst);
+            this.Controls.Add(this.Logs_Analyst);
+            this.Controls.Add(this.pictureBox4_Analyst);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.AuditLogsGB_Analyst);
             this.Name = "AuditLogs_Analyst";
             this.Text = "AuditLogs_Analyst";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox7.PerformLayout();
+            this.groupBox5_Analyst.ResumeLayout(false);
+            this.groupBox5_Analyst.PerformLayout();
+            this.groupBox4_Analyst.ResumeLayout(false);
+            this.groupBox4_Analyst.PerformLayout();
+            this.groupBox3_Analyst.ResumeLayout(false);
+            this.groupBox3_Analyst.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4_Analyst)).EndInit();
+            this.groupBox6_Analyst.ResumeLayout(false);
+            this.groupBox6_Analyst.PerformLayout();
+            this.groupBox7_Analyst.ResumeLayout(false);
+            this.groupBox7_Analyst.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1_Analyst)).EndInit();
+            this.groupBox1_Analyst.ResumeLayout(false);
+            this.groupBox1_Analyst.PerformLayout();
+            this.groupBox2_Analyst.ResumeLayout(false);
+            this.groupBox2_Analyst.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2_Analyst)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1_Analyst)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -867,79 +613,52 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.ComboBox comboBox15;
-        private System.Windows.Forms.ComboBox comboBox14;
-        private System.Windows.Forms.ComboBox comboBox13;
-        private System.Windows.Forms.ComboBox comboBox12;
-        private System.Windows.Forms.ComboBox comboBox11;
-        private System.Windows.Forms.ComboBox comboBox10;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.ComboBox comboBox9;
-        private System.Windows.Forms.ComboBox comboBox8;
-        private System.Windows.Forms.ComboBox comboBox7;
-        private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.DateTimePicker dateTimePicker6;
-        private System.Windows.Forms.DateTimePicker dateTimePicker5;
-        private System.Windows.Forms.DateTimePicker dateTimePicker4;
-        private System.Windows.Forms.DateTimePicker dateTimePicker3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.GroupBox groupBox5_Analyst;
+        private System.Windows.Forms.TextBox textBox3_Analyst;
+        private System.Windows.Forms.Label resourcetypes_Analyst;
+        private System.Windows.Forms.GroupBox groupBox4_Analyst;
+        private System.Windows.Forms.TextBox textBox2_Analyst;
+        private System.Windows.Forms.Label actiontypes_Analyst;
+        private System.Windows.Forms.GroupBox groupBox3_Analyst;
+        private System.Windows.Forms.TextBox textBox1_Analyst;
+        private System.Windows.Forms.Label totalact_Analyst;
+        private System.Windows.Forms.Label Logs_Analyst;
+        private System.Windows.Forms.PictureBox pictureBox4_Analyst;
+        private System.Windows.Forms.GroupBox groupBox6_Analyst;
+        private System.Windows.Forms.ComboBox comboBox3_Analyst;
+        private System.Windows.Forms.ComboBox comboBox2_Analyst;
+        private System.Windows.Forms.ComboBox comboBox1_Analyst;
+        private System.Windows.Forms.TextBox textBox4_Analyst;
+        private System.Windows.Forms.Label Category_Analyst;
+        private System.Windows.Forms.Label Status_Analyst;
+        private System.Windows.Forms.Label Severity_Analyst;
+        private System.Windows.Forms.Label Search_Analyst;
+        private System.Windows.Forms.Label Filters_Analyst;
+        private System.Windows.Forms.GroupBox groupBox7_Analyst;
+        private System.Windows.Forms.PictureBox pictureBox1_Analyst;
+        private System.Windows.Forms.Label IncidentManagementSystem_Analyst;
+        private System.Windows.Forms.Label CyberTrack_Analyst;
+        private System.Windows.Forms.GroupBox groupBox1_Analyst;
+        private System.Windows.Forms.TextBox textBox9_Analyst;
+        private System.Windows.Forms.TextBox textBox8_Analyst;
+        private System.Windows.Forms.TextBox textBox7_Analyst;
+        private System.Windows.Forms.Label label6_Analyst;
+        private System.Windows.Forms.Label label5_Analyst;
+        private System.Windows.Forms.Label Create_Analyst;
+        private System.Windows.Forms.Label Permissions_Analyst;
+        private System.Windows.Forms.GroupBox groupBox2_Analyst;
+        private System.Windows.Forms.PictureBox pictureBox2_Analyst;
+        private System.Windows.Forms.Label label8_Analyst;
+        private System.Windows.Forms.Label label7_Analyst;
+        private System.Windows.Forms.Label AuditTrail_Analyst;
+        private System.Windows.Forms.DataGridView dataGridView1_Analyst;
+        private System.Windows.Forms.GroupBox AuditLogsGB_Analyst;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TimeStamp_Analyst;
+        private System.Windows.Forms.DataGridViewComboBoxColumn Action_Analyst;
+        private System.Windows.Forms.DataGridViewTextBoxColumn User_Analyst;
+        private System.Windows.Forms.DataGridViewComboBoxColumn ResourceType_Analyst;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ResourceID_Analyst;
+        private System.Windows.Forms.DataGridViewTextBoxColumn IPAddress_Analyst;
+        private System.Windows.Forms.DataGridViewButtonColumn Changes_Analyst;
     }
 }

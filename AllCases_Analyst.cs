@@ -36,5 +36,15 @@ namespace CyberTrack_Analyst
         {
 
         }
+
+        private void AllCases_Analyst_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView2_Analyst_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

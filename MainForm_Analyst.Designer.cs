@@ -28,68 +28,68 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.dashboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.submitReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.allCasesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.auditLogsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
+            this.menuStrip1_Analyst = new System.Windows.Forms.MenuStrip();
+            this.dashboardToolStripMenuItem_Analyst = new System.Windows.Forms.ToolStripMenuItem();
+            this.submitReportToolStripMenuItem_Analyst = new System.Windows.Forms.ToolStripMenuItem();
+            this.allCasesToolStripMenuItem_Analyst = new System.Windows.Forms.ToolStripMenuItem();
+            this.auditLogsToolStripMenuItem_Analyst = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1_Analyst.SuspendLayout();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // menuStrip1_Analyst
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.dashboardToolStripMenuItem,
-            this.submitReportToolStripMenuItem,
-            this.allCasesToolStripMenuItem,
-            this.auditLogsToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1584, 28);
-            this.menuStrip1.TabIndex = 1;
-            this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1_Analyst.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dashboardToolStripMenuItem_Analyst,
+            this.submitReportToolStripMenuItem_Analyst,
+            this.allCasesToolStripMenuItem_Analyst,
+            this.auditLogsToolStripMenuItem_Analyst});
+            this.menuStrip1_Analyst.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1_Analyst.Name = "menuStrip1_Analyst";
+            this.menuStrip1_Analyst.Size = new System.Drawing.Size(1284, 28);
+            this.menuStrip1_Analyst.TabIndex = 1;
+            this.menuStrip1_Analyst.Text = "menuStrip1";
             // 
-            // dashboardToolStripMenuItem
+            // dashboardToolStripMenuItem_Analyst
             // 
-            this.dashboardToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dashboardToolStripMenuItem.Name = "dashboardToolStripMenuItem";
-            this.dashboardToolStripMenuItem.Size = new System.Drawing.Size(97, 24);
-            this.dashboardToolStripMenuItem.Text = "Dashboard";
+            this.dashboardToolStripMenuItem_Analyst.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dashboardToolStripMenuItem_Analyst.Name = "dashboardToolStripMenuItem_Analyst";
+            this.dashboardToolStripMenuItem_Analyst.Size = new System.Drawing.Size(97, 24);
+            this.dashboardToolStripMenuItem_Analyst.Text = "Dashboard";
             // 
-            // submitReportToolStripMenuItem
+            // submitReportToolStripMenuItem_Analyst
             // 
-            this.submitReportToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.submitReportToolStripMenuItem.Name = "submitReportToolStripMenuItem";
-            this.submitReportToolStripMenuItem.Size = new System.Drawing.Size(123, 24);
-            this.submitReportToolStripMenuItem.Text = "Submit Report";
+            this.submitReportToolStripMenuItem_Analyst.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submitReportToolStripMenuItem_Analyst.Name = "submitReportToolStripMenuItem_Analyst";
+            this.submitReportToolStripMenuItem_Analyst.Size = new System.Drawing.Size(123, 24);
+            this.submitReportToolStripMenuItem_Analyst.Text = "Submit Report";
             // 
-            // allCasesToolStripMenuItem
+            // allCasesToolStripMenuItem_Analyst
             // 
-            this.allCasesToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.allCasesToolStripMenuItem.Name = "allCasesToolStripMenuItem";
-            this.allCasesToolStripMenuItem.Size = new System.Drawing.Size(83, 24);
-            this.allCasesToolStripMenuItem.Text = "All Cases";
+            this.allCasesToolStripMenuItem_Analyst.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.allCasesToolStripMenuItem_Analyst.Name = "allCasesToolStripMenuItem_Analyst";
+            this.allCasesToolStripMenuItem_Analyst.Size = new System.Drawing.Size(83, 24);
+            this.allCasesToolStripMenuItem_Analyst.Text = "All Cases";
             // 
-            // auditLogsToolStripMenuItem
+            // auditLogsToolStripMenuItem_Analyst
             // 
-            this.auditLogsToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.auditLogsToolStripMenuItem.Name = "auditLogsToolStripMenuItem";
-            this.auditLogsToolStripMenuItem.Size = new System.Drawing.Size(97, 24);
-            this.auditLogsToolStripMenuItem.Text = "Audit Logs";
+            this.auditLogsToolStripMenuItem_Analyst.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.auditLogsToolStripMenuItem_Analyst.Name = "auditLogsToolStripMenuItem_Analyst";
+            this.auditLogsToolStripMenuItem_Analyst.Size = new System.Drawing.Size(97, 24);
+            this.auditLogsToolStripMenuItem_Analyst.Text = "Audit Logs";
             // 
             // MainForm_Analyst
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1584, 961);
-            this.Controls.Add(this.menuStrip1);
+            this.ClientSize = new System.Drawing.Size(1284, 961);
+            this.Controls.Add(this.menuStrip1_Analyst);
             this.IsMdiContainer = true;
-            this.MainMenuStrip = this.menuStrip1;
+            this.MainMenuStrip = this.menuStrip1_Analyst;
             this.Name = "MainForm_Analyst";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainForm_Analyst";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.menuStrip1_Analyst.ResumeLayout(false);
+            this.menuStrip1_Analyst.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -97,11 +97,11 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem dashboardToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem submitReportToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem allCasesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem auditLogsToolStripMenuItem;
+        private System.Windows.Forms.MenuStrip menuStrip1_Analyst;
+        private System.Windows.Forms.ToolStripMenuItem dashboardToolStripMenuItem_Analyst;
+        private System.Windows.Forms.ToolStripMenuItem submitReportToolStripMenuItem_Analyst;
+        private System.Windows.Forms.ToolStripMenuItem allCasesToolStripMenuItem_Analyst;
+        private System.Windows.Forms.ToolStripMenuItem auditLogsToolStripMenuItem_Analyst;
     }
 }
 
