@@ -112,6 +112,7 @@
             this.SecurityAnalyst_Analyst.Size = new System.Drawing.Size(275, 18);
             this.SecurityAnalyst_Analyst.TabIndex = 6;
             this.SecurityAnalyst_Analyst.Text = "SECURITY ANALYST DASHBOARD";
+            this.SecurityAnalyst_Analyst.Click += new System.EventHandler(this.SecurityAnalyst_Analyst_Click);
             // 
             // label10_Analyst
             // 

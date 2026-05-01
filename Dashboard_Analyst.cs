@@ -61,5 +61,10 @@ namespace CyberTrack_Analyst
         {
 
         }
+
+        private void SecurityAnalyst_Analyst_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
