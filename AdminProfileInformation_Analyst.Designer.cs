@@ -141,7 +141,7 @@
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.picProfilePersonalInfoPhoto_Analyst);
             this.PINFORMATIONgb_ANALYST.Location = new System.Drawing.Point(436, 153);
             this.PINFORMATIONgb_ANALYST.Name = "PINFORMATIONgb_ANALYST";
-            this.PINFORMATIONgb_ANALYST.Size = new System.Drawing.Size(836, 896);
+            this.PINFORMATIONgb_ANALYST.Size = new System.Drawing.Size(836, 861);
             this.PINFORMATIONgb_ANALYST.TabIndex = 46;
             this.PINFORMATIONgb_ANALYST.TabStop = false;
             // 
@@ -149,7 +149,7 @@
             // 
             this.LOGINgroupBox6_ANALYST.Controls.Add(this.txtProfileLastLogin_Analyst);
             this.LOGINgroupBox6_ANALYST.Controls.Add(this.lblProfileLastLogin_Analyst);
-            this.LOGINgroupBox6_ANALYST.Location = new System.Drawing.Point(559, 748);
+            this.LOGINgroupBox6_ANALYST.Location = new System.Drawing.Point(559, 706);
             this.LOGINgroupBox6_ANALYST.Name = "LOGINgroupBox6_ANALYST";
             this.LOGINgroupBox6_ANALYST.Size = new System.Drawing.Size(266, 142);
             this.LOGINgroupBox6_ANALYST.TabIndex = 53;
@@ -176,7 +176,7 @@
             // 
             this.ASSIGNEDgroupBox5_ANALYST.Controls.Add(this.txtProfileAssignedCases_Analyst);
             this.ASSIGNEDgroupBox5_ANALYST.Controls.Add(this.lblProfileAssignedCases_Analyst);
-            this.ASSIGNEDgroupBox5_ANALYST.Location = new System.Drawing.Point(287, 748);
+            this.ASSIGNEDgroupBox5_ANALYST.Location = new System.Drawing.Point(287, 706);
             this.ASSIGNEDgroupBox5_ANALYST.Name = "ASSIGNEDgroupBox5_ANALYST";
             this.ASSIGNEDgroupBox5_ANALYST.Size = new System.Drawing.Size(266, 142);
             this.ASSIGNEDgroupBox5_ANALYST.TabIndex = 53;
@@ -203,7 +203,7 @@
             // 
             this.CREATEDgroupBox4_ANALYST.Controls.Add(this.txtProfileCreatedCases_Analyst);
             this.CREATEDgroupBox4_ANALYST.Controls.Add(this.lblProfileCreatedCases_Analyst);
-            this.CREATEDgroupBox4_ANALYST.Location = new System.Drawing.Point(15, 748);
+            this.CREATEDgroupBox4_ANALYST.Location = new System.Drawing.Point(15, 706);
             this.CREATEDgroupBox4_ANALYST.Name = "CREATEDgroupBox4_ANALYST";
             this.CREATEDgroupBox4_ANALYST.Size = new System.Drawing.Size(266, 142);
             this.CREATEDgroupBox4_ANALYST.TabIndex = 52;
@@ -748,7 +748,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1284, 1061);
+            this.ClientSize = new System.Drawing.Size(1284, 1021);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.USERPROFILEgb_ANALYST);
             this.Controls.Add(this.grbLogo_Analyst);
