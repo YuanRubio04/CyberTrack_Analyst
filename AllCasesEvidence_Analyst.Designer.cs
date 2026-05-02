@@ -505,9 +505,9 @@
             this.txtAllCasesReportedAt_Analyst,
             this.txtAllCasesLastUpdated_Analyst,
             this.txtAllCasesSLADeadline_Analyst});
-            this.dgvAllCasesCaseInformation_Analyst.Location = new System.Drawing.Point(11, 45);
+            this.dgvAllCasesCaseInformation_Analyst.Location = new System.Drawing.Point(11, 35);
             this.dgvAllCasesCaseInformation_Analyst.Name = "dgvAllCasesCaseInformation_Analyst";
-            this.dgvAllCasesCaseInformation_Analyst.Size = new System.Drawing.Size(540, 355);
+            this.dgvAllCasesCaseInformation_Analyst.Size = new System.Drawing.Size(540, 365);
             this.dgvAllCasesCaseInformation_Analyst.TabIndex = 29;
             // 
             // cmbAllCasesReporter_Analyst
