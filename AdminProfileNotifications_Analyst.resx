@@ -117,49 +117,43 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="chk_AllCasesEmailServer_Analyst.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="QuietHoursSTART_ANALYST.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="chkAllCasesEmployeeWorkstation_Analyst.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="QuietHoursEnd_ANALYST.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="cmbAllCasesImpactLevel_Analyst.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="chkProfileEnable6_Anaylst.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="cmbAllCasesReporter_Analyst.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="chkProfileEnable5_Analyst.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="cmbAllCasesAssignedTo_Analyst.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="chkProfileEnable4_Analyst.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="txtAllCasesReportedAt_Analyst.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="chkProfileEnable3_Analyst.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="txtAllCasesLastUpdated_Analyst.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="chkProfileEnable2_Analyst.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="txtAllCasesSLADeadline_Analyst.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="txtAllCasesTitle_Analyst.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="cmbAllCasesStatus_Analyst.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="cmbAllCasesAssignedTo2_Analyst.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="cmbAllCasesSeverity2_Analyst.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="txtAllCasesUpdatedAt_Analyst.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="txtAllCasesNotes_Analyst.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="chkProfileEnable1_Analyst.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="picProfileNotifPrefPhoto_Analyst.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAA50RVh0U29mdHdhcmUARmlnbWGesZZjAAABRElEQVRoQ+2W0W3EIAyG8xYDeehI
+        N8qNkA3azdpNboQb4SpHsUqdkEjkpxaVP8kSwqDLx2HkYRiGV+exmegtfgad4QLWuIA1LmCNC1jjAta4
+        QBEiuoUQPmOMzxjji8dEdNfrLtJGgIje+aP3gnN6/QXwAimle/bBH28rIYQ5k7jpfZXgBdZrw1dm1jkW
+        kuukc5XgBeSU+dR1jufW/FPnKmkisBTtiQDkt5oIyBXi67KTW+ogpfSlc5XgBbhA5ZTHcZyliPOXCfic
+        4gUYKdZCbP6ZC7QRYPg55asiRcvjaZpQz6fQTuCPcIFf6P6nFMC+CCdw1P+UAtAXYQT2+h+9RgD3RRiB
+        o/6nBKgvwgjIaR6dvAbUF2EF9PwZtfsyXGAhxvgIITz0/Bm1+zIwAoa4gDUuYI0LWOMC1riANf9PoNfY
+        THQV34Lx4WVVy9k+AAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="picCyberTrackLogo_Analyst.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAeAAAAHgCAYAAAB91L6VAAAABGdBTUEAALGPC/xhBQAA/8dJREFUeF7s
@@ -1294,6 +1288,18 @@
 </value>
   </data>
   <data name="picUserPhoto_Analyst.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAA50RVh0U29mdHdhcmUARmlnbWGesZZjAAABRElEQVRoQ+2W0W3EIAyG8xYDeehI
+        N8qNkA3azdpNboQb4SpHsUqdkEjkpxaVP8kSwqDLx2HkYRiGV+exmegtfgad4QLWuIA1LmCNC1jjAta4
+        QBEiuoUQPmOMzxjji8dEdNfrLtJGgIje+aP3gnN6/QXwAimle/bBH28rIYQ5k7jpfZXgBdZrw1dm1jkW
+        kuukc5XgBeSU+dR1jufW/FPnKmkisBTtiQDkt5oIyBXi67KTW+ogpfSlc5XgBbhA5ZTHcZyliPOXCfic
+        4gUYKdZCbP6ZC7QRYPg55asiRcvjaZpQz6fQTuCPcIFf6P6nFMC+CCdw1P+UAtAXYQT2+h+9RgD3RRiB
+        o/6nBKgvwgjIaR6dvAbUF2EF9PwZtfsyXGAhxvgIITz0/Bm1+zIwAoa4gDUuYI0LWOMC1riANf9PoNfY
+        THQV34Lx4WVVy9k+AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="picProfileUserPhoto_Analyst.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         DAAACwwBP0AiyAAAAA50RVh0U29mdHdhcmUARmlnbWGesZZjAAABRElEQVRoQ+2W0W3EIAyG8xYDeehI

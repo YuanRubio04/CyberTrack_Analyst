@@ -1,0 +1,1 @@
+﻿SELECT UserID, FullName, Email, RoleID, Department, status FROM Users WHERE UserID = 1
