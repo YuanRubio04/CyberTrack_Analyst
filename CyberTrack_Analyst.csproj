@@ -121,12 +121,6 @@
     <Compile Include="AdminProfileSecurity.Designer.cs">
       <DependentUpon>AdminProfileSecurity.cs</DependentUpon>
     </Compile>
-    <Compile Include="AdminProfileNotifications_Analyst.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AdminProfileNotifications_Analyst.Designer.cs">
-      <DependentUpon>AdminProfileNotifications_Analyst.cs</DependentUpon>
-    </Compile>
     <Compile Include="MenuButton_Analyst.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,9 +145,6 @@
     <Compile Include="User.cs" />
     <EmbeddedResource Include="AdminProfileInformation_Analyst.resx">
       <DependentUpon>AdminProfileInformation_Analyst.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AdminProfileNotifications_Analyst.resx">
-      <DependentUpon>AdminProfileNotifications_Analyst.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AdminProfileSecurity.resx">
       <DependentUpon>AdminProfileSecurity.cs</DependentUpon>
@@ -219,6 +210,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>CyberTrack_Database.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\CyberTrack Icon.png" />
     <None Include="Resources\AuditLogsIcon.png" />
   </ItemGroup>
   <ItemGroup>

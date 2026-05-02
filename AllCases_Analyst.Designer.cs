@@ -250,6 +250,7 @@
             // 
             // picAllCasesCasesManagement_Analyst
             // 
+            this.picAllCasesCasesManagement_Analyst.BackgroundImage = global::CyberTrack_Analyst.Properties.Resources.CyberTrack_Icon;
             this.picAllCasesCasesManagement_Analyst.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picAllCasesCasesManagement_Analyst.ErrorImage = null;
             this.picAllCasesCasesManagement_Analyst.InitialImage = null;
