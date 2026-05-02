@@ -85,11 +85,11 @@
     <Compile Include="AuditLogs_Analyst.Designer.cs">
       <DependentUpon>AuditLogs_Analyst.cs</DependentUpon>
     </Compile>
-    <Compile Include="AllCasesView_Analyst.cs">
+    <Compile Include="AllCasesStatusWorkflow_Analyst.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AllCasesView_Analyst.Designer.cs">
-      <DependentUpon>AllCasesView_Analyst.cs</DependentUpon>
+    <Compile Include="AllCasesStatusWorkflow_Analyst.Designer.cs">
+      <DependentUpon>AllCasesStatusWorkflow_Analyst.cs</DependentUpon>
     </Compile>
     <Compile Include="AllCasesEvidence_Analyst.cs">
       <SubType>Form</SubType>
@@ -164,8 +164,8 @@
     <EmbeddedResource Include="AllCasesEvidence_Analyst.resx">
       <DependentUpon>AllCasesEvidence_Analyst.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AllCasesView_Analyst.resx">
-      <DependentUpon>AllCasesView_Analyst.cs</DependentUpon>
+    <EmbeddedResource Include="AllCasesStatusWorkflow_Analyst.resx">
+      <DependentUpon>AllCasesStatusWorkflow_Analyst.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AllCases_Analyst.resx">
       <DependentUpon>AllCases_Analyst.cs</DependentUpon>

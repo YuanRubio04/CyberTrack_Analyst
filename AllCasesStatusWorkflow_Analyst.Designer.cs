@@ -1,6 +1,6 @@
 ﻿namespace CyberTrack_Analyst
 {
-    partial class AllCasesView_Analyst
+    partial class AllCasesStatusWorkflow_Analyst
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AllCasesView_Analyst));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AllCasesStatusWorkflow_Analyst));
             this.SEWMA_ANALYST = new System.Windows.Forms.GroupBox();
             this.txtAllCasesCategory_ANALYST = new System.Windows.Forms.TextBox();
             this.txtAllCasesStatus_ANALYST = new System.Windows.Forms.TextBox();
