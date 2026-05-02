@@ -16,7 +16,7 @@ namespace CyberTrack_Analyst
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm_Analyst());
+            Application.Run(new AdminProfileInformation_Analyst());
         }
     }
 }

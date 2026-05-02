@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CyberTrack_Analyst
 {
-    public partial class AdminProfileSecurity : Form
+    public partial class AdminProfileNotifications_Analyst : Form
     {
-        public AdminProfileSecurity()
+        public AdminProfileNotifications_Analyst()
         {
             InitializeComponent();
         }
@@ -22,12 +22,12 @@ namespace CyberTrack_Analyst
 
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void PINFORMATIONgb_ANALYST_Enter(object sender, EventArgs e)
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
