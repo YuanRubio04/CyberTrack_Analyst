@@ -41,9 +41,15 @@
             this.lblAllCasesNewStatus_Analyst = new System.Windows.Forms.Label();
             this.lblAllCasesUpdateStatus_Analyst = new System.Windows.Forms.Label();
             this.dgvAllCasesCaseStatusHistory_Analyst = new System.Windows.Forms.DataGridView();
+            this.cmbAllCasesStatus_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.cmbAllCasesAnalyst_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.cmbAllCasesAssignedTo_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.txtAllCasesReportedAt1_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblCaseStatusHistory_Analyst = new System.Windows.Forms.Label();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.groupBox5_ANALYST = new System.Windows.Forms.GroupBox();
             this.dgvAllCasesAffectedSystems_Analyst = new System.Windows.Forms.DataGridView();
+            this.cmbAllCasesTypeOfSystem_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.cmbAllCasesImpactLevel_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.lblAllCasesAffectedSystems_Analyst = new System.Windows.Forms.Label();
             this.groupBox4_ANALYST = new System.Windows.Forms.GroupBox();
             this.dgvAllCasesCaseInformation_Analyst = new System.Windows.Forms.DataGridView();
@@ -82,16 +88,10 @@
             this.picUserPhoto_Analyst = new System.Windows.Forms.PictureBox();
             this.lblUserRole_Analyst = new System.Windows.Forms.Label();
             this.lblUserName_Analyst = new System.Windows.Forms.Label();
-            this.cmbAllCasesStatus_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.cmbAllCasesAnalyst_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.cmbAllCasesAssignedTo_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.txtAllCasesReportedAt1_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cmbAllCasesTypeOfSystem_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.cmbAllCasesImpactLevel_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.SEWMA_ANALYST.SuspendLayout();
             this.groupBox6_ANALYST.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesCaseStatusHistory_Analyst)).BeginInit();
-            this.groupBox5.SuspendLayout();
+            this.groupBox5_ANALYST.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesAffectedSystems_Analyst)).BeginInit();
             this.groupBox4_ANALYST.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesCaseInformation_Analyst)).BeginInit();
@@ -110,7 +110,7 @@
             this.SEWMA_ANALYST.Controls.Add(this.txtAllCasesStatus_ANALYST);
             this.SEWMA_ANALYST.Controls.Add(this.txtAllCasesSeverity_ANALYST);
             this.SEWMA_ANALYST.Controls.Add(this.groupBox6_ANALYST);
-            this.SEWMA_ANALYST.Controls.Add(this.groupBox5);
+            this.SEWMA_ANALYST.Controls.Add(this.groupBox5_ANALYST);
             this.SEWMA_ANALYST.Controls.Add(this.groupBox4_ANALYST);
             this.SEWMA_ANALYST.Controls.Add(this.btnAllCasesAuditTrail_Analyst);
             this.SEWMA_ANALYST.Controls.Add(this.btnAllCasesEvidence_Analyst);
@@ -236,6 +236,36 @@
             this.dgvAllCasesCaseStatusHistory_Analyst.Size = new System.Drawing.Size(652, 150);
             this.dgvAllCasesCaseStatusHistory_Analyst.TabIndex = 31;
             // 
+            // cmbAllCasesStatus_Analyst
+            // 
+            this.cmbAllCasesStatus_Analyst.HeaderText = "Status";
+            this.cmbAllCasesStatus_Analyst.Name = "cmbAllCasesStatus_Analyst";
+            this.cmbAllCasesStatus_Analyst.ReadOnly = true;
+            this.cmbAllCasesStatus_Analyst.Width = 150;
+            // 
+            // cmbAllCasesAnalyst_Analyst
+            // 
+            this.cmbAllCasesAnalyst_Analyst.HeaderText = "Analyst";
+            this.cmbAllCasesAnalyst_Analyst.Name = "cmbAllCasesAnalyst_Analyst";
+            this.cmbAllCasesAnalyst_Analyst.ReadOnly = true;
+            this.cmbAllCasesAnalyst_Analyst.Width = 150;
+            // 
+            // cmbAllCasesAssignedTo_Analyst
+            // 
+            this.cmbAllCasesAssignedTo_Analyst.HeaderText = "Assigned To";
+            this.cmbAllCasesAssignedTo_Analyst.Name = "cmbAllCasesAssignedTo_Analyst";
+            this.cmbAllCasesAssignedTo_Analyst.ReadOnly = true;
+            this.cmbAllCasesAssignedTo_Analyst.Width = 150;
+            // 
+            // txtAllCasesReportedAt1_Analyst
+            // 
+            this.txtAllCasesReportedAt1_Analyst.HeaderText = "Reported At";
+            this.txtAllCasesReportedAt1_Analyst.Name = "txtAllCasesReportedAt1_Analyst";
+            this.txtAllCasesReportedAt1_Analyst.ReadOnly = true;
+            this.txtAllCasesReportedAt1_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.txtAllCasesReportedAt1_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.txtAllCasesReportedAt1_Analyst.Width = 160;
+            // 
             // lblCaseStatusHistory_Analyst
             // 
             this.lblCaseStatusHistory_Analyst.AutoSize = true;
@@ -246,15 +276,15 @@
             this.lblCaseStatusHistory_Analyst.TabIndex = 30;
             this.lblCaseStatusHistory_Analyst.Text = "CASE STATUS HISTORY";
             // 
-            // groupBox5
+            // groupBox5_ANALYST
             // 
-            this.groupBox5.Controls.Add(this.dgvAllCasesAffectedSystems_Analyst);
-            this.groupBox5.Controls.Add(this.lblAllCasesAffectedSystems_Analyst);
-            this.groupBox5.Location = new System.Drawing.Point(688, 651);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(559, 204);
-            this.groupBox5.TabIndex = 63;
-            this.groupBox5.TabStop = false;
+            this.groupBox5_ANALYST.Controls.Add(this.dgvAllCasesAffectedSystems_Analyst);
+            this.groupBox5_ANALYST.Controls.Add(this.lblAllCasesAffectedSystems_Analyst);
+            this.groupBox5_ANALYST.Location = new System.Drawing.Point(688, 651);
+            this.groupBox5_ANALYST.Name = "groupBox5_ANALYST";
+            this.groupBox5_ANALYST.Size = new System.Drawing.Size(559, 204);
+            this.groupBox5_ANALYST.TabIndex = 63;
+            this.groupBox5_ANALYST.TabStop = false;
             // 
             // dgvAllCasesAffectedSystems_Analyst
             // 
@@ -266,6 +296,23 @@
             this.dgvAllCasesAffectedSystems_Analyst.Name = "dgvAllCasesAffectedSystems_Analyst";
             this.dgvAllCasesAffectedSystems_Analyst.Size = new System.Drawing.Size(544, 150);
             this.dgvAllCasesAffectedSystems_Analyst.TabIndex = 30;
+            // 
+            // cmbAllCasesTypeOfSystem_Analyst
+            // 
+            this.cmbAllCasesTypeOfSystem_Analyst.FillWeight = 250F;
+            this.cmbAllCasesTypeOfSystem_Analyst.HeaderText = "Type of System";
+            this.cmbAllCasesTypeOfSystem_Analyst.Name = "cmbAllCasesTypeOfSystem_Analyst";
+            this.cmbAllCasesTypeOfSystem_Analyst.ReadOnly = true;
+            this.cmbAllCasesTypeOfSystem_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbAllCasesTypeOfSystem_Analyst.Width = 251;
+            // 
+            // cmbAllCasesImpactLevel_Analyst
+            // 
+            this.cmbAllCasesImpactLevel_Analyst.FillWeight = 250F;
+            this.cmbAllCasesImpactLevel_Analyst.HeaderText = "Impact Level";
+            this.cmbAllCasesImpactLevel_Analyst.Name = "cmbAllCasesImpactLevel_Analyst";
+            this.cmbAllCasesImpactLevel_Analyst.ReadOnly = true;
+            this.cmbAllCasesImpactLevel_Analyst.Width = 250;
             // 
             // lblAllCasesAffectedSystems_Analyst
             // 
@@ -640,54 +687,7 @@
             this.lblUserName_Analyst.TabIndex = 5;
             this.lblUserName_Analyst.Text = "Skibidi Toilet";
             // 
-            // cmbAllCasesStatus_Analyst
-            // 
-            this.cmbAllCasesStatus_Analyst.HeaderText = "Status";
-            this.cmbAllCasesStatus_Analyst.Name = "cmbAllCasesStatus_Analyst";
-            this.cmbAllCasesStatus_Analyst.ReadOnly = true;
-            this.cmbAllCasesStatus_Analyst.Width = 150;
-            // 
-            // cmbAllCasesAnalyst_Analyst
-            // 
-            this.cmbAllCasesAnalyst_Analyst.HeaderText = "Analyst";
-            this.cmbAllCasesAnalyst_Analyst.Name = "cmbAllCasesAnalyst_Analyst";
-            this.cmbAllCasesAnalyst_Analyst.ReadOnly = true;
-            this.cmbAllCasesAnalyst_Analyst.Width = 150;
-            // 
-            // cmbAllCasesAssignedTo_Analyst
-            // 
-            this.cmbAllCasesAssignedTo_Analyst.HeaderText = "Assigned To";
-            this.cmbAllCasesAssignedTo_Analyst.Name = "cmbAllCasesAssignedTo_Analyst";
-            this.cmbAllCasesAssignedTo_Analyst.ReadOnly = true;
-            this.cmbAllCasesAssignedTo_Analyst.Width = 150;
-            // 
-            // txtAllCasesReportedAt1_Analyst
-            // 
-            this.txtAllCasesReportedAt1_Analyst.HeaderText = "Reported At";
-            this.txtAllCasesReportedAt1_Analyst.Name = "txtAllCasesReportedAt1_Analyst";
-            this.txtAllCasesReportedAt1_Analyst.ReadOnly = true;
-            this.txtAllCasesReportedAt1_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.txtAllCasesReportedAt1_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.txtAllCasesReportedAt1_Analyst.Width = 160;
-            // 
-            // cmbAllCasesTypeOfSystem_Analyst
-            // 
-            this.cmbAllCasesTypeOfSystem_Analyst.FillWeight = 250F;
-            this.cmbAllCasesTypeOfSystem_Analyst.HeaderText = "Type of System";
-            this.cmbAllCasesTypeOfSystem_Analyst.Name = "cmbAllCasesTypeOfSystem_Analyst";
-            this.cmbAllCasesTypeOfSystem_Analyst.ReadOnly = true;
-            this.cmbAllCasesTypeOfSystem_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.cmbAllCasesTypeOfSystem_Analyst.Width = 251;
-            // 
-            // cmbAllCasesImpactLevel_Analyst
-            // 
-            this.cmbAllCasesImpactLevel_Analyst.FillWeight = 250F;
-            this.cmbAllCasesImpactLevel_Analyst.HeaderText = "Impact Level";
-            this.cmbAllCasesImpactLevel_Analyst.Name = "cmbAllCasesImpactLevel_Analyst";
-            this.cmbAllCasesImpactLevel_Analyst.ReadOnly = true;
-            this.cmbAllCasesImpactLevel_Analyst.Width = 250;
-            // 
-            // AllCasesView_Analyst
+            // AllCasesStatusWorkflow_Analyst
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -696,15 +696,15 @@
             this.Controls.Add(this.grbPermissions_Analyst);
             this.Controls.Add(this.SEWMA_ANALYST);
             this.Controls.Add(this.grbUserLogo_Analyst);
-            this.Name = "AllCasesView_Analyst";
+            this.Name = "AllCasesStatusWorkflow_Analyst";
             this.Text = "Form1";
             this.SEWMA_ANALYST.ResumeLayout(false);
             this.SEWMA_ANALYST.PerformLayout();
             this.groupBox6_ANALYST.ResumeLayout(false);
             this.groupBox6_ANALYST.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesCaseStatusHistory_Analyst)).EndInit();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
+            this.groupBox5_ANALYST.ResumeLayout(false);
+            this.groupBox5_ANALYST.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesAffectedSystems_Analyst)).EndInit();
             this.groupBox4_ANALYST.ResumeLayout(false);
             this.groupBox4_ANALYST.PerformLayout();
@@ -742,7 +742,7 @@
         private System.Windows.Forms.Button btnAllCasesStatusWorkflow_Analyst;
         private System.Windows.Forms.TextBox txtAllCasesIncidentDesc_Analyst;
         private System.Windows.Forms.DataGridView dgvAllCasesCaseInformation_Analyst;
-        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.GroupBox groupBox5_ANALYST;
         private System.Windows.Forms.DataGridView dgvAllCasesAffectedSystems_Analyst;
         private System.Windows.Forms.Label lblAllCasesAffectedSystems_Analyst;
         private System.Windows.Forms.GroupBox groupBox6_ANALYST;
