@@ -122,6 +122,7 @@
             this.ClientSize = new System.Drawing.Size(634, 611);
             this.Controls.Add(this.grpMenuButton_Analyst);
             this.Name = "MenuButton_Analyst";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MenuButton_Analyst";
             this.grpMenuButton_Analyst.ResumeLayout(false);
             this.grpMenuButton_Analyst.PerformLayout();

@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminProfileSecurity));
             this.PINFORMATIONgb_ANALYST = new System.Windows.Forms.GroupBox();
+            this.lblSecuritySettingsDesc_Administrator = new System.Windows.Forms.Label();
             this.APIgb_ANALYST = new System.Windows.Forms.GroupBox();
             this.dgvProfileAPIAccessTokens_Analyst = new System.Windows.Forms.DataGridView();
             this.btnProfileGenerateAPI_Analyst = new System.Windows.Forms.DataGridViewButtonColumn();
@@ -72,7 +73,6 @@
             this.picUserPhoto_Analyst = new System.Windows.Forms.PictureBox();
             this.lblUserRole_Analyst = new System.Windows.Forms.Label();
             this.lblUserName_Analyst = new System.Windows.Forms.Label();
-            this.lblSecuritySettingsDesc_Administrator = new System.Windows.Forms.Label();
             this.lblUserProfileDesc_Administrator = new System.Windows.Forms.Label();
             this.PINFORMATIONgb_ANALYST.SuspendLayout();
             this.APIgb_ANALYST.SuspendLayout();
@@ -108,6 +108,15 @@
             this.PINFORMATIONgb_ANALYST.TabIndex = 52;
             this.PINFORMATIONgb_ANALYST.TabStop = false;
             this.PINFORMATIONgb_ANALYST.Enter += new System.EventHandler(this.PINFORMATIONgb_ANALYST_Enter);
+            // 
+            // lblSecuritySettingsDesc_Administrator
+            // 
+            this.lblSecuritySettingsDesc_Administrator.AutoSize = true;
+            this.lblSecuritySettingsDesc_Administrator.Location = new System.Drawing.Point(74, 60);
+            this.lblSecuritySettingsDesc_Administrator.Name = "lblSecuritySettingsDesc_Administrator";
+            this.lblSecuritySettingsDesc_Administrator.Size = new System.Drawing.Size(236, 13);
+            this.lblSecuritySettingsDesc_Administrator.TabIndex = 89;
+            this.lblSecuritySettingsDesc_Administrator.Text = "Manage your password and security preferences";
             // 
             // APIgb_ANALYST
             // 
@@ -527,15 +536,6 @@
             this.lblUserName_Analyst.TabIndex = 5;
             this.lblUserName_Analyst.Text = "Skibidi Toilet";
             // 
-            // lblSecuritySettingsDesc_Administrator
-            // 
-            this.lblSecuritySettingsDesc_Administrator.AutoSize = true;
-            this.lblSecuritySettingsDesc_Administrator.Location = new System.Drawing.Point(74, 60);
-            this.lblSecuritySettingsDesc_Administrator.Name = "lblSecuritySettingsDesc_Administrator";
-            this.lblSecuritySettingsDesc_Administrator.Size = new System.Drawing.Size(236, 13);
-            this.lblSecuritySettingsDesc_Administrator.TabIndex = 89;
-            this.lblSecuritySettingsDesc_Administrator.Text = "Manage your password and security preferences";
-            // 
             // lblUserProfileDesc_Administrator
             // 
             this.lblUserProfileDesc_Administrator.AutoSize = true;
@@ -558,6 +558,7 @@
             this.Controls.Add(this.lblProfileUserProfile_Analyst);
             this.Controls.Add(this.USERPROFILEgb_ANALYST);
             this.Name = "AdminProfileSecurity";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.PINFORMATIONgb_ANALYST.ResumeLayout(false);
             this.PINFORMATIONgb_ANALYST.PerformLayout();

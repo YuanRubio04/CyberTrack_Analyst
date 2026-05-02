@@ -565,6 +565,7 @@
             this.Controls.Add(this.groupBox3_Analyst);
             this.Controls.Add(this.grbUserLogo_Analyst);
             this.Name = "AllCases_Analyst";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AllCases_Analyst";
             this.Load += new System.EventHandler(this.AllCases_Analyst_Load);
             this.groupBox5_Analyst.ResumeLayout(false);

@@ -80,6 +80,7 @@
             this.txtAllCasesSLADeadline_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblAllCasesCaseInformation_Analyst = new System.Windows.Forms.Label();
             this.grbLogo_Analyst = new System.Windows.Forms.GroupBox();
+            this.picCyberTrackLogo_Analyst = new System.Windows.Forms.PictureBox();
             this.lblIncidentManagementSystem_Analyst = new System.Windows.Forms.Label();
             this.lblCyberTrack_Analyst = new System.Windows.Forms.Label();
             this.grbPermissions_Analyst = new System.Windows.Forms.GroupBox();
@@ -91,10 +92,9 @@
             this.lblCreate_Analyst = new System.Windows.Forms.Label();
             this.lblPermissions_Analyst = new System.Windows.Forms.Label();
             this.grbUserLogo_Analyst = new System.Windows.Forms.GroupBox();
+            this.picUserPhoto_Analyst = new System.Windows.Forms.PictureBox();
             this.lblUserRole_Analyst = new System.Windows.Forms.Label();
             this.lblUserName_Analyst = new System.Windows.Forms.Label();
-            this.picCyberTrackLogo_Analyst = new System.Windows.Forms.PictureBox();
-            this.picUserPhoto_Analyst = new System.Windows.Forms.PictureBox();
             this.SEWMA_ANALYST.SuspendLayout();
             this.groupBox3_ANALYST.SuspendLayout();
             this.grpSTATUSGB_ANALYST.SuspendLayout();
@@ -108,9 +108,9 @@
             this.groupBox4_ANALYST.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesCaseInformation_Analyst)).BeginInit();
             this.grbLogo_Analyst.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_Analyst)).BeginInit();
             this.grbPermissions_Analyst.SuspendLayout();
             this.grbUserLogo_Analyst.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_Analyst)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_Analyst)).BeginInit();
             this.SuspendLayout();
             // 
@@ -593,6 +593,16 @@
             this.grbLogo_Analyst.TabIndex = 84;
             this.grbLogo_Analyst.TabStop = false;
             // 
+            // picCyberTrackLogo_Analyst
+            // 
+            this.picCyberTrackLogo_Analyst.Image = ((System.Drawing.Image)(resources.GetObject("picCyberTrackLogo_Analyst.Image")));
+            this.picCyberTrackLogo_Analyst.Location = new System.Drawing.Point(6, 19);
+            this.picCyberTrackLogo_Analyst.Name = "picCyberTrackLogo_Analyst";
+            this.picCyberTrackLogo_Analyst.Size = new System.Drawing.Size(44, 42);
+            this.picCyberTrackLogo_Analyst.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picCyberTrackLogo_Analyst.TabIndex = 25;
+            this.picCyberTrackLogo_Analyst.TabStop = false;
+            // 
             // lblIncidentManagementSystem_Analyst
             // 
             this.lblIncidentManagementSystem_Analyst.AutoSize = true;
@@ -708,6 +718,18 @@
             this.grbUserLogo_Analyst.TabIndex = 83;
             this.grbUserLogo_Analyst.TabStop = false;
             // 
+            // picUserPhoto_Analyst
+            // 
+            this.picUserPhoto_Analyst.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picUserPhoto_Analyst.BackgroundImage")));
+            this.picUserPhoto_Analyst.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picUserPhoto_Analyst.ErrorImage = null;
+            this.picUserPhoto_Analyst.InitialImage = null;
+            this.picUserPhoto_Analyst.Location = new System.Drawing.Point(11, 19);
+            this.picUserPhoto_Analyst.Name = "picUserPhoto_Analyst";
+            this.picUserPhoto_Analyst.Size = new System.Drawing.Size(44, 42);
+            this.picUserPhoto_Analyst.TabIndex = 5;
+            this.picUserPhoto_Analyst.TabStop = false;
+            // 
             // lblUserRole_Analyst
             // 
             this.lblUserRole_Analyst.AutoSize = true;
@@ -727,28 +749,6 @@
             this.lblUserName_Analyst.TabIndex = 5;
             this.lblUserName_Analyst.Text = "Skibidi Toilet";
             // 
-            // picCyberTrackLogo_Analyst
-            // 
-            this.picCyberTrackLogo_Analyst.Image = ((System.Drawing.Image)(resources.GetObject("picCyberTrackLogo_Analyst.Image")));
-            this.picCyberTrackLogo_Analyst.Location = new System.Drawing.Point(6, 19);
-            this.picCyberTrackLogo_Analyst.Name = "picCyberTrackLogo_Analyst";
-            this.picCyberTrackLogo_Analyst.Size = new System.Drawing.Size(44, 42);
-            this.picCyberTrackLogo_Analyst.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picCyberTrackLogo_Analyst.TabIndex = 25;
-            this.picCyberTrackLogo_Analyst.TabStop = false;
-            // 
-            // picUserPhoto_Analyst
-            // 
-            this.picUserPhoto_Analyst.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picUserPhoto_Analyst.BackgroundImage")));
-            this.picUserPhoto_Analyst.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picUserPhoto_Analyst.ErrorImage = null;
-            this.picUserPhoto_Analyst.InitialImage = null;
-            this.picUserPhoto_Analyst.Location = new System.Drawing.Point(11, 19);
-            this.picUserPhoto_Analyst.Name = "picUserPhoto_Analyst";
-            this.picUserPhoto_Analyst.Size = new System.Drawing.Size(44, 42);
-            this.picUserPhoto_Analyst.TabIndex = 5;
-            this.picUserPhoto_Analyst.TabStop = false;
-            // 
             // AllCasesEvidence_Analyst
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -759,6 +759,7 @@
             this.Controls.Add(this.SEWMA_ANALYST);
             this.Controls.Add(this.grbUserLogo_Analyst);
             this.Name = "AllCasesEvidence_Analyst";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.SEWMA_ANALYST.ResumeLayout(false);
             this.SEWMA_ANALYST.PerformLayout();
@@ -782,11 +783,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesCaseInformation_Analyst)).EndInit();
             this.grbLogo_Analyst.ResumeLayout(false);
             this.grbLogo_Analyst.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_Analyst)).EndInit();
             this.grbPermissions_Analyst.ResumeLayout(false);
             this.grbPermissions_Analyst.PerformLayout();
             this.grbUserLogo_Analyst.ResumeLayout(false);
             this.grbUserLogo_Analyst.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_Analyst)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_Analyst)).EndInit();
             this.ResumeLayout(false);
 

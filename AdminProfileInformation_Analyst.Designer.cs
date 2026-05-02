@@ -31,7 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminProfileInformation_Analyst));
             this.USERPROFILElbl_ANALYST = new System.Windows.Forms.Label();
             this.PINFORMATIONgb_ANALYST = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.LOGINgroupBox6_ANALYST = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblSecuritySettingsDesc_Administrator = new System.Windows.Forms.Label();
             this.txtProfileLastLogin_Analyst = new System.Windows.Forms.TextBox();
             this.lblProfileLastLogin_Analyst = new System.Windows.Forms.Label();
             this.ASSIGNEDgroupBox5_ANALYST = new System.Windows.Forms.GroupBox();
@@ -96,9 +99,6 @@
             this.txtProfileRole_Analyst = new System.Windows.Forms.TextBox();
             this.txtProfileUserFullName_Analyst = new System.Windows.Forms.TextBox();
             this.lblUserProfileDesc_Administrator = new System.Windows.Forms.Label();
-            this.lblSecuritySettingsDesc_Administrator = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.PINFORMATIONgb_ANALYST.SuspendLayout();
             this.LOGINgroupBox6_ANALYST.SuspendLayout();
             this.ASSIGNEDgroupBox5_ANALYST.SuspendLayout();
@@ -148,6 +148,15 @@
             this.PINFORMATIONgb_ANALYST.TabStop = false;
             this.PINFORMATIONgb_ANALYST.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(74, 60);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(218, 13);
+            this.label2.TabIndex = 94;
+            this.label2.Text = "Your account details and contact information";
+            // 
             // LOGINgroupBox6_ANALYST
             // 
             this.LOGINgroupBox6_ANALYST.Controls.Add(this.label1);
@@ -159,6 +168,24 @@
             this.LOGINgroupBox6_ANALYST.Size = new System.Drawing.Size(266, 142);
             this.LOGINgroupBox6_ANALYST.TabIndex = 53;
             this.LOGINgroupBox6_ANALYST.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(32, 73);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(218, 13);
+            this.label1.TabIndex = 89;
+            this.label1.Text = "Your account details and contact information";
+            // 
+            // lblSecuritySettingsDesc_Administrator
+            // 
+            this.lblSecuritySettingsDesc_Administrator.AutoSize = true;
+            this.lblSecuritySettingsDesc_Administrator.Location = new System.Drawing.Point(24, 65);
+            this.lblSecuritySettingsDesc_Administrator.Name = "lblSecuritySettingsDesc_Administrator";
+            this.lblSecuritySettingsDesc_Administrator.Size = new System.Drawing.Size(218, 13);
+            this.lblSecuritySettingsDesc_Administrator.TabIndex = 88;
+            this.lblSecuritySettingsDesc_Administrator.Text = "Your account details and contact information";
             // 
             // txtProfileLastLogin_Analyst
             // 
@@ -740,33 +767,6 @@
             this.lblUserProfileDesc_Administrator.TabIndex = 93;
             this.lblUserProfileDesc_Administrator.Text = "Manage your account information and preferences";
             // 
-            // lblSecuritySettingsDesc_Administrator
-            // 
-            this.lblSecuritySettingsDesc_Administrator.AutoSize = true;
-            this.lblSecuritySettingsDesc_Administrator.Location = new System.Drawing.Point(24, 65);
-            this.lblSecuritySettingsDesc_Administrator.Name = "lblSecuritySettingsDesc_Administrator";
-            this.lblSecuritySettingsDesc_Administrator.Size = new System.Drawing.Size(218, 13);
-            this.lblSecuritySettingsDesc_Administrator.TabIndex = 88;
-            this.lblSecuritySettingsDesc_Administrator.Text = "Your account details and contact information";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(32, 73);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(218, 13);
-            this.label1.TabIndex = 89;
-            this.label1.Text = "Your account details and contact information";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(74, 60);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(218, 13);
-            this.label2.TabIndex = 94;
-            this.label2.Text = "Your account details and contact information";
-            // 
             // AdminProfileInformation_Analyst
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -780,6 +780,7 @@
             this.Controls.Add(this.grbUserLogo_Analyst);
             this.Controls.Add(this.USERPROFILElbl_ANALYST);
             this.Name = "AdminProfileInformation_Analyst";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.AdminProfileInformation_Analyst_Load);
             this.PINFORMATIONgb_ANALYST.ResumeLayout(false);

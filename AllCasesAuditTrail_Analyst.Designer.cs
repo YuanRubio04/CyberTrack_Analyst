@@ -644,6 +644,7 @@
             this.Controls.Add(this.SEWMA_ANALYST);
             this.Controls.Add(this.grbUserLogo_Analyst);
             this.Name = "AllCasesAuditTrail_Analyst";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.SEWMA_ANALYST.ResumeLayout(false);
             this.SEWMA_ANALYST.PerformLayout();
