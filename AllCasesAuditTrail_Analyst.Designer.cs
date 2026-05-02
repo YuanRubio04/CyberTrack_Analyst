@@ -31,6 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AllCasesAuditTrail_Analyst));
             this.SEWMA_ANALYST = new System.Windows.Forms.GroupBox();
             this.AFFECTEDSYSgb_ANALYST = new System.Windows.Forms.GroupBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.cmbAllCasesTypeOfSystem_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.dataGridViewComboBoxColumn1 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.lblAllCasesAffectedSystems_Analyst = new System.Windows.Forms.Label();
             this.groupBox4_ANALYST = new System.Windows.Forms.GroupBox();
             this.dgvAllCasesCaseInformation_Analyst = new System.Windows.Forms.DataGridView();
@@ -81,11 +84,9 @@
             this.picUserPhoto_Analyst = new System.Windows.Forms.PictureBox();
             this.lblUserRole_Analyst = new System.Windows.Forms.Label();
             this.lblUserName_Analyst = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.cmbAllCasesTypeOfSystem_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.dataGridViewComboBoxColumn1 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.SEWMA_ANALYST.SuspendLayout();
             this.AFFECTEDSYSgb_ANALYST.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox4_ANALYST.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesCaseInformation_Analyst)).BeginInit();
             this.groupBox3_ANALYST.SuspendLayout();
@@ -97,7 +98,6 @@
             this.grbPermissions_Analyst.SuspendLayout();
             this.grbUserLogo_Analyst.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_Analyst)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // SEWMA_ANALYST
@@ -134,6 +134,34 @@
             this.AFFECTEDSYSgb_ANALYST.TabIndex = 64;
             this.AFFECTEDSYSgb_ANALYST.TabStop = false;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.cmbAllCasesTypeOfSystem_Analyst,
+            this.dataGridViewComboBoxColumn1});
+            this.dataGridView1.Location = new System.Drawing.Point(7, 47);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(544, 150);
+            this.dataGridView1.TabIndex = 31;
+            // 
+            // cmbAllCasesTypeOfSystem_Analyst
+            // 
+            this.cmbAllCasesTypeOfSystem_Analyst.FillWeight = 250F;
+            this.cmbAllCasesTypeOfSystem_Analyst.HeaderText = "Type of System";
+            this.cmbAllCasesTypeOfSystem_Analyst.Name = "cmbAllCasesTypeOfSystem_Analyst";
+            this.cmbAllCasesTypeOfSystem_Analyst.ReadOnly = true;
+            this.cmbAllCasesTypeOfSystem_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbAllCasesTypeOfSystem_Analyst.Width = 251;
+            // 
+            // dataGridViewComboBoxColumn1
+            // 
+            this.dataGridViewComboBoxColumn1.FillWeight = 250F;
+            this.dataGridViewComboBoxColumn1.HeaderText = "Impact Level";
+            this.dataGridViewComboBoxColumn1.Name = "dataGridViewComboBoxColumn1";
+            this.dataGridViewComboBoxColumn1.ReadOnly = true;
+            this.dataGridViewComboBoxColumn1.Width = 250;
+            // 
             // lblAllCasesAffectedSystems_Analyst
             // 
             this.lblAllCasesAffectedSystems_Analyst.AutoSize = true;
@@ -163,9 +191,9 @@
             this.txtAllCasesReportedAt_Analyst,
             this.txtAllCasesLastUpdated_Analyst,
             this.txtAllCasesSLADeadline_Analyst});
-            this.dgvAllCasesCaseInformation_Analyst.Location = new System.Drawing.Point(11, 45);
+            this.dgvAllCasesCaseInformation_Analyst.Location = new System.Drawing.Point(11, 35);
             this.dgvAllCasesCaseInformation_Analyst.Name = "dgvAllCasesCaseInformation_Analyst";
-            this.dgvAllCasesCaseInformation_Analyst.Size = new System.Drawing.Size(540, 355);
+            this.dgvAllCasesCaseInformation_Analyst.Size = new System.Drawing.Size(540, 365);
             this.dgvAllCasesCaseInformation_Analyst.TabIndex = 29;
             // 
             // cmbAllCasesReporter_Analyst
@@ -606,34 +634,6 @@
             this.lblUserName_Analyst.TabIndex = 5;
             this.lblUserName_Analyst.Text = "Skibidi Toilet";
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.cmbAllCasesTypeOfSystem_Analyst,
-            this.dataGridViewComboBoxColumn1});
-            this.dataGridView1.Location = new System.Drawing.Point(7, 47);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(544, 150);
-            this.dataGridView1.TabIndex = 31;
-            // 
-            // cmbAllCasesTypeOfSystem_Analyst
-            // 
-            this.cmbAllCasesTypeOfSystem_Analyst.FillWeight = 250F;
-            this.cmbAllCasesTypeOfSystem_Analyst.HeaderText = "Type of System";
-            this.cmbAllCasesTypeOfSystem_Analyst.Name = "cmbAllCasesTypeOfSystem_Analyst";
-            this.cmbAllCasesTypeOfSystem_Analyst.ReadOnly = true;
-            this.cmbAllCasesTypeOfSystem_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.cmbAllCasesTypeOfSystem_Analyst.Width = 251;
-            // 
-            // dataGridViewComboBoxColumn1
-            // 
-            this.dataGridViewComboBoxColumn1.FillWeight = 250F;
-            this.dataGridViewComboBoxColumn1.HeaderText = "Impact Level";
-            this.dataGridViewComboBoxColumn1.Name = "dataGridViewComboBoxColumn1";
-            this.dataGridViewComboBoxColumn1.ReadOnly = true;
-            this.dataGridViewComboBoxColumn1.Width = 250;
-            // 
             // AllCasesAuditTrail_Analyst
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -649,6 +649,7 @@
             this.SEWMA_ANALYST.PerformLayout();
             this.AFFECTEDSYSgb_ANALYST.ResumeLayout(false);
             this.AFFECTEDSYSgb_ANALYST.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox4_ANALYST.ResumeLayout(false);
             this.groupBox4_ANALYST.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesCaseInformation_Analyst)).EndInit();
@@ -667,7 +668,6 @@
             this.grbUserLogo_Analyst.ResumeLayout(false);
             this.grbUserLogo_Analyst.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_Analyst)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }

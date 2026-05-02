@@ -67,6 +67,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AllCasesEvidence2_Analyst.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllCasesEvidence2_Analyst.Designer.cs">
+      <DependentUpon>AllCasesEvidence2_Analyst.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard_Analyst.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,12 +102,6 @@
     </Compile>
     <Compile Include="AllCasesEvidence_Analyst.Designer.cs">
       <DependentUpon>AllCasesEvidence_Analyst.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AllCasesBrowseFiles_Analyst.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AllCasesBrowseFiles_Analyst.Designer.cs">
-      <DependentUpon>AllCasesBrowseFiles_Analyst.cs</DependentUpon>
     </Compile>
     <Compile Include="AllCasesAuditTrail_Analyst.cs">
       <SubType>Form</SubType>
@@ -161,6 +161,9 @@
     <EmbeddedResource Include="AllCasesAuditTrail_Analyst.resx">
       <DependentUpon>AllCasesAuditTrail_Analyst.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AllCasesEvidence2_Analyst.resx">
+      <DependentUpon>AllCasesEvidence2_Analyst.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AllCasesEvidence_Analyst.resx">
       <DependentUpon>AllCasesEvidence_Analyst.cs</DependentUpon>
     </EmbeddedResource>
@@ -175,9 +178,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard_Analyst.resx">
       <DependentUpon>Dashboard_Analyst.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AllCasesBrowseFiles_Analyst.resx">
-      <DependentUpon>AllCasesBrowseFiles_Analyst.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm_Analyst.resx">
       <DependentUpon>MainForm_Analyst.cs</DependentUpon>
