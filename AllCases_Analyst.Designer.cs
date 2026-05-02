@@ -259,7 +259,7 @@
             this.groupBox3_Analyst.Controls.Add(this.picAllCasesCasesManagement_Analyst);
             this.groupBox3_Analyst.Location = new System.Drawing.Point(12, 92);
             this.groupBox3_Analyst.Name = "groupBox3_Analyst";
-            this.groupBox3_Analyst.Size = new System.Drawing.Size(1260, 622);
+            this.groupBox3_Analyst.Size = new System.Drawing.Size(1260, 957);
             this.groupBox3_Analyst.TabIndex = 44;
             this.groupBox3_Analyst.TabStop = false;
             // 
@@ -279,7 +279,7 @@
             this.btnAllCasesAction_Analyst});
             this.dgvAllCasesCasesManagement_Analyst.Location = new System.Drawing.Point(20, 239);
             this.dgvAllCasesCasesManagement_Analyst.Name = "dgvAllCasesCasesManagement_Analyst";
-            this.dgvAllCasesCasesManagement_Analyst.Size = new System.Drawing.Size(1219, 368);
+            this.dgvAllCasesCasesManagement_Analyst.Size = new System.Drawing.Size(1219, 704);
             this.dgvAllCasesCasesManagement_Analyst.TabIndex = 70;
             // 
             // txtAllCasesCaseID_Analyst
@@ -548,7 +548,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1284, 726);
+            this.ClientSize = new System.Drawing.Size(1284, 1061);
             this.Controls.Add(this.grbLogo_Analyst);
             this.Controls.Add(this.grbPermissions_Analyst);
             this.Controls.Add(this.groupBox3_Analyst);
