@@ -45,7 +45,7 @@
             this.lblProfileTwoFactorAuthentication_Analyst = new System.Windows.Forms.Label();
             this.PassREQLlbl_ANALYST = new System.Windows.Forms.Label();
             this.btnProfileChangePassword_Analyst = new System.Windows.Forms.Button();
-            this.lblProfileSecuritySettings = new System.Windows.Forms.Label();
+            this.lblProfileSecuritySettings_Analyst = new System.Windows.Forms.Label();
             this.picProfileSecuritySettingsPhoto_Analyst = new System.Windows.Forms.PictureBox();
             this.grbProfilePassrRequirement_Analyst = new System.Windows.Forms.GroupBox();
             this.lblProfileUserProfile_Analyst = new System.Windows.Forms.Label();
@@ -99,7 +99,7 @@
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.TWOFACTORAUTHE_ANALYST);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.PassREQLlbl_ANALYST);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.btnProfileChangePassword_Analyst);
-            this.PINFORMATIONgb_ANALYST.Controls.Add(this.lblProfileSecuritySettings);
+            this.PINFORMATIONgb_ANALYST.Controls.Add(this.lblProfileSecuritySettings_Analyst);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.picProfileSecuritySettingsPhoto_Analyst);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.grbProfilePassrRequirement_Analyst);
             this.PINFORMATIONgb_ANALYST.Location = new System.Drawing.Point(436, 153);
@@ -250,15 +250,15 @@
             this.btnProfileChangePassword_Analyst.Text = "CHANGE PASSWORD";
             this.btnProfileChangePassword_Analyst.UseVisualStyleBackColor = true;
             // 
-            // lblProfileSecuritySettings
+            // lblProfileSecuritySettings_Analyst
             // 
-            this.lblProfileSecuritySettings.AutoSize = true;
-            this.lblProfileSecuritySettings.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProfileSecuritySettings.Location = new System.Drawing.Point(74, 43);
-            this.lblProfileSecuritySettings.Name = "lblProfileSecuritySettings";
-            this.lblProfileSecuritySettings.Size = new System.Drawing.Size(177, 18);
-            this.lblProfileSecuritySettings.TabIndex = 47;
-            this.lblProfileSecuritySettings.Text = "SECURITY SETTINGS";
+            this.lblProfileSecuritySettings_Analyst.AutoSize = true;
+            this.lblProfileSecuritySettings_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblProfileSecuritySettings_Analyst.Location = new System.Drawing.Point(74, 43);
+            this.lblProfileSecuritySettings_Analyst.Name = "lblProfileSecuritySettings_Analyst";
+            this.lblProfileSecuritySettings_Analyst.Size = new System.Drawing.Size(177, 18);
+            this.lblProfileSecuritySettings_Analyst.TabIndex = 47;
+            this.lblProfileSecuritySettings_Analyst.Text = "SECURITY SETTINGS";
             // 
             // picProfileSecuritySettingsPhoto_Analyst
             // 
@@ -587,7 +587,7 @@
         #endregion
 
         private System.Windows.Forms.GroupBox PINFORMATIONgb_ANALYST;
-        private System.Windows.Forms.Label lblProfileSecuritySettings;
+        private System.Windows.Forms.Label lblProfileSecuritySettings_Analyst;
         private System.Windows.Forms.PictureBox picProfileSecuritySettingsPhoto_Analyst;
         private System.Windows.Forms.Label lblProfileUserProfile_Analyst;
         private System.Windows.Forms.GroupBox USERPROFILEgb_ANALYST;
