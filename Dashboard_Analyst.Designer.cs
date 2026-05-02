@@ -49,7 +49,21 @@
             this.btnDashboardViewAuditLogs_Analyst = new System.Windows.Forms.Button();
             this.SecurityAnalystGB_Analyst = new System.Windows.Forms.GroupBox();
             this.dgvDashboard2_Analyst = new System.Windows.Forms.DataGridView();
+            this.txtDashboardCaseID2_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtDashboardTitle2_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cmbDashboardSeverity2_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.cmbDashboardStatus2_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.txtDashboardSLASTATUS2_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.txtDashboardReportedOn2_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnDashboardAction2_Analyst = new System.Windows.Forms.DataGridViewButtonColumn();
             this.dgvDashboard1_Analyst = new System.Windows.Forms.DataGridView();
+            this.txtDashboardCaseID_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtDashboardTitle_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cmbDashboardSeverity1_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.cmbDashboardStatus_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.cmbDashboardSLASTATUS_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.txtDashboardReportedON_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnDashboardAction_Analyst = new System.Windows.Forms.DataGridViewButtonColumn();
             this.grbLogo_Analyst = new System.Windows.Forms.GroupBox();
             this.picCyberTrackLogo_Analyst = new System.Windows.Forms.PictureBox();
             this.lblIncidentManagementSystem_Analyst = new System.Windows.Forms.Label();
@@ -66,20 +80,6 @@
             this.picUserPhoto_Analyst = new System.Windows.Forms.PictureBox();
             this.lblUserRole_Analyst = new System.Windows.Forms.Label();
             this.lblUserName_Analyst = new System.Windows.Forms.Label();
-            this.txtDashboardCaseID_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtDashboardTitle_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cmbDashboardSeverity1_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.cmbDashboardStatus_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.cmbDashboardSLASTATUS_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.txtDashboardReportedON_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnDashboardAction_Analyst = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.txtDashboardCaseID2_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtDashboardTitle2_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cmbDashboardSeverity2_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.cmbDashboardStatus2_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.txtDashboardSLASTATUS2_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.txtDashboardReportedOn2_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnDashboardAction2_Analyst = new System.Windows.Forms.DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.picDashboardSAD_Analyst)).BeginInit();
             this.groupBox3_Analyst.SuspendLayout();
             this.groupBox4_Analyst.SuspendLayout();
@@ -97,6 +97,10 @@
             // 
             // picDashboardSAD_Analyst
             // 
+            this.picDashboardSAD_Analyst.BackgroundImage = global::CyberTrack_Analyst.Properties.Resources.CyberTrack_Icon;
+            this.picDashboardSAD_Analyst.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picDashboardSAD_Analyst.ErrorImage = null;
+            this.picDashboardSAD_Analyst.InitialImage = null;
             this.picDashboardSAD_Analyst.Location = new System.Drawing.Point(8, 19);
             this.picDashboardSAD_Analyst.Name = "picDashboardSAD_Analyst";
             this.picDashboardSAD_Analyst.Size = new System.Drawing.Size(44, 42);
@@ -297,6 +301,63 @@
             this.dgvDashboard2_Analyst.Size = new System.Drawing.Size(1201, 312);
             this.dgvDashboard2_Analyst.TabIndex = 72;
             // 
+            // txtDashboardCaseID2_Analyst
+            // 
+            this.txtDashboardCaseID2_Analyst.HeaderText = "Case ID";
+            this.txtDashboardCaseID2_Analyst.Name = "txtDashboardCaseID2_Analyst";
+            this.txtDashboardCaseID2_Analyst.ReadOnly = true;
+            this.txtDashboardCaseID2_Analyst.Width = 200;
+            // 
+            // txtDashboardTitle2_Analyst
+            // 
+            this.txtDashboardTitle2_Analyst.HeaderText = "TITLE";
+            this.txtDashboardTitle2_Analyst.Name = "txtDashboardTitle2_Analyst";
+            this.txtDashboardTitle2_Analyst.ReadOnly = true;
+            this.txtDashboardTitle2_Analyst.Width = 200;
+            // 
+            // cmbDashboardSeverity2_Analyst
+            // 
+            this.cmbDashboardSeverity2_Analyst.HeaderText = "SEVERITY";
+            this.cmbDashboardSeverity2_Analyst.Name = "cmbDashboardSeverity2_Analyst";
+            this.cmbDashboardSeverity2_Analyst.ReadOnly = true;
+            this.cmbDashboardSeverity2_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbDashboardSeverity2_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.cmbDashboardSeverity2_Analyst.Width = 150;
+            // 
+            // cmbDashboardStatus2_Analyst
+            // 
+            this.cmbDashboardStatus2_Analyst.HeaderText = "STATUS";
+            this.cmbDashboardStatus2_Analyst.Name = "cmbDashboardStatus2_Analyst";
+            this.cmbDashboardStatus2_Analyst.ReadOnly = true;
+            this.cmbDashboardStatus2_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbDashboardStatus2_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.cmbDashboardStatus2_Analyst.Width = 140;
+            // 
+            // txtDashboardSLASTATUS2_Analyst
+            // 
+            this.txtDashboardSLASTATUS2_Analyst.HeaderText = "SLA STATUS";
+            this.txtDashboardSLASTATUS2_Analyst.Name = "txtDashboardSLASTATUS2_Analyst";
+            this.txtDashboardSLASTATUS2_Analyst.ReadOnly = true;
+            this.txtDashboardSLASTATUS2_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.txtDashboardSLASTATUS2_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.txtDashboardSLASTATUS2_Analyst.Width = 150;
+            // 
+            // txtDashboardReportedOn2_Analyst
+            // 
+            this.txtDashboardReportedOn2_Analyst.HeaderText = "REPORTED ON";
+            this.txtDashboardReportedOn2_Analyst.Name = "txtDashboardReportedOn2_Analyst";
+            this.txtDashboardReportedOn2_Analyst.ReadOnly = true;
+            this.txtDashboardReportedOn2_Analyst.Width = 200;
+            // 
+            // btnDashboardAction2_Analyst
+            // 
+            this.btnDashboardAction2_Analyst.HeaderText = "ACTION";
+            this.btnDashboardAction2_Analyst.Name = "btnDashboardAction2_Analyst";
+            this.btnDashboardAction2_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.btnDashboardAction2_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.btnDashboardAction2_Analyst.Text = "MANAGE";
+            this.btnDashboardAction2_Analyst.Width = 150;
+            // 
             // dgvDashboard1_Analyst
             // 
             this.dgvDashboard1_Analyst.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -312,6 +373,63 @@
             this.dgvDashboard1_Analyst.Name = "dgvDashboard1_Analyst";
             this.dgvDashboard1_Analyst.Size = new System.Drawing.Size(1201, 312);
             this.dgvDashboard1_Analyst.TabIndex = 71;
+            // 
+            // txtDashboardCaseID_Analyst
+            // 
+            this.txtDashboardCaseID_Analyst.HeaderText = "CASE ID";
+            this.txtDashboardCaseID_Analyst.Name = "txtDashboardCaseID_Analyst";
+            this.txtDashboardCaseID_Analyst.ReadOnly = true;
+            this.txtDashboardCaseID_Analyst.Width = 200;
+            // 
+            // txtDashboardTitle_Analyst
+            // 
+            this.txtDashboardTitle_Analyst.HeaderText = "TITLE";
+            this.txtDashboardTitle_Analyst.Name = "txtDashboardTitle_Analyst";
+            this.txtDashboardTitle_Analyst.ReadOnly = true;
+            this.txtDashboardTitle_Analyst.Width = 200;
+            // 
+            // cmbDashboardSeverity1_Analyst
+            // 
+            this.cmbDashboardSeverity1_Analyst.HeaderText = "SEVERITY";
+            this.cmbDashboardSeverity1_Analyst.Name = "cmbDashboardSeverity1_Analyst";
+            this.cmbDashboardSeverity1_Analyst.ReadOnly = true;
+            this.cmbDashboardSeverity1_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbDashboardSeverity1_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.cmbDashboardSeverity1_Analyst.Width = 150;
+            // 
+            // cmbDashboardStatus_Analyst
+            // 
+            this.cmbDashboardStatus_Analyst.HeaderText = "STATUS";
+            this.cmbDashboardStatus_Analyst.Name = "cmbDashboardStatus_Analyst";
+            this.cmbDashboardStatus_Analyst.ReadOnly = true;
+            this.cmbDashboardStatus_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbDashboardStatus_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.cmbDashboardStatus_Analyst.Width = 140;
+            // 
+            // cmbDashboardSLASTATUS_Analyst
+            // 
+            this.cmbDashboardSLASTATUS_Analyst.HeaderText = "SLA STATUS";
+            this.cmbDashboardSLASTATUS_Analyst.Name = "cmbDashboardSLASTATUS_Analyst";
+            this.cmbDashboardSLASTATUS_Analyst.ReadOnly = true;
+            this.cmbDashboardSLASTATUS_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbDashboardSLASTATUS_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.cmbDashboardSLASTATUS_Analyst.Width = 150;
+            // 
+            // txtDashboardReportedON_Analyst
+            // 
+            this.txtDashboardReportedON_Analyst.HeaderText = "REPORTED ON";
+            this.txtDashboardReportedON_Analyst.Name = "txtDashboardReportedON_Analyst";
+            this.txtDashboardReportedON_Analyst.ReadOnly = true;
+            this.txtDashboardReportedON_Analyst.Width = 200;
+            // 
+            // btnDashboardAction_Analyst
+            // 
+            this.btnDashboardAction_Analyst.HeaderText = "ACTION";
+            this.btnDashboardAction_Analyst.Name = "btnDashboardAction_Analyst";
+            this.btnDashboardAction_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.btnDashboardAction_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.btnDashboardAction_Analyst.Text = "MANAGE";
+            this.btnDashboardAction_Analyst.Width = 150;
             // 
             // grbLogo_Analyst
             // 
@@ -479,120 +597,6 @@
             this.lblUserName_Analyst.Size = new System.Drawing.Size(99, 16);
             this.lblUserName_Analyst.TabIndex = 5;
             this.lblUserName_Analyst.Text = "Skibidi Toilet";
-            // 
-            // txtDashboardCaseID_Analyst
-            // 
-            this.txtDashboardCaseID_Analyst.HeaderText = "CASE ID";
-            this.txtDashboardCaseID_Analyst.Name = "txtDashboardCaseID_Analyst";
-            this.txtDashboardCaseID_Analyst.ReadOnly = true;
-            this.txtDashboardCaseID_Analyst.Width = 200;
-            // 
-            // txtDashboardTitle_Analyst
-            // 
-            this.txtDashboardTitle_Analyst.HeaderText = "TITLE";
-            this.txtDashboardTitle_Analyst.Name = "txtDashboardTitle_Analyst";
-            this.txtDashboardTitle_Analyst.ReadOnly = true;
-            this.txtDashboardTitle_Analyst.Width = 200;
-            // 
-            // cmbDashboardSeverity1_Analyst
-            // 
-            this.cmbDashboardSeverity1_Analyst.HeaderText = "SEVERITY";
-            this.cmbDashboardSeverity1_Analyst.Name = "cmbDashboardSeverity1_Analyst";
-            this.cmbDashboardSeverity1_Analyst.ReadOnly = true;
-            this.cmbDashboardSeverity1_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.cmbDashboardSeverity1_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.cmbDashboardSeverity1_Analyst.Width = 150;
-            // 
-            // cmbDashboardStatus_Analyst
-            // 
-            this.cmbDashboardStatus_Analyst.HeaderText = "STATUS";
-            this.cmbDashboardStatus_Analyst.Name = "cmbDashboardStatus_Analyst";
-            this.cmbDashboardStatus_Analyst.ReadOnly = true;
-            this.cmbDashboardStatus_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.cmbDashboardStatus_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.cmbDashboardStatus_Analyst.Width = 140;
-            // 
-            // cmbDashboardSLASTATUS_Analyst
-            // 
-            this.cmbDashboardSLASTATUS_Analyst.HeaderText = "SLA STATUS";
-            this.cmbDashboardSLASTATUS_Analyst.Name = "cmbDashboardSLASTATUS_Analyst";
-            this.cmbDashboardSLASTATUS_Analyst.ReadOnly = true;
-            this.cmbDashboardSLASTATUS_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.cmbDashboardSLASTATUS_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.cmbDashboardSLASTATUS_Analyst.Width = 150;
-            // 
-            // txtDashboardReportedON_Analyst
-            // 
-            this.txtDashboardReportedON_Analyst.HeaderText = "REPORTED ON";
-            this.txtDashboardReportedON_Analyst.Name = "txtDashboardReportedON_Analyst";
-            this.txtDashboardReportedON_Analyst.ReadOnly = true;
-            this.txtDashboardReportedON_Analyst.Width = 200;
-            // 
-            // btnDashboardAction_Analyst
-            // 
-            this.btnDashboardAction_Analyst.HeaderText = "ACTION";
-            this.btnDashboardAction_Analyst.Name = "btnDashboardAction_Analyst";
-            this.btnDashboardAction_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.btnDashboardAction_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.btnDashboardAction_Analyst.Text = "MANAGE";
-            this.btnDashboardAction_Analyst.Width = 150;
-            // 
-            // txtDashboardCaseID2_Analyst
-            // 
-            this.txtDashboardCaseID2_Analyst.HeaderText = "Case ID";
-            this.txtDashboardCaseID2_Analyst.Name = "txtDashboardCaseID2_Analyst";
-            this.txtDashboardCaseID2_Analyst.ReadOnly = true;
-            this.txtDashboardCaseID2_Analyst.Width = 200;
-            // 
-            // txtDashboardTitle2_Analyst
-            // 
-            this.txtDashboardTitle2_Analyst.HeaderText = "TITLE";
-            this.txtDashboardTitle2_Analyst.Name = "txtDashboardTitle2_Analyst";
-            this.txtDashboardTitle2_Analyst.ReadOnly = true;
-            this.txtDashboardTitle2_Analyst.Width = 200;
-            // 
-            // cmbDashboardSeverity2_Analyst
-            // 
-            this.cmbDashboardSeverity2_Analyst.HeaderText = "SEVERITY";
-            this.cmbDashboardSeverity2_Analyst.Name = "cmbDashboardSeverity2_Analyst";
-            this.cmbDashboardSeverity2_Analyst.ReadOnly = true;
-            this.cmbDashboardSeverity2_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.cmbDashboardSeverity2_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.cmbDashboardSeverity2_Analyst.Width = 150;
-            // 
-            // cmbDashboardStatus2_Analyst
-            // 
-            this.cmbDashboardStatus2_Analyst.HeaderText = "STATUS";
-            this.cmbDashboardStatus2_Analyst.Name = "cmbDashboardStatus2_Analyst";
-            this.cmbDashboardStatus2_Analyst.ReadOnly = true;
-            this.cmbDashboardStatus2_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.cmbDashboardStatus2_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.cmbDashboardStatus2_Analyst.Width = 140;
-            // 
-            // txtDashboardSLASTATUS2_Analyst
-            // 
-            this.txtDashboardSLASTATUS2_Analyst.HeaderText = "SLA STATUS";
-            this.txtDashboardSLASTATUS2_Analyst.Name = "txtDashboardSLASTATUS2_Analyst";
-            this.txtDashboardSLASTATUS2_Analyst.ReadOnly = true;
-            this.txtDashboardSLASTATUS2_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.txtDashboardSLASTATUS2_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.txtDashboardSLASTATUS2_Analyst.Width = 150;
-            // 
-            // txtDashboardReportedOn2_Analyst
-            // 
-            this.txtDashboardReportedOn2_Analyst.HeaderText = "REPORTED ON";
-            this.txtDashboardReportedOn2_Analyst.Name = "txtDashboardReportedOn2_Analyst";
-            this.txtDashboardReportedOn2_Analyst.ReadOnly = true;
-            this.txtDashboardReportedOn2_Analyst.Width = 200;
-            // 
-            // btnDashboardAction2_Analyst
-            // 
-            this.btnDashboardAction2_Analyst.HeaderText = "ACTION";
-            this.btnDashboardAction2_Analyst.Name = "btnDashboardAction2_Analyst";
-            this.btnDashboardAction2_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.btnDashboardAction2_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.btnDashboardAction2_Analyst.Text = "MANAGE";
-            this.btnDashboardAction2_Analyst.Width = 150;
             // 
             // Dashboard_Analyst
             // 

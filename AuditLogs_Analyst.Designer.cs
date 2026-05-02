@@ -53,6 +53,13 @@
             this.lblAuditLogsFilters_Analyst = new System.Windows.Forms.Label();
             this.lblAuditLogsCompleteAuditTrail_Analyst = new System.Windows.Forms.Label();
             this.dgvAuditLogs1_Analyst = new System.Windows.Forms.DataGridView();
+            this.txtAuditLogsTimestamp_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cmbAuditLogsAction_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.cmbAuditLogsUser_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.cmbAuditLogsResourceType_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.txtAuditLogsResourceID_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtAuditLogsIPAddress_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnAuditLogsChanges_Analyst = new System.Windows.Forms.DataGridViewButtonColumn();
             this.AuditLogsGB_Analyst = new System.Windows.Forms.GroupBox();
             this.grbLogo_Analyst = new System.Windows.Forms.GroupBox();
             this.picCyberTrackLogo_Analyst = new System.Windows.Forms.PictureBox();
@@ -70,13 +77,6 @@
             this.picUserPhoto_Analyst = new System.Windows.Forms.PictureBox();
             this.lblUserRole_Analyst = new System.Windows.Forms.Label();
             this.lblUserName_Analyst = new System.Windows.Forms.Label();
-            this.txtAuditLogsTimestamp_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cmbAuditLogsAction_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.cmbAuditLogsUser_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.cmbAuditLogsResourceType_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.txtAuditLogsResourceID_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtAuditLogsIPAddress_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnAuditLogsChanges_Analyst = new System.Windows.Forms.DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox5_Analyst.SuspendLayout();
             this.groupBox4_Analyst.SuspendLayout();
@@ -200,6 +200,10 @@
             // 
             // picAuditLogs_Analyst
             // 
+            this.picAuditLogs_Analyst.BackgroundImage = global::CyberTrack_Analyst.Properties.Resources.CyberTrack_Icon;
+            this.picAuditLogs_Analyst.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picAuditLogs_Analyst.ErrorImage = null;
+            this.picAuditLogs_Analyst.InitialImage = null;
             this.picAuditLogs_Analyst.Location = new System.Drawing.Point(31, 124);
             this.picAuditLogs_Analyst.Name = "picAuditLogs_Analyst";
             this.picAuditLogs_Analyst.Size = new System.Drawing.Size(44, 42);
@@ -340,6 +344,60 @@
             this.dgvAuditLogs1_Analyst.Name = "dgvAuditLogs1_Analyst";
             this.dgvAuditLogs1_Analyst.Size = new System.Drawing.Size(1218, 394);
             this.dgvAuditLogs1_Analyst.TabIndex = 68;
+            // 
+            // txtAuditLogsTimestamp_Analyst
+            // 
+            this.txtAuditLogsTimestamp_Analyst.HeaderText = "Timestamp";
+            this.txtAuditLogsTimestamp_Analyst.Name = "txtAuditLogsTimestamp_Analyst";
+            this.txtAuditLogsTimestamp_Analyst.ReadOnly = true;
+            this.txtAuditLogsTimestamp_Analyst.Width = 200;
+            // 
+            // cmbAuditLogsAction_Analyst
+            // 
+            this.cmbAuditLogsAction_Analyst.HeaderText = "Action";
+            this.cmbAuditLogsAction_Analyst.Name = "cmbAuditLogsAction_Analyst";
+            this.cmbAuditLogsAction_Analyst.ReadOnly = true;
+            this.cmbAuditLogsAction_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbAuditLogsAction_Analyst.Width = 150;
+            // 
+            // cmbAuditLogsUser_Analyst
+            // 
+            this.cmbAuditLogsUser_Analyst.HeaderText = "User";
+            this.cmbAuditLogsUser_Analyst.Name = "cmbAuditLogsUser_Analyst";
+            this.cmbAuditLogsUser_Analyst.ReadOnly = true;
+            this.cmbAuditLogsUser_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbAuditLogsUser_Analyst.Width = 200;
+            // 
+            // cmbAuditLogsResourceType_Analyst
+            // 
+            this.cmbAuditLogsResourceType_Analyst.HeaderText = "Resource Type";
+            this.cmbAuditLogsResourceType_Analyst.Name = "cmbAuditLogsResourceType_Analyst";
+            this.cmbAuditLogsResourceType_Analyst.ReadOnly = true;
+            this.cmbAuditLogsResourceType_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // txtAuditLogsResourceID_Analyst
+            // 
+            this.txtAuditLogsResourceID_Analyst.HeaderText = "ResourceID";
+            this.txtAuditLogsResourceID_Analyst.Name = "txtAuditLogsResourceID_Analyst";
+            this.txtAuditLogsResourceID_Analyst.ReadOnly = true;
+            this.txtAuditLogsResourceID_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.txtAuditLogsResourceID_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.txtAuditLogsResourceID_Analyst.Width = 200;
+            // 
+            // txtAuditLogsIPAddress_Analyst
+            // 
+            this.txtAuditLogsIPAddress_Analyst.HeaderText = "IP Address";
+            this.txtAuditLogsIPAddress_Analyst.Name = "txtAuditLogsIPAddress_Analyst";
+            this.txtAuditLogsIPAddress_Analyst.ReadOnly = true;
+            this.txtAuditLogsIPAddress_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.txtAuditLogsIPAddress_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.txtAuditLogsIPAddress_Analyst.Width = 200;
+            // 
+            // btnAuditLogsChanges_Analyst
+            // 
+            this.btnAuditLogsChanges_Analyst.HeaderText = "Changes";
+            this.btnAuditLogsChanges_Analyst.Name = "btnAuditLogsChanges_Analyst";
+            this.btnAuditLogsChanges_Analyst.Width = 130;
             // 
             // AuditLogsGB_Analyst
             // 
@@ -516,60 +574,6 @@
             this.lblUserName_Analyst.Size = new System.Drawing.Size(99, 16);
             this.lblUserName_Analyst.TabIndex = 5;
             this.lblUserName_Analyst.Text = "Skibidi Toilet";
-            // 
-            // txtAuditLogsTimestamp_Analyst
-            // 
-            this.txtAuditLogsTimestamp_Analyst.HeaderText = "Timestamp";
-            this.txtAuditLogsTimestamp_Analyst.Name = "txtAuditLogsTimestamp_Analyst";
-            this.txtAuditLogsTimestamp_Analyst.ReadOnly = true;
-            this.txtAuditLogsTimestamp_Analyst.Width = 200;
-            // 
-            // cmbAuditLogsAction_Analyst
-            // 
-            this.cmbAuditLogsAction_Analyst.HeaderText = "Action";
-            this.cmbAuditLogsAction_Analyst.Name = "cmbAuditLogsAction_Analyst";
-            this.cmbAuditLogsAction_Analyst.ReadOnly = true;
-            this.cmbAuditLogsAction_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.cmbAuditLogsAction_Analyst.Width = 150;
-            // 
-            // cmbAuditLogsUser_Analyst
-            // 
-            this.cmbAuditLogsUser_Analyst.HeaderText = "User";
-            this.cmbAuditLogsUser_Analyst.Name = "cmbAuditLogsUser_Analyst";
-            this.cmbAuditLogsUser_Analyst.ReadOnly = true;
-            this.cmbAuditLogsUser_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.cmbAuditLogsUser_Analyst.Width = 200;
-            // 
-            // cmbAuditLogsResourceType_Analyst
-            // 
-            this.cmbAuditLogsResourceType_Analyst.HeaderText = "Resource Type";
-            this.cmbAuditLogsResourceType_Analyst.Name = "cmbAuditLogsResourceType_Analyst";
-            this.cmbAuditLogsResourceType_Analyst.ReadOnly = true;
-            this.cmbAuditLogsResourceType_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // txtAuditLogsResourceID_Analyst
-            // 
-            this.txtAuditLogsResourceID_Analyst.HeaderText = "ResourceID";
-            this.txtAuditLogsResourceID_Analyst.Name = "txtAuditLogsResourceID_Analyst";
-            this.txtAuditLogsResourceID_Analyst.ReadOnly = true;
-            this.txtAuditLogsResourceID_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.txtAuditLogsResourceID_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.txtAuditLogsResourceID_Analyst.Width = 200;
-            // 
-            // txtAuditLogsIPAddress_Analyst
-            // 
-            this.txtAuditLogsIPAddress_Analyst.HeaderText = "IP Address";
-            this.txtAuditLogsIPAddress_Analyst.Name = "txtAuditLogsIPAddress_Analyst";
-            this.txtAuditLogsIPAddress_Analyst.ReadOnly = true;
-            this.txtAuditLogsIPAddress_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.txtAuditLogsIPAddress_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.txtAuditLogsIPAddress_Analyst.Width = 200;
-            // 
-            // btnAuditLogsChanges_Analyst
-            // 
-            this.btnAuditLogsChanges_Analyst.HeaderText = "Changes";
-            this.btnAuditLogsChanges_Analyst.Name = "btnAuditLogsChanges_Analyst";
-            this.btnAuditLogsChanges_Analyst.Width = 130;
             // 
             // AuditLogs_Analyst
             // 

@@ -46,6 +46,16 @@
             this.picAllCasesCasesManagement_Analyst = new System.Windows.Forms.PictureBox();
             this.groupBox3_Analyst = new System.Windows.Forms.GroupBox();
             this.dgvAllCasesCasesManagement_Analyst = new System.Windows.Forms.DataGridView();
+            this.txtAllCasesCaseID_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtAllCasesTitle_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cmbAllCasesSeverity2_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.cmbAllCasesStatus2_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.cmbAllCasesCategory2_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.cmb_AllCasesReporter_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.cmbAllCasesAssignedTo_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.cmbAllCasesSLAStatus_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.txtAllCasesReported_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnAllCasesAction_Analyst = new System.Windows.Forms.DataGridViewButtonColumn();
             this.lblAllCasesCasesManagement_Analyst = new System.Windows.Forms.Label();
             this.grbLogo_Analyst = new System.Windows.Forms.GroupBox();
             this.picCyberTrackLogo_Analyst = new System.Windows.Forms.PictureBox();
@@ -63,16 +73,6 @@
             this.picUserPhoto_Analyst = new System.Windows.Forms.PictureBox();
             this.lblUserRole_Analyst = new System.Windows.Forms.Label();
             this.lblUserName_Analyst = new System.Windows.Forms.Label();
-            this.txtAllCasesCaseID_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtAllCasesTitle_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cmbAllCasesSeverity2_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.cmbAllCasesStatus2_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.cmbAllCasesCategory2_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.cmb_AllCasesReporter_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.cmbAllCasesAssignedTo_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.cmbAllCasesSLAStatus_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.txtAllCasesReported_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnAllCasesAction_Analyst = new System.Windows.Forms.DataGridViewButtonColumn();
             this.groupBox5_Analyst.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAllCasesFilters_Analyst)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picAllCasesCasesManagement_Analyst)).BeginInit();
@@ -239,6 +239,7 @@
             // 
             // picAllCasesCasesManagement_Analyst
             // 
+            this.picAllCasesCasesManagement_Analyst.BackgroundImage = global::CyberTrack_Analyst.Properties.Resources.CyberTrack_Icon;
             this.picAllCasesCasesManagement_Analyst.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picAllCasesCasesManagement_Analyst.ErrorImage = null;
             this.picAllCasesCasesManagement_Analyst.InitialImage = null;
@@ -280,6 +281,91 @@
             this.dgvAllCasesCasesManagement_Analyst.Name = "dgvAllCasesCasesManagement_Analyst";
             this.dgvAllCasesCasesManagement_Analyst.Size = new System.Drawing.Size(1219, 368);
             this.dgvAllCasesCasesManagement_Analyst.TabIndex = 70;
+            // 
+            // txtAllCasesCaseID_Analyst
+            // 
+            this.txtAllCasesCaseID_Analyst.HeaderText = "CASE ID";
+            this.txtAllCasesCaseID_Analyst.Name = "txtAllCasesCaseID_Analyst";
+            this.txtAllCasesCaseID_Analyst.ReadOnly = true;
+            this.txtAllCasesCaseID_Analyst.Width = 118;
+            // 
+            // txtAllCasesTitle_Analyst
+            // 
+            this.txtAllCasesTitle_Analyst.HeaderText = "TITLE";
+            this.txtAllCasesTitle_Analyst.Name = "txtAllCasesTitle_Analyst";
+            this.txtAllCasesTitle_Analyst.ReadOnly = true;
+            this.txtAllCasesTitle_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.txtAllCasesTitle_Analyst.Width = 117;
+            // 
+            // cmbAllCasesSeverity2_Analyst
+            // 
+            this.cmbAllCasesSeverity2_Analyst.HeaderText = "SEVERITY";
+            this.cmbAllCasesSeverity2_Analyst.Name = "cmbAllCasesSeverity2_Analyst";
+            this.cmbAllCasesSeverity2_Analyst.ReadOnly = true;
+            this.cmbAllCasesSeverity2_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbAllCasesSeverity2_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.cmbAllCasesSeverity2_Analyst.Width = 118;
+            // 
+            // cmbAllCasesStatus2_Analyst
+            // 
+            this.cmbAllCasesStatus2_Analyst.HeaderText = "STATUS";
+            this.cmbAllCasesStatus2_Analyst.Name = "cmbAllCasesStatus2_Analyst";
+            this.cmbAllCasesStatus2_Analyst.ReadOnly = true;
+            this.cmbAllCasesStatus2_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbAllCasesStatus2_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.cmbAllCasesStatus2_Analyst.Width = 117;
+            // 
+            // cmbAllCasesCategory2_Analyst
+            // 
+            this.cmbAllCasesCategory2_Analyst.HeaderText = "CATEGORY";
+            this.cmbAllCasesCategory2_Analyst.Name = "cmbAllCasesCategory2_Analyst";
+            this.cmbAllCasesCategory2_Analyst.ReadOnly = true;
+            this.cmbAllCasesCategory2_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbAllCasesCategory2_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.cmbAllCasesCategory2_Analyst.Width = 118;
+            // 
+            // cmb_AllCasesReporter_Analyst
+            // 
+            this.cmb_AllCasesReporter_Analyst.HeaderText = "REPORTER";
+            this.cmb_AllCasesReporter_Analyst.Name = "cmb_AllCasesReporter_Analyst";
+            this.cmb_AllCasesReporter_Analyst.ReadOnly = true;
+            this.cmb_AllCasesReporter_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmb_AllCasesReporter_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.cmb_AllCasesReporter_Analyst.Width = 118;
+            // 
+            // cmbAllCasesAssignedTo_Analyst
+            // 
+            this.cmbAllCasesAssignedTo_Analyst.HeaderText = "ASSIGNED TO";
+            this.cmbAllCasesAssignedTo_Analyst.Name = "cmbAllCasesAssignedTo_Analyst";
+            this.cmbAllCasesAssignedTo_Analyst.ReadOnly = true;
+            this.cmbAllCasesAssignedTo_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbAllCasesAssignedTo_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.cmbAllCasesAssignedTo_Analyst.Width = 117;
+            // 
+            // cmbAllCasesSLAStatus_Analyst
+            // 
+            this.cmbAllCasesSLAStatus_Analyst.HeaderText = "SLA STATUS";
+            this.cmbAllCasesSLAStatus_Analyst.Name = "cmbAllCasesSLAStatus_Analyst";
+            this.cmbAllCasesSLAStatus_Analyst.ReadOnly = true;
+            this.cmbAllCasesSLAStatus_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbAllCasesSLAStatus_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.cmbAllCasesSLAStatus_Analyst.Width = 118;
+            // 
+            // txtAllCasesReported_Analyst
+            // 
+            this.txtAllCasesReported_Analyst.HeaderText = "REPORTED ON";
+            this.txtAllCasesReported_Analyst.Name = "txtAllCasesReported_Analyst";
+            this.txtAllCasesReported_Analyst.ReadOnly = true;
+            this.txtAllCasesReported_Analyst.Width = 117;
+            // 
+            // btnAllCasesAction_Analyst
+            // 
+            this.btnAllCasesAction_Analyst.HeaderText = "ACTION";
+            this.btnAllCasesAction_Analyst.Name = "btnAllCasesAction_Analyst";
+            this.btnAllCasesAction_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.btnAllCasesAction_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.btnAllCasesAction_Analyst.Text = "MANAGE";
+            this.btnAllCasesAction_Analyst.Width = 118;
             // 
             // lblAllCasesCasesManagement_Analyst
             // 
@@ -457,91 +543,6 @@
             this.lblUserName_Analyst.Size = new System.Drawing.Size(99, 16);
             this.lblUserName_Analyst.TabIndex = 5;
             this.lblUserName_Analyst.Text = "Skibidi Toilet";
-            // 
-            // txtAllCasesCaseID_Analyst
-            // 
-            this.txtAllCasesCaseID_Analyst.HeaderText = "CASE ID";
-            this.txtAllCasesCaseID_Analyst.Name = "txtAllCasesCaseID_Analyst";
-            this.txtAllCasesCaseID_Analyst.ReadOnly = true;
-            this.txtAllCasesCaseID_Analyst.Width = 118;
-            // 
-            // txtAllCasesTitle_Analyst
-            // 
-            this.txtAllCasesTitle_Analyst.HeaderText = "TITLE";
-            this.txtAllCasesTitle_Analyst.Name = "txtAllCasesTitle_Analyst";
-            this.txtAllCasesTitle_Analyst.ReadOnly = true;
-            this.txtAllCasesTitle_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.txtAllCasesTitle_Analyst.Width = 117;
-            // 
-            // cmbAllCasesSeverity2_Analyst
-            // 
-            this.cmbAllCasesSeverity2_Analyst.HeaderText = "SEVERITY";
-            this.cmbAllCasesSeverity2_Analyst.Name = "cmbAllCasesSeverity2_Analyst";
-            this.cmbAllCasesSeverity2_Analyst.ReadOnly = true;
-            this.cmbAllCasesSeverity2_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.cmbAllCasesSeverity2_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.cmbAllCasesSeverity2_Analyst.Width = 118;
-            // 
-            // cmbAllCasesStatus2_Analyst
-            // 
-            this.cmbAllCasesStatus2_Analyst.HeaderText = "STATUS";
-            this.cmbAllCasesStatus2_Analyst.Name = "cmbAllCasesStatus2_Analyst";
-            this.cmbAllCasesStatus2_Analyst.ReadOnly = true;
-            this.cmbAllCasesStatus2_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.cmbAllCasesStatus2_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.cmbAllCasesStatus2_Analyst.Width = 117;
-            // 
-            // cmbAllCasesCategory2_Analyst
-            // 
-            this.cmbAllCasesCategory2_Analyst.HeaderText = "CATEGORY";
-            this.cmbAllCasesCategory2_Analyst.Name = "cmbAllCasesCategory2_Analyst";
-            this.cmbAllCasesCategory2_Analyst.ReadOnly = true;
-            this.cmbAllCasesCategory2_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.cmbAllCasesCategory2_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.cmbAllCasesCategory2_Analyst.Width = 118;
-            // 
-            // cmb_AllCasesReporter_Analyst
-            // 
-            this.cmb_AllCasesReporter_Analyst.HeaderText = "REPORTER";
-            this.cmb_AllCasesReporter_Analyst.Name = "cmb_AllCasesReporter_Analyst";
-            this.cmb_AllCasesReporter_Analyst.ReadOnly = true;
-            this.cmb_AllCasesReporter_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.cmb_AllCasesReporter_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.cmb_AllCasesReporter_Analyst.Width = 118;
-            // 
-            // cmbAllCasesAssignedTo_Analyst
-            // 
-            this.cmbAllCasesAssignedTo_Analyst.HeaderText = "ASSIGNED TO";
-            this.cmbAllCasesAssignedTo_Analyst.Name = "cmbAllCasesAssignedTo_Analyst";
-            this.cmbAllCasesAssignedTo_Analyst.ReadOnly = true;
-            this.cmbAllCasesAssignedTo_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.cmbAllCasesAssignedTo_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.cmbAllCasesAssignedTo_Analyst.Width = 117;
-            // 
-            // cmbAllCasesSLAStatus_Analyst
-            // 
-            this.cmbAllCasesSLAStatus_Analyst.HeaderText = "SLA STATUS";
-            this.cmbAllCasesSLAStatus_Analyst.Name = "cmbAllCasesSLAStatus_Analyst";
-            this.cmbAllCasesSLAStatus_Analyst.ReadOnly = true;
-            this.cmbAllCasesSLAStatus_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.cmbAllCasesSLAStatus_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.cmbAllCasesSLAStatus_Analyst.Width = 118;
-            // 
-            // txtAllCasesReported_Analyst
-            // 
-            this.txtAllCasesReported_Analyst.HeaderText = "REPORTED ON";
-            this.txtAllCasesReported_Analyst.Name = "txtAllCasesReported_Analyst";
-            this.txtAllCasesReported_Analyst.ReadOnly = true;
-            this.txtAllCasesReported_Analyst.Width = 117;
-            // 
-            // btnAllCasesAction_Analyst
-            // 
-            this.btnAllCasesAction_Analyst.HeaderText = "ACTION";
-            this.btnAllCasesAction_Analyst.Name = "btnAllCasesAction_Analyst";
-            this.btnAllCasesAction_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.btnAllCasesAction_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.btnAllCasesAction_Analyst.Text = "MANAGE";
-            this.btnAllCasesAction_Analyst.Width = 118;
             // 
             // AllCases_Analyst
             // 
