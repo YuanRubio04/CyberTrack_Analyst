@@ -127,6 +127,12 @@
     <Compile Include="AdminProfileNotifications_Analyst.Designer.cs">
       <DependentUpon>AdminProfileNotifications_Analyst.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuButton_Analyst.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuButton_Analyst.Designer.cs">
+      <DependentUpon>MenuButton_Analyst.cs</DependentUpon>
+    </Compile>
     <Compile Include="Repositories\User_Repository.cs" />
     <Compile Include="SubmitReport_Analyst.cs">
       <SubType>Form</SubType>
@@ -175,6 +181,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm_Analyst.resx">
       <DependentUpon>MainForm_Analyst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuButton_Analyst.resx">
+      <DependentUpon>MenuButton_Analyst.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
