@@ -29,642 +29,691 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AuditLogs_Analyst));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.groupBox5_Analyst = new System.Windows.Forms.GroupBox();
-            this.txtAuditLogsResourceTypes_Analyst = new System.Windows.Forms.TextBox();
-            this.lblAuditLogsResourceTypes_Analyst = new System.Windows.Forms.Label();
-            this.groupBox4_Analyst = new System.Windows.Forms.GroupBox();
-            this.txtAuditLogsActionTypes_Analyst = new System.Windows.Forms.TextBox();
-            this.lblAuditLogsActionTypes_Analyst = new System.Windows.Forms.Label();
-            this.groupBox3_Analyst = new System.Windows.Forms.GroupBox();
-            this.txtAuditLogsTotalActivities_Analyst = new System.Windows.Forms.TextBox();
-            this.lblAuditLogsTotalActivities_Analyst = new System.Windows.Forms.Label();
-            this.lblAuditLogsAuditLogs_Analyst = new System.Windows.Forms.Label();
-            this.picAuditLogs_Analyst = new System.Windows.Forms.PictureBox();
-            this.groupBox6_Analyst = new System.Windows.Forms.GroupBox();
-            this.cmbAuditLogsCategory_Analyst = new System.Windows.Forms.ComboBox();
-            this.cmbAuditLogsStatus_Analyst = new System.Windows.Forms.ComboBox();
-            this.cmbAuditLogsSeverity_Analyst = new System.Windows.Forms.ComboBox();
-            this.txtAuditLogsSearch_Analyst = new System.Windows.Forms.TextBox();
-            this.lblAuditLogsCategory_Analyst = new System.Windows.Forms.Label();
-            this.lblAuditLogsStatus_Analyst = new System.Windows.Forms.Label();
-            this.lblAuditLogsSeverity_Analyst = new System.Windows.Forms.Label();
-            this.lblAuditLogsSearch_Analyst = new System.Windows.Forms.Label();
-            this.lblAuditLogsFilters_Analyst = new System.Windows.Forms.Label();
-            this.lblAuditLogsCompleteAuditTrail_Analyst = new System.Windows.Forms.Label();
-            this.dgvAuditLogs1_Analyst = new System.Windows.Forms.DataGridView();
-            this.AuditLogsGB_Analyst = new System.Windows.Forms.GroupBox();
-            this.grbLogo_Analyst = new System.Windows.Forms.GroupBox();
-            this.picCyberTrackLogo_Analyst = new System.Windows.Forms.PictureBox();
-            this.lblIncidentManagementSystem_Analyst = new System.Windows.Forms.Label();
-            this.lblCyberTrack_Analyst = new System.Windows.Forms.Label();
-            this.grbPermissions_Analyst = new System.Windows.Forms.GroupBox();
-            this.txtDelete_Analyst = new System.Windows.Forms.TextBox();
-            this.txtUpdate_Analyst = new System.Windows.Forms.TextBox();
-            this.txtCreate_Analyst = new System.Windows.Forms.TextBox();
-            this.lblDelete_Analyst = new System.Windows.Forms.Label();
-            this.lblUpdate_Analyst = new System.Windows.Forms.Label();
-            this.lblCreate_Analyst = new System.Windows.Forms.Label();
-            this.lblPermissions_Analyst = new System.Windows.Forms.Label();
-            this.grbUserLogo_Analyst = new System.Windows.Forms.GroupBox();
-            this.picUserPhoto_Analyst = new System.Windows.Forms.PictureBox();
-            this.lblUserRole_Analyst = new System.Windows.Forms.Label();
-            this.lblUserName_Analyst = new System.Windows.Forms.Label();
-            this.txtAuditLogsTimestamp_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cmbAuditLogsAction_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.cmbAuditLogsUser_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.cmbAuditLogsResourceType_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.txtAuditLogsResourceID_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtAuditLogsIPAddress_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnAuditLogsChanges_Analyst = new System.Windows.Forms.DataGridViewButtonColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.groupBox5_Analyst.SuspendLayout();
-            this.groupBox4_Analyst.SuspendLayout();
-            this.groupBox3_Analyst.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picAuditLogs_Analyst)).BeginInit();
-            this.groupBox6_Analyst.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAuditLogs1_Analyst)).BeginInit();
-            this.grbLogo_Analyst.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_Analyst)).BeginInit();
-            this.grbPermissions_Analyst.SuspendLayout();
-            this.grbUserLogo_Analyst.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_Analyst)).BeginInit();
+            this.lblAuditLogsActTypes2_Administrator = new System.Windows.Forms.Label();
+            this.picAllCasesCasesManagement_Administrator = new System.Windows.Forms.PictureBox();
+            this.grbLogo_Administrator = new System.Windows.Forms.GroupBox();
+            this.picCyberTrackLogo_Administrator = new System.Windows.Forms.PictureBox();
+            this.lblIncidentManagementSystem_Administrator = new System.Windows.Forms.Label();
+            this.lblCyberTrack_Administrator = new System.Windows.Forms.Label();
+            this.grbUserLogo_Administrator = new System.Windows.Forms.GroupBox();
+            this.picUserPhoto_Administrator = new System.Windows.Forms.PictureBox();
+            this.lblUserRole_Administrator = new System.Windows.Forms.Label();
+            this.lblUserName_Administrator = new System.Windows.Forms.Label();
+            this.grbPermissions_Administrator = new System.Windows.Forms.GroupBox();
+            this.txtDelete_Administrator = new System.Windows.Forms.TextBox();
+            this.txtUpdate_Administrator = new System.Windows.Forms.TextBox();
+            this.txtCreate_Administrator = new System.Windows.Forms.TextBox();
+            this.lblDelete_Administrator = new System.Windows.Forms.Label();
+            this.lblUpdate_Administrator = new System.Windows.Forms.Label();
+            this.lblCreate_Administrator = new System.Windows.Forms.Label();
+            this.lblPermissions_Administrator = new System.Windows.Forms.Label();
+            this.txtAuditLogsActTypes_Administrator = new System.Windows.Forms.TextBox();
+            this.dgvAuditLogs_Administrator = new System.Windows.Forms.DataGridView();
+            this.txtAuditLogsTotalCases_Administrator = new System.Windows.Forms.TextBox();
+            this.lblAuditLogsTotalCases_Administrator = new System.Windows.Forms.Label();
+            this.grpAuditLogsTotalCases_Administrator = new System.Windows.Forms.GroupBox();
+            this.lblAuditLogsTotalCases2_Administrator = new System.Windows.Forms.Label();
+            this.lblAllCasesNofN_Administrator = new System.Windows.Forms.Label();
+            this.lblAllCasesCasesManagement_Administrator = new System.Windows.Forms.Label();
+            this.grpAuditLogsGB_Administrator = new System.Windows.Forms.GroupBox();
+            this.btnAllCasesExport_Administrator = new System.Windows.Forms.Button();
+            this.grpAuditLogsFilters_Administrator = new System.Windows.Forms.GroupBox();
+            this.lblAuditLogsResourceType_Administrator = new System.Windows.Forms.Label();
+            this.lblAuditLogsSearch_Administrator = new System.Windows.Forms.Label();
+            this.lblAuditLogsActionType_Administrator = new System.Windows.Forms.Label();
+            this.lblAuditLogsFiltersDesc_Administrator = new System.Windows.Forms.Label();
+            this.picAuditLogsFilters_Administrator = new System.Windows.Forms.PictureBox();
+            this.cmbAuditLogsResourceType_Administrator = new System.Windows.Forms.ComboBox();
+            this.cmbAuditLogsActionType_Administrator = new System.Windows.Forms.ComboBox();
+            this.txtAuditLogsSearch_Administrator = new System.Windows.Forms.TextBox();
+            this.lblAuditLogsFilters_Administrator = new System.Windows.Forms.Label();
+            this.grpAuditLogsResType_Administrator = new System.Windows.Forms.GroupBox();
+            this.lblAuditLogsResType2_Administrator = new System.Windows.Forms.Label();
+            this.txtAuditLogsResType_Administrator = new System.Windows.Forms.TextBox();
+            this.lblAuditLogsResType_Administrator = new System.Windows.Forms.Label();
+            this.grpAuditLogsActTypes_Administrator = new System.Windows.Forms.GroupBox();
+            this.lblAuditLogsActTypes_Administrator = new System.Windows.Forms.Label();
+            this.txtAuditLogsTimestamp_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtAuditLogsAction_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtAuditLogsUser_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtAuditLogsResourceType_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtAuditLogsResourceID_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtAuditLogsIPAddress_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lnkAuditLogsChanges_Administrator = new System.Windows.Forms.DataGridViewLinkColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.picAllCasesCasesManagement_Administrator)).BeginInit();
+            this.grbLogo_Administrator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_Administrator)).BeginInit();
+            this.grbUserLogo_Administrator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_Administrator)).BeginInit();
+            this.grbPermissions_Administrator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAuditLogs_Administrator)).BeginInit();
+            this.grpAuditLogsTotalCases_Administrator.SuspendLayout();
+            this.grpAuditLogsGB_Administrator.SuspendLayout();
+            this.grpAuditLogsFilters_Administrator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picAuditLogsFilters_Administrator)).BeginInit();
+            this.grpAuditLogsResType_Administrator.SuspendLayout();
+            this.grpAuditLogsActTypes_Administrator.SuspendLayout();
             this.SuspendLayout();
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(-97, 244);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(44, 42);
-            this.pictureBox1.TabIndex = 10;
-            this.pictureBox1.TabStop = false;
-            // 
-            // groupBox5_Analyst
-            // 
-            this.groupBox5_Analyst.Controls.Add(this.txtAuditLogsResourceTypes_Analyst);
-            this.groupBox5_Analyst.Controls.Add(this.lblAuditLogsResourceTypes_Analyst);
-            this.groupBox5_Analyst.Location = new System.Drawing.Point(856, 219);
-            this.groupBox5_Analyst.Name = "groupBox5_Analyst";
-            this.groupBox5_Analyst.Size = new System.Drawing.Size(381, 100);
-            this.groupBox5_Analyst.TabIndex = 20;
-            this.groupBox5_Analyst.TabStop = false;
-            this.groupBox5_Analyst.Enter += new System.EventHandler(this.groupBox5_Enter);
-            // 
-            // txtAuditLogsResourceTypes_Analyst
-            // 
-            this.txtAuditLogsResourceTypes_Analyst.Location = new System.Drawing.Point(9, 62);
-            this.txtAuditLogsResourceTypes_Analyst.Name = "txtAuditLogsResourceTypes_Analyst";
-            this.txtAuditLogsResourceTypes_Analyst.ReadOnly = true;
-            this.txtAuditLogsResourceTypes_Analyst.Size = new System.Drawing.Size(29, 20);
-            this.txtAuditLogsResourceTypes_Analyst.TabIndex = 5;
-            // 
-            // lblAuditLogsResourceTypes_Analyst
-            // 
-            this.lblAuditLogsResourceTypes_Analyst.AutoSize = true;
-            this.lblAuditLogsResourceTypes_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAuditLogsResourceTypes_Analyst.Location = new System.Drawing.Point(6, 25);
-            this.lblAuditLogsResourceTypes_Analyst.Name = "lblAuditLogsResourceTypes_Analyst";
-            this.lblAuditLogsResourceTypes_Analyst.Size = new System.Drawing.Size(130, 15);
-            this.lblAuditLogsResourceTypes_Analyst.TabIndex = 4;
-            this.lblAuditLogsResourceTypes_Analyst.Text = "RESOURCE TYPES";
-            // 
-            // groupBox4_Analyst
-            // 
-            this.groupBox4_Analyst.Controls.Add(this.txtAuditLogsActionTypes_Analyst);
-            this.groupBox4_Analyst.Controls.Add(this.lblAuditLogsActionTypes_Analyst);
-            this.groupBox4_Analyst.Location = new System.Drawing.Point(425, 219);
-            this.groupBox4_Analyst.Name = "groupBox4_Analyst";
-            this.groupBox4_Analyst.Size = new System.Drawing.Size(385, 100);
-            this.groupBox4_Analyst.TabIndex = 21;
-            this.groupBox4_Analyst.TabStop = false;
-            this.groupBox4_Analyst.Enter += new System.EventHandler(this.groupBox4_Enter);
-            // 
-            // txtAuditLogsActionTypes_Analyst
-            // 
-            this.txtAuditLogsActionTypes_Analyst.Location = new System.Drawing.Point(9, 62);
-            this.txtAuditLogsActionTypes_Analyst.Name = "txtAuditLogsActionTypes_Analyst";
-            this.txtAuditLogsActionTypes_Analyst.ReadOnly = true;
-            this.txtAuditLogsActionTypes_Analyst.Size = new System.Drawing.Size(29, 20);
-            this.txtAuditLogsActionTypes_Analyst.TabIndex = 5;
-            // 
-            // lblAuditLogsActionTypes_Analyst
-            // 
-            this.lblAuditLogsActionTypes_Analyst.AutoSize = true;
-            this.lblAuditLogsActionTypes_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAuditLogsActionTypes_Analyst.Location = new System.Drawing.Point(6, 25);
-            this.lblAuditLogsActionTypes_Analyst.Name = "lblAuditLogsActionTypes_Analyst";
-            this.lblAuditLogsActionTypes_Analyst.Size = new System.Drawing.Size(103, 15);
-            this.lblAuditLogsActionTypes_Analyst.TabIndex = 4;
-            this.lblAuditLogsActionTypes_Analyst.Text = "ACTION TYPES";
-            // 
-            // groupBox3_Analyst
-            // 
-            this.groupBox3_Analyst.Controls.Add(this.txtAuditLogsTotalActivities_Analyst);
-            this.groupBox3_Analyst.Controls.Add(this.lblAuditLogsTotalActivities_Analyst);
-            this.groupBox3_Analyst.Location = new System.Drawing.Point(29, 219);
-            this.groupBox3_Analyst.Name = "groupBox3_Analyst";
-            this.groupBox3_Analyst.Size = new System.Drawing.Size(353, 100);
-            this.groupBox3_Analyst.TabIndex = 19;
-            this.groupBox3_Analyst.TabStop = false;
-            this.groupBox3_Analyst.Enter += new System.EventHandler(this.groupBox3_Enter);
-            // 
-            // txtAuditLogsTotalActivities_Analyst
-            // 
-            this.txtAuditLogsTotalActivities_Analyst.Location = new System.Drawing.Point(9, 62);
-            this.txtAuditLogsTotalActivities_Analyst.Name = "txtAuditLogsTotalActivities_Analyst";
-            this.txtAuditLogsTotalActivities_Analyst.ReadOnly = true;
-            this.txtAuditLogsTotalActivities_Analyst.Size = new System.Drawing.Size(29, 20);
-            this.txtAuditLogsTotalActivities_Analyst.TabIndex = 5;
-            // 
-            // lblAuditLogsTotalActivities_Analyst
-            // 
-            this.lblAuditLogsTotalActivities_Analyst.AutoSize = true;
-            this.lblAuditLogsTotalActivities_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAuditLogsTotalActivities_Analyst.Location = new System.Drawing.Point(6, 25);
-            this.lblAuditLogsTotalActivities_Analyst.Name = "lblAuditLogsTotalActivities_Analyst";
-            this.lblAuditLogsTotalActivities_Analyst.Size = new System.Drawing.Size(124, 15);
-            this.lblAuditLogsTotalActivities_Analyst.TabIndex = 4;
-            this.lblAuditLogsTotalActivities_Analyst.Text = "TOTAL ACTIVITIES";
-            this.lblAuditLogsTotalActivities_Analyst.Click += new System.EventHandler(this.label14_Click);
-            // 
-            // lblAuditLogsAuditLogs_Analyst
-            // 
-            this.lblAuditLogsAuditLogs_Analyst.AutoSize = true;
-            this.lblAuditLogsAuditLogs_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAuditLogsAuditLogs_Analyst.Location = new System.Drawing.Point(92, 124);
-            this.lblAuditLogsAuditLogs_Analyst.Name = "lblAuditLogsAuditLogs_Analyst";
-            this.lblAuditLogsAuditLogs_Analyst.Size = new System.Drawing.Size(107, 18);
-            this.lblAuditLogsAuditLogs_Analyst.TabIndex = 17;
-            this.lblAuditLogsAuditLogs_Analyst.Text = "AUDIT LOGS";
-            this.lblAuditLogsAuditLogs_Analyst.Click += new System.EventHandler(this.label9_Click);
-            // 
-            // picAuditLogs_Analyst
-            // 
-            this.picAuditLogs_Analyst.Location = new System.Drawing.Point(31, 124);
-            this.picAuditLogs_Analyst.Name = "picAuditLogs_Analyst";
-            this.picAuditLogs_Analyst.Size = new System.Drawing.Size(44, 42);
-            this.picAuditLogs_Analyst.TabIndex = 16;
-            this.picAuditLogs_Analyst.TabStop = false;
-            this.picAuditLogs_Analyst.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
-            // groupBox6_Analyst
-            // 
-            this.groupBox6_Analyst.Controls.Add(this.cmbAuditLogsCategory_Analyst);
-            this.groupBox6_Analyst.Controls.Add(this.cmbAuditLogsStatus_Analyst);
-            this.groupBox6_Analyst.Controls.Add(this.cmbAuditLogsSeverity_Analyst);
-            this.groupBox6_Analyst.Controls.Add(this.txtAuditLogsSearch_Analyst);
-            this.groupBox6_Analyst.Controls.Add(this.lblAuditLogsCategory_Analyst);
-            this.groupBox6_Analyst.Controls.Add(this.lblAuditLogsStatus_Analyst);
-            this.groupBox6_Analyst.Controls.Add(this.lblAuditLogsSeverity_Analyst);
-            this.groupBox6_Analyst.Controls.Add(this.lblAuditLogsSearch_Analyst);
-            this.groupBox6_Analyst.Controls.Add(this.lblAuditLogsFilters_Analyst);
-            this.groupBox6_Analyst.Location = new System.Drawing.Point(29, 342);
-            this.groupBox6_Analyst.Name = "groupBox6_Analyst";
-            this.groupBox6_Analyst.Size = new System.Drawing.Size(1220, 173);
-            this.groupBox6_Analyst.TabIndex = 22;
-            this.groupBox6_Analyst.TabStop = false;
-            // 
-            // cmbAuditLogsCategory_Analyst
-            // 
-            this.cmbAuditLogsCategory_Analyst.FormattingEnabled = true;
-            this.cmbAuditLogsCategory_Analyst.Location = new System.Drawing.Point(921, 115);
-            this.cmbAuditLogsCategory_Analyst.Name = "cmbAuditLogsCategory_Analyst";
-            this.cmbAuditLogsCategory_Analyst.Size = new System.Drawing.Size(261, 21);
-            this.cmbAuditLogsCategory_Analyst.TabIndex = 27;
-            // 
-            // cmbAuditLogsStatus_Analyst
-            // 
-            this.cmbAuditLogsStatus_Analyst.FormattingEnabled = true;
-            this.cmbAuditLogsStatus_Analyst.Items.AddRange(new object[] {
-            "New",
-            "Investigating",
-            "Contained",
-            "Closed"});
-            this.cmbAuditLogsStatus_Analyst.Location = new System.Drawing.Point(618, 115);
-            this.cmbAuditLogsStatus_Analyst.Name = "cmbAuditLogsStatus_Analyst";
-            this.cmbAuditLogsStatus_Analyst.Size = new System.Drawing.Size(261, 21);
-            this.cmbAuditLogsStatus_Analyst.TabIndex = 26;
-            // 
-            // cmbAuditLogsSeverity_Analyst
-            // 
-            this.cmbAuditLogsSeverity_Analyst.FormattingEnabled = true;
-            this.cmbAuditLogsSeverity_Analyst.Items.AddRange(new object[] {
-            "Low",
-            "Medium",
-            "High",
-            "Critical"});
-            this.cmbAuditLogsSeverity_Analyst.Location = new System.Drawing.Point(310, 115);
-            this.cmbAuditLogsSeverity_Analyst.Name = "cmbAuditLogsSeverity_Analyst";
-            this.cmbAuditLogsSeverity_Analyst.Size = new System.Drawing.Size(261, 21);
-            this.cmbAuditLogsSeverity_Analyst.TabIndex = 25;
-            // 
-            // txtAuditLogsSearch_Analyst
-            // 
-            this.txtAuditLogsSearch_Analyst.Location = new System.Drawing.Point(18, 116);
-            this.txtAuditLogsSearch_Analyst.Name = "txtAuditLogsSearch_Analyst";
-            this.txtAuditLogsSearch_Analyst.Size = new System.Drawing.Size(247, 20);
-            this.txtAuditLogsSearch_Analyst.TabIndex = 24;
-            this.txtAuditLogsSearch_Analyst.TextChanged += new System.EventHandler(this.textBox4_Analyst_TextChanged);
-            // 
-            // lblAuditLogsCategory_Analyst
-            // 
-            this.lblAuditLogsCategory_Analyst.AutoSize = true;
-            this.lblAuditLogsCategory_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAuditLogsCategory_Analyst.Location = new System.Drawing.Point(918, 79);
-            this.lblAuditLogsCategory_Analyst.Name = "lblAuditLogsCategory_Analyst";
-            this.lblAuditLogsCategory_Analyst.Size = new System.Drawing.Size(63, 15);
-            this.lblAuditLogsCategory_Analyst.TabIndex = 23;
-            this.lblAuditLogsCategory_Analyst.Text = "Category";
-            // 
-            // lblAuditLogsStatus_Analyst
-            // 
-            this.lblAuditLogsStatus_Analyst.AutoSize = true;
-            this.lblAuditLogsStatus_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAuditLogsStatus_Analyst.Location = new System.Drawing.Point(615, 79);
-            this.lblAuditLogsStatus_Analyst.Name = "lblAuditLogsStatus_Analyst";
-            this.lblAuditLogsStatus_Analyst.Size = new System.Drawing.Size(47, 15);
-            this.lblAuditLogsStatus_Analyst.TabIndex = 22;
-            this.lblAuditLogsStatus_Analyst.Text = "Status";
-            // 
-            // lblAuditLogsSeverity_Analyst
-            // 
-            this.lblAuditLogsSeverity_Analyst.AutoSize = true;
-            this.lblAuditLogsSeverity_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAuditLogsSeverity_Analyst.Location = new System.Drawing.Point(319, 79);
-            this.lblAuditLogsSeverity_Analyst.Name = "lblAuditLogsSeverity_Analyst";
-            this.lblAuditLogsSeverity_Analyst.Size = new System.Drawing.Size(57, 15);
-            this.lblAuditLogsSeverity_Analyst.TabIndex = 21;
-            this.lblAuditLogsSeverity_Analyst.Text = "Severity";
-            // 
-            // lblAuditLogsSearch_Analyst
-            // 
-            this.lblAuditLogsSearch_Analyst.AutoSize = true;
-            this.lblAuditLogsSearch_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAuditLogsSearch_Analyst.Location = new System.Drawing.Point(15, 80);
-            this.lblAuditLogsSearch_Analyst.Name = "lblAuditLogsSearch_Analyst";
-            this.lblAuditLogsSearch_Analyst.Size = new System.Drawing.Size(52, 15);
-            this.lblAuditLogsSearch_Analyst.TabIndex = 20;
-            this.lblAuditLogsSearch_Analyst.Text = "Search";
-            // 
-            // lblAuditLogsFilters_Analyst
-            // 
-            this.lblAuditLogsFilters_Analyst.AutoSize = true;
-            this.lblAuditLogsFilters_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAuditLogsFilters_Analyst.Location = new System.Drawing.Point(15, 16);
-            this.lblAuditLogsFilters_Analyst.Name = "lblAuditLogsFilters_Analyst";
-            this.lblAuditLogsFilters_Analyst.Size = new System.Drawing.Size(75, 18);
-            this.lblAuditLogsFilters_Analyst.TabIndex = 19;
-            this.lblAuditLogsFilters_Analyst.Text = "FILTERS";
-            // 
-            // lblAuditLogsCompleteAuditTrail_Analyst
-            // 
-            this.lblAuditLogsCompleteAuditTrail_Analyst.AutoSize = true;
-            this.lblAuditLogsCompleteAuditTrail_Analyst.Location = new System.Drawing.Point(92, 153);
-            this.lblAuditLogsCompleteAuditTrail_Analyst.Name = "lblAuditLogsCompleteAuditTrail_Analyst";
-            this.lblAuditLogsCompleteAuditTrail_Analyst.Size = new System.Drawing.Size(178, 13);
-            this.lblAuditLogsCompleteAuditTrail_Analyst.TabIndex = 28;
-            this.lblAuditLogsCompleteAuditTrail_Analyst.Text = "Complete Audit Trail - N Of N Entries";
-            // 
-            // dgvAuditLogs1_Analyst
-            // 
-            this.dgvAuditLogs1_Analyst.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAuditLogs1_Analyst.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.txtAuditLogsTimestamp_Analyst,
-            this.cmbAuditLogsAction_Analyst,
-            this.cmbAuditLogsUser_Analyst,
-            this.cmbAuditLogsResourceType_Analyst,
-            this.txtAuditLogsResourceID_Analyst,
-            this.txtAuditLogsIPAddress_Analyst,
-            this.btnAuditLogsChanges_Analyst});
-            this.dgvAuditLogs1_Analyst.Location = new System.Drawing.Point(31, 540);
-            this.dgvAuditLogs1_Analyst.Name = "dgvAuditLogs1_Analyst";
-            this.dgvAuditLogs1_Analyst.Size = new System.Drawing.Size(1218, 394);
-            this.dgvAuditLogs1_Analyst.TabIndex = 68;
-            // 
-            // AuditLogsGB_Analyst
-            // 
-            this.AuditLogsGB_Analyst.Location = new System.Drawing.Point(12, 101);
-            this.AuditLogsGB_Analyst.Name = "AuditLogsGB_Analyst";
-            this.AuditLogsGB_Analyst.Size = new System.Drawing.Size(1260, 869);
-            this.AuditLogsGB_Analyst.TabIndex = 69;
-            this.AuditLogsGB_Analyst.TabStop = false;
-            this.AuditLogsGB_Analyst.Enter += new System.EventHandler(this.AuditLogsGB_Analyst_Enter);
-            // 
-            // grbLogo_Analyst
-            // 
-            this.grbLogo_Analyst.Controls.Add(this.picCyberTrackLogo_Analyst);
-            this.grbLogo_Analyst.Controls.Add(this.lblIncidentManagementSystem_Analyst);
-            this.grbLogo_Analyst.Controls.Add(this.lblCyberTrack_Analyst);
-            this.grbLogo_Analyst.Location = new System.Drawing.Point(12, 12);
-            this.grbLogo_Analyst.Name = "grbLogo_Analyst";
-            this.grbLogo_Analyst.Size = new System.Drawing.Size(754, 74);
-            this.grbLogo_Analyst.TabIndex = 81;
-            this.grbLogo_Analyst.TabStop = false;
-            // 
-            // picCyberTrackLogo_Analyst
-            // 
-            this.picCyberTrackLogo_Analyst.Image = ((System.Drawing.Image)(resources.GetObject("picCyberTrackLogo_Analyst.Image")));
-            this.picCyberTrackLogo_Analyst.Location = new System.Drawing.Point(6, 19);
-            this.picCyberTrackLogo_Analyst.Name = "picCyberTrackLogo_Analyst";
-            this.picCyberTrackLogo_Analyst.Size = new System.Drawing.Size(44, 42);
-            this.picCyberTrackLogo_Analyst.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picCyberTrackLogo_Analyst.TabIndex = 25;
-            this.picCyberTrackLogo_Analyst.TabStop = false;
-            // 
-            // lblIncidentManagementSystem_Analyst
-            // 
-            this.lblIncidentManagementSystem_Analyst.AutoSize = true;
-            this.lblIncidentManagementSystem_Analyst.Location = new System.Drawing.Point(60, 47);
-            this.lblIncidentManagementSystem_Analyst.Name = "lblIncidentManagementSystem_Analyst";
-            this.lblIncidentManagementSystem_Analyst.Size = new System.Drawing.Size(150, 13);
-            this.lblIncidentManagementSystem_Analyst.TabIndex = 27;
-            this.lblIncidentManagementSystem_Analyst.Text = "Incident Management Systtem";
-            // 
-            // lblCyberTrack_Analyst
-            // 
-            this.lblCyberTrack_Analyst.AutoSize = true;
-            this.lblCyberTrack_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCyberTrack_Analyst.Location = new System.Drawing.Point(57, 19);
-            this.lblCyberTrack_Analyst.Name = "lblCyberTrack_Analyst";
-            this.lblCyberTrack_Analyst.Size = new System.Drawing.Size(119, 18);
-            this.lblCyberTrack_Analyst.TabIndex = 26;
-            this.lblCyberTrack_Analyst.Text = "CYBERTRACK";
-            // 
-            // grbPermissions_Analyst
-            // 
-            this.grbPermissions_Analyst.Controls.Add(this.txtDelete_Analyst);
-            this.grbPermissions_Analyst.Controls.Add(this.txtUpdate_Analyst);
-            this.grbPermissions_Analyst.Controls.Add(this.txtCreate_Analyst);
-            this.grbPermissions_Analyst.Controls.Add(this.lblDelete_Analyst);
-            this.grbPermissions_Analyst.Controls.Add(this.lblUpdate_Analyst);
-            this.grbPermissions_Analyst.Controls.Add(this.lblCreate_Analyst);
-            this.grbPermissions_Analyst.Controls.Add(this.lblPermissions_Analyst);
-            this.grbPermissions_Analyst.Location = new System.Drawing.Point(772, 12);
-            this.grbPermissions_Analyst.Name = "grbPermissions_Analyst";
-            this.grbPermissions_Analyst.Size = new System.Drawing.Size(311, 74);
-            this.grbPermissions_Analyst.TabIndex = 79;
-            this.grbPermissions_Analyst.TabStop = false;
-            // 
-            // txtDelete_Analyst
-            // 
-            this.txtDelete_Analyst.Location = new System.Drawing.Point(257, 40);
-            this.txtDelete_Analyst.Multiline = true;
-            this.txtDelete_Analyst.Name = "txtDelete_Analyst";
-            this.txtDelete_Analyst.ReadOnly = true;
-            this.txtDelete_Analyst.Size = new System.Drawing.Size(47, 20);
-            this.txtDelete_Analyst.TabIndex = 25;
-            this.txtDelete_Analyst.Text = "NO";
-            this.txtDelete_Analyst.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtUpdate_Analyst
-            // 
-            this.txtUpdate_Analyst.Location = new System.Drawing.Point(157, 40);
-            this.txtUpdate_Analyst.Multiline = true;
-            this.txtUpdate_Analyst.Name = "txtUpdate_Analyst";
-            this.txtUpdate_Analyst.ReadOnly = true;
-            this.txtUpdate_Analyst.Size = new System.Drawing.Size(47, 20);
-            this.txtUpdate_Analyst.TabIndex = 24;
-            this.txtUpdate_Analyst.Text = "YES";
-            this.txtUpdate_Analyst.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtCreate_Analyst
-            // 
-            this.txtCreate_Analyst.Location = new System.Drawing.Point(51, 40);
-            this.txtCreate_Analyst.Multiline = true;
-            this.txtCreate_Analyst.Name = "txtCreate_Analyst";
-            this.txtCreate_Analyst.ReadOnly = true;
-            this.txtCreate_Analyst.Size = new System.Drawing.Size(47, 20);
-            this.txtCreate_Analyst.TabIndex = 23;
-            this.txtCreate_Analyst.Text = "YES";
-            this.txtCreate_Analyst.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // lblDelete_Analyst
-            // 
-            this.lblDelete_Analyst.AutoSize = true;
-            this.lblDelete_Analyst.Location = new System.Drawing.Point(210, 43);
-            this.lblDelete_Analyst.Name = "lblDelete_Analyst";
-            this.lblDelete_Analyst.Size = new System.Drawing.Size(41, 13);
-            this.lblDelete_Analyst.TabIndex = 6;
-            this.lblDelete_Analyst.Text = "Delete:";
-            // 
-            // lblUpdate_Analyst
-            // 
-            this.lblUpdate_Analyst.AutoSize = true;
-            this.lblUpdate_Analyst.Location = new System.Drawing.Point(106, 43);
-            this.lblUpdate_Analyst.Name = "lblUpdate_Analyst";
-            this.lblUpdate_Analyst.Size = new System.Drawing.Size(45, 13);
-            this.lblUpdate_Analyst.TabIndex = 5;
-            this.lblUpdate_Analyst.Text = "Update:";
-            // 
-            // lblCreate_Analyst
-            // 
-            this.lblCreate_Analyst.AutoSize = true;
-            this.lblCreate_Analyst.Location = new System.Drawing.Point(6, 43);
-            this.lblCreate_Analyst.Name = "lblCreate_Analyst";
-            this.lblCreate_Analyst.Size = new System.Drawing.Size(41, 13);
-            this.lblCreate_Analyst.TabIndex = 4;
-            this.lblCreate_Analyst.Text = "Create:";
-            // 
-            // lblPermissions_Analyst
-            // 
-            this.lblPermissions_Analyst.AutoSize = true;
-            this.lblPermissions_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPermissions_Analyst.Location = new System.Drawing.Point(6, 16);
-            this.lblPermissions_Analyst.Name = "lblPermissions_Analyst";
-            this.lblPermissions_Analyst.Size = new System.Drawing.Size(92, 16);
-            this.lblPermissions_Analyst.TabIndex = 4;
-            this.lblPermissions_Analyst.Text = "Permissions";
-            // 
-            // grbUserLogo_Analyst
-            // 
-            this.grbUserLogo_Analyst.Controls.Add(this.picUserPhoto_Analyst);
-            this.grbUserLogo_Analyst.Controls.Add(this.lblUserRole_Analyst);
-            this.grbUserLogo_Analyst.Controls.Add(this.lblUserName_Analyst);
-            this.grbUserLogo_Analyst.Location = new System.Drawing.Point(1089, 12);
-            this.grbUserLogo_Analyst.Name = "grbUserLogo_Analyst";
-            this.grbUserLogo_Analyst.Size = new System.Drawing.Size(183, 74);
-            this.grbUserLogo_Analyst.TabIndex = 80;
-            this.grbUserLogo_Analyst.TabStop = false;
-            // 
-            // picUserPhoto_Analyst
-            // 
-            this.picUserPhoto_Analyst.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picUserPhoto_Analyst.BackgroundImage")));
-            this.picUserPhoto_Analyst.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picUserPhoto_Analyst.ErrorImage = null;
-            this.picUserPhoto_Analyst.InitialImage = null;
-            this.picUserPhoto_Analyst.Location = new System.Drawing.Point(11, 19);
-            this.picUserPhoto_Analyst.Name = "picUserPhoto_Analyst";
-            this.picUserPhoto_Analyst.Size = new System.Drawing.Size(44, 42);
-            this.picUserPhoto_Analyst.TabIndex = 5;
-            this.picUserPhoto_Analyst.TabStop = false;
-            // 
-            // lblUserRole_Analyst
-            // 
-            this.lblUserRole_Analyst.AutoSize = true;
-            this.lblUserRole_Analyst.Location = new System.Drawing.Point(71, 47);
-            this.lblUserRole_Analyst.Name = "lblUserRole_Analyst";
-            this.lblUserRole_Analyst.Size = new System.Drawing.Size(56, 13);
-            this.lblUserRole_Analyst.TabIndex = 5;
-            this.lblUserRole_Analyst.Text = "ANALYST";
-            // 
-            // lblUserName_Analyst
-            // 
-            this.lblUserName_Analyst.AutoSize = true;
-            this.lblUserName_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUserName_Analyst.Location = new System.Drawing.Point(71, 19);
-            this.lblUserName_Analyst.Name = "lblUserName_Analyst";
-            this.lblUserName_Analyst.Size = new System.Drawing.Size(99, 16);
-            this.lblUserName_Analyst.TabIndex = 5;
-            this.lblUserName_Analyst.Text = "Skibidi Toilet";
-            // 
-            // txtAuditLogsTimestamp_Analyst
-            // 
-            this.txtAuditLogsTimestamp_Analyst.HeaderText = "Timestamp";
-            this.txtAuditLogsTimestamp_Analyst.Name = "txtAuditLogsTimestamp_Analyst";
-            this.txtAuditLogsTimestamp_Analyst.ReadOnly = true;
-            this.txtAuditLogsTimestamp_Analyst.Width = 200;
-            // 
-            // cmbAuditLogsAction_Analyst
-            // 
-            this.cmbAuditLogsAction_Analyst.HeaderText = "Action";
-            this.cmbAuditLogsAction_Analyst.Name = "cmbAuditLogsAction_Analyst";
-            this.cmbAuditLogsAction_Analyst.ReadOnly = true;
-            this.cmbAuditLogsAction_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.cmbAuditLogsAction_Analyst.Width = 150;
-            // 
-            // cmbAuditLogsUser_Analyst
-            // 
-            this.cmbAuditLogsUser_Analyst.HeaderText = "User";
-            this.cmbAuditLogsUser_Analyst.Name = "cmbAuditLogsUser_Analyst";
-            this.cmbAuditLogsUser_Analyst.ReadOnly = true;
-            this.cmbAuditLogsUser_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.cmbAuditLogsUser_Analyst.Width = 200;
-            // 
-            // cmbAuditLogsResourceType_Analyst
-            // 
-            this.cmbAuditLogsResourceType_Analyst.HeaderText = "Resource Type";
-            this.cmbAuditLogsResourceType_Analyst.Name = "cmbAuditLogsResourceType_Analyst";
-            this.cmbAuditLogsResourceType_Analyst.ReadOnly = true;
-            this.cmbAuditLogsResourceType_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // txtAuditLogsResourceID_Analyst
-            // 
-            this.txtAuditLogsResourceID_Analyst.HeaderText = "ResourceID";
-            this.txtAuditLogsResourceID_Analyst.Name = "txtAuditLogsResourceID_Analyst";
-            this.txtAuditLogsResourceID_Analyst.ReadOnly = true;
-            this.txtAuditLogsResourceID_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.txtAuditLogsResourceID_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.txtAuditLogsResourceID_Analyst.Width = 200;
-            // 
-            // txtAuditLogsIPAddress_Analyst
-            // 
-            this.txtAuditLogsIPAddress_Analyst.HeaderText = "IP Address";
-            this.txtAuditLogsIPAddress_Analyst.Name = "txtAuditLogsIPAddress_Analyst";
-            this.txtAuditLogsIPAddress_Analyst.ReadOnly = true;
-            this.txtAuditLogsIPAddress_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.txtAuditLogsIPAddress_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.txtAuditLogsIPAddress_Analyst.Width = 200;
-            // 
-            // btnAuditLogsChanges_Analyst
-            // 
-            this.btnAuditLogsChanges_Analyst.HeaderText = "Changes";
-            this.btnAuditLogsChanges_Analyst.Name = "btnAuditLogsChanges_Analyst";
-            this.btnAuditLogsChanges_Analyst.Width = 130;
+            // lblAuditLogsActTypes2_Administrator
+            // 
+            this.lblAuditLogsActTypes2_Administrator.AutoSize = true;
+            this.lblAuditLogsActTypes2_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAuditLogsActTypes2_Administrator.Location = new System.Drawing.Point(6, 68);
+            this.lblAuditLogsActTypes2_Administrator.Name = "lblAuditLogsActTypes2_Administrator";
+            this.lblAuditLogsActTypes2_Administrator.Size = new System.Drawing.Size(114, 15);
+            this.lblAuditLogsActTypes2_Administrator.TabIndex = 54;
+            this.lblAuditLogsActTypes2_Administrator.Text = "Distinct action types";
+            // 
+            // picAllCasesCasesManagement_Administrator
+            // 
+            this.picAllCasesCasesManagement_Administrator.BackgroundImage = global::CyberTrack_Analyst.Properties.Resources.AuditLogsIcon;
+            this.picAllCasesCasesManagement_Administrator.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picAllCasesCasesManagement_Administrator.ErrorImage = null;
+            this.picAllCasesCasesManagement_Administrator.InitialImage = null;
+            this.picAllCasesCasesManagement_Administrator.Location = new System.Drawing.Point(27, 19);
+            this.picAllCasesCasesManagement_Administrator.Name = "picAllCasesCasesManagement_Administrator";
+            this.picAllCasesCasesManagement_Administrator.Size = new System.Drawing.Size(44, 42);
+            this.picAllCasesCasesManagement_Administrator.TabIndex = 23;
+            this.picAllCasesCasesManagement_Administrator.TabStop = false;
+            // 
+            // grbLogo_Administrator
+            // 
+            this.grbLogo_Administrator.Controls.Add(this.picCyberTrackLogo_Administrator);
+            this.grbLogo_Administrator.Controls.Add(this.lblIncidentManagementSystem_Administrator);
+            this.grbLogo_Administrator.Controls.Add(this.lblCyberTrack_Administrator);
+            this.grbLogo_Administrator.Location = new System.Drawing.Point(12, 9);
+            this.grbLogo_Administrator.Name = "grbLogo_Administrator";
+            this.grbLogo_Administrator.Size = new System.Drawing.Size(754, 74);
+            this.grbLogo_Administrator.TabIndex = 92;
+            this.grbLogo_Administrator.TabStop = false;
+            // 
+            // picCyberTrackLogo_Administrator
+            // 
+            this.picCyberTrackLogo_Administrator.Image = ((System.Drawing.Image)(resources.GetObject("picCyberTrackLogo_Administrator.Image")));
+            this.picCyberTrackLogo_Administrator.Location = new System.Drawing.Point(6, 19);
+            this.picCyberTrackLogo_Administrator.Name = "picCyberTrackLogo_Administrator";
+            this.picCyberTrackLogo_Administrator.Size = new System.Drawing.Size(44, 42);
+            this.picCyberTrackLogo_Administrator.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picCyberTrackLogo_Administrator.TabIndex = 25;
+            this.picCyberTrackLogo_Administrator.TabStop = false;
+            // 
+            // lblIncidentManagementSystem_Administrator
+            // 
+            this.lblIncidentManagementSystem_Administrator.AutoSize = true;
+            this.lblIncidentManagementSystem_Administrator.Location = new System.Drawing.Point(60, 47);
+            this.lblIncidentManagementSystem_Administrator.Name = "lblIncidentManagementSystem_Administrator";
+            this.lblIncidentManagementSystem_Administrator.Size = new System.Drawing.Size(150, 13);
+            this.lblIncidentManagementSystem_Administrator.TabIndex = 27;
+            this.lblIncidentManagementSystem_Administrator.Text = "Incident Management Systtem";
+            // 
+            // lblCyberTrack_Administrator
+            // 
+            this.lblCyberTrack_Administrator.AutoSize = true;
+            this.lblCyberTrack_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCyberTrack_Administrator.Location = new System.Drawing.Point(57, 19);
+            this.lblCyberTrack_Administrator.Name = "lblCyberTrack_Administrator";
+            this.lblCyberTrack_Administrator.Size = new System.Drawing.Size(119, 18);
+            this.lblCyberTrack_Administrator.TabIndex = 26;
+            this.lblCyberTrack_Administrator.Text = "CYBERTRACK";
+            // 
+            // grbUserLogo_Administrator
+            // 
+            this.grbUserLogo_Administrator.Controls.Add(this.picUserPhoto_Administrator);
+            this.grbUserLogo_Administrator.Controls.Add(this.lblUserRole_Administrator);
+            this.grbUserLogo_Administrator.Controls.Add(this.lblUserName_Administrator);
+            this.grbUserLogo_Administrator.Location = new System.Drawing.Point(1089, 9);
+            this.grbUserLogo_Administrator.Name = "grbUserLogo_Administrator";
+            this.grbUserLogo_Administrator.Size = new System.Drawing.Size(183, 74);
+            this.grbUserLogo_Administrator.TabIndex = 91;
+            this.grbUserLogo_Administrator.TabStop = false;
+            // 
+            // picUserPhoto_Administrator
+            // 
+            this.picUserPhoto_Administrator.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picUserPhoto_Administrator.BackgroundImage")));
+            this.picUserPhoto_Administrator.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picUserPhoto_Administrator.ErrorImage = null;
+            this.picUserPhoto_Administrator.InitialImage = null;
+            this.picUserPhoto_Administrator.Location = new System.Drawing.Point(11, 19);
+            this.picUserPhoto_Administrator.Name = "picUserPhoto_Administrator";
+            this.picUserPhoto_Administrator.Size = new System.Drawing.Size(44, 42);
+            this.picUserPhoto_Administrator.TabIndex = 5;
+            this.picUserPhoto_Administrator.TabStop = false;
+            // 
+            // lblUserRole_Administrator
+            // 
+            this.lblUserRole_Administrator.AutoSize = true;
+            this.lblUserRole_Administrator.Location = new System.Drawing.Point(71, 47);
+            this.lblUserRole_Administrator.Name = "lblUserRole_Administrator";
+            this.lblUserRole_Administrator.Size = new System.Drawing.Size(56, 13);
+            this.lblUserRole_Administrator.TabIndex = 5;
+            this.lblUserRole_Administrator.Text = "ANALYST";
+            // 
+            // lblUserName_Administrator
+            // 
+            this.lblUserName_Administrator.AutoSize = true;
+            this.lblUserName_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUserName_Administrator.Location = new System.Drawing.Point(71, 19);
+            this.lblUserName_Administrator.Name = "lblUserName_Administrator";
+            this.lblUserName_Administrator.Size = new System.Drawing.Size(99, 16);
+            this.lblUserName_Administrator.TabIndex = 5;
+            this.lblUserName_Administrator.Text = "Skibidi Toilet";
+            // 
+            // grbPermissions_Administrator
+            // 
+            this.grbPermissions_Administrator.Controls.Add(this.txtDelete_Administrator);
+            this.grbPermissions_Administrator.Controls.Add(this.txtUpdate_Administrator);
+            this.grbPermissions_Administrator.Controls.Add(this.txtCreate_Administrator);
+            this.grbPermissions_Administrator.Controls.Add(this.lblDelete_Administrator);
+            this.grbPermissions_Administrator.Controls.Add(this.lblUpdate_Administrator);
+            this.grbPermissions_Administrator.Controls.Add(this.lblCreate_Administrator);
+            this.grbPermissions_Administrator.Controls.Add(this.lblPermissions_Administrator);
+            this.grbPermissions_Administrator.Location = new System.Drawing.Point(772, 9);
+            this.grbPermissions_Administrator.Name = "grbPermissions_Administrator";
+            this.grbPermissions_Administrator.Size = new System.Drawing.Size(311, 74);
+            this.grbPermissions_Administrator.TabIndex = 90;
+            this.grbPermissions_Administrator.TabStop = false;
+            // 
+            // txtDelete_Administrator
+            // 
+            this.txtDelete_Administrator.Location = new System.Drawing.Point(257, 40);
+            this.txtDelete_Administrator.Multiline = true;
+            this.txtDelete_Administrator.Name = "txtDelete_Administrator";
+            this.txtDelete_Administrator.ReadOnly = true;
+            this.txtDelete_Administrator.Size = new System.Drawing.Size(47, 20);
+            this.txtDelete_Administrator.TabIndex = 25;
+            this.txtDelete_Administrator.Text = "NO";
+            this.txtDelete_Administrator.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtUpdate_Administrator
+            // 
+            this.txtUpdate_Administrator.Location = new System.Drawing.Point(157, 40);
+            this.txtUpdate_Administrator.Multiline = true;
+            this.txtUpdate_Administrator.Name = "txtUpdate_Administrator";
+            this.txtUpdate_Administrator.ReadOnly = true;
+            this.txtUpdate_Administrator.Size = new System.Drawing.Size(47, 20);
+            this.txtUpdate_Administrator.TabIndex = 24;
+            this.txtUpdate_Administrator.Text = "YES";
+            this.txtUpdate_Administrator.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtCreate_Administrator
+            // 
+            this.txtCreate_Administrator.Location = new System.Drawing.Point(51, 40);
+            this.txtCreate_Administrator.Multiline = true;
+            this.txtCreate_Administrator.Name = "txtCreate_Administrator";
+            this.txtCreate_Administrator.ReadOnly = true;
+            this.txtCreate_Administrator.Size = new System.Drawing.Size(47, 20);
+            this.txtCreate_Administrator.TabIndex = 23;
+            this.txtCreate_Administrator.Text = "YES";
+            this.txtCreate_Administrator.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // lblDelete_Administrator
+            // 
+            this.lblDelete_Administrator.AutoSize = true;
+            this.lblDelete_Administrator.Location = new System.Drawing.Point(210, 43);
+            this.lblDelete_Administrator.Name = "lblDelete_Administrator";
+            this.lblDelete_Administrator.Size = new System.Drawing.Size(41, 13);
+            this.lblDelete_Administrator.TabIndex = 6;
+            this.lblDelete_Administrator.Text = "Delete:";
+            // 
+            // lblUpdate_Administrator
+            // 
+            this.lblUpdate_Administrator.AutoSize = true;
+            this.lblUpdate_Administrator.Location = new System.Drawing.Point(106, 43);
+            this.lblUpdate_Administrator.Name = "lblUpdate_Administrator";
+            this.lblUpdate_Administrator.Size = new System.Drawing.Size(45, 13);
+            this.lblUpdate_Administrator.TabIndex = 5;
+            this.lblUpdate_Administrator.Text = "Update:";
+            // 
+            // lblCreate_Administrator
+            // 
+            this.lblCreate_Administrator.AutoSize = true;
+            this.lblCreate_Administrator.Location = new System.Drawing.Point(6, 43);
+            this.lblCreate_Administrator.Name = "lblCreate_Administrator";
+            this.lblCreate_Administrator.Size = new System.Drawing.Size(41, 13);
+            this.lblCreate_Administrator.TabIndex = 4;
+            this.lblCreate_Administrator.Text = "Create:";
+            // 
+            // lblPermissions_Administrator
+            // 
+            this.lblPermissions_Administrator.AutoSize = true;
+            this.lblPermissions_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPermissions_Administrator.Location = new System.Drawing.Point(6, 16);
+            this.lblPermissions_Administrator.Name = "lblPermissions_Administrator";
+            this.lblPermissions_Administrator.Size = new System.Drawing.Size(92, 16);
+            this.lblPermissions_Administrator.TabIndex = 4;
+            this.lblPermissions_Administrator.Text = "Permissions";
+            // 
+            // txtAuditLogsActTypes_Administrator
+            // 
+            this.txtAuditLogsActTypes_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAuditLogsActTypes_Administrator.Location = new System.Drawing.Point(9, 34);
+            this.txtAuditLogsActTypes_Administrator.Name = "txtAuditLogsActTypes_Administrator";
+            this.txtAuditLogsActTypes_Administrator.ReadOnly = true;
+            this.txtAuditLogsActTypes_Administrator.Size = new System.Drawing.Size(111, 31);
+            this.txtAuditLogsActTypes_Administrator.TabIndex = 5;
+            // 
+            // dgvAuditLogs_Administrator
+            // 
+            this.dgvAuditLogs_Administrator.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAuditLogs_Administrator.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.txtAuditLogsTimestamp_Administrator,
+            this.txtAuditLogsAction_Administrator,
+            this.txtAuditLogsUser_Administrator,
+            this.txtAuditLogsResourceType_Administrator,
+            this.txtAuditLogsResourceID_Administrator,
+            this.txtAuditLogsIPAddress_Administrator,
+            this.lnkAuditLogsChanges_Administrator});
+            this.dgvAuditLogs_Administrator.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.dgvAuditLogs_Administrator.Location = new System.Drawing.Point(27, 322);
+            this.dgvAuditLogs_Administrator.Name = "dgvAuditLogs_Administrator";
+            this.dgvAuditLogs_Administrator.Size = new System.Drawing.Size(1206, 630);
+            this.dgvAuditLogs_Administrator.TabIndex = 72;
+            // 
+            // txtAuditLogsTotalCases_Administrator
+            // 
+            this.txtAuditLogsTotalCases_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAuditLogsTotalCases_Administrator.Location = new System.Drawing.Point(9, 34);
+            this.txtAuditLogsTotalCases_Administrator.Name = "txtAuditLogsTotalCases_Administrator";
+            this.txtAuditLogsTotalCases_Administrator.ReadOnly = true;
+            this.txtAuditLogsTotalCases_Administrator.Size = new System.Drawing.Size(125, 31);
+            this.txtAuditLogsTotalCases_Administrator.TabIndex = 5;
+            // 
+            // lblAuditLogsTotalCases_Administrator
+            // 
+            this.lblAuditLogsTotalCases_Administrator.AutoSize = true;
+            this.lblAuditLogsTotalCases_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAuditLogsTotalCases_Administrator.Location = new System.Drawing.Point(6, 16);
+            this.lblAuditLogsTotalCases_Administrator.Name = "lblAuditLogsTotalCases_Administrator";
+            this.lblAuditLogsTotalCases_Administrator.Size = new System.Drawing.Size(97, 15);
+            this.lblAuditLogsTotalCases_Administrator.TabIndex = 4;
+            this.lblAuditLogsTotalCases_Administrator.Text = "TOTAL CASES";
+            // 
+            // grpAuditLogsTotalCases_Administrator
+            // 
+            this.grpAuditLogsTotalCases_Administrator.Controls.Add(this.lblAuditLogsTotalCases2_Administrator);
+            this.grpAuditLogsTotalCases_Administrator.Controls.Add(this.txtAuditLogsTotalCases_Administrator);
+            this.grpAuditLogsTotalCases_Administrator.Controls.Add(this.lblAuditLogsTotalCases_Administrator);
+            this.grpAuditLogsTotalCases_Administrator.Location = new System.Drawing.Point(27, 67);
+            this.grpAuditLogsTotalCases_Administrator.Name = "grpAuditLogsTotalCases_Administrator";
+            this.grpAuditLogsTotalCases_Administrator.Size = new System.Drawing.Size(390, 100);
+            this.grpAuditLogsTotalCases_Administrator.TabIndex = 26;
+            this.grpAuditLogsTotalCases_Administrator.TabStop = false;
+            // 
+            // lblAuditLogsTotalCases2_Administrator
+            // 
+            this.lblAuditLogsTotalCases2_Administrator.AutoSize = true;
+            this.lblAuditLogsTotalCases2_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAuditLogsTotalCases2_Administrator.Location = new System.Drawing.Point(6, 68);
+            this.lblAuditLogsTotalCases2_Administrator.Name = "lblAuditLogsTotalCases2_Administrator";
+            this.lblAuditLogsTotalCases2_Administrator.Size = new System.Drawing.Size(128, 15);
+            this.lblAuditLogsTotalCases2_Administrator.TabIndex = 53;
+            this.lblAuditLogsTotalCases2_Administrator.Text = "Logged system events";
+            // 
+            // lblAllCasesNofN_Administrator
+            // 
+            this.lblAllCasesNofN_Administrator.AutoSize = true;
+            this.lblAllCasesNofN_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAllCasesNofN_Administrator.Location = new System.Drawing.Point(77, 46);
+            this.lblAllCasesNofN_Administrator.Name = "lblAllCasesNofN_Administrator";
+            this.lblAllCasesNofN_Administrator.Size = new System.Drawing.Size(218, 15);
+            this.lblAllCasesNofN_Administrator.TabIndex = 25;
+            this.lblAllCasesNofN_Administrator.Text = "Complete audit trail - N OF N ENTRIES";
+            // 
+            // lblAllCasesCasesManagement_Administrator
+            // 
+            this.lblAllCasesCasesManagement_Administrator.AutoSize = true;
+            this.lblAllCasesCasesManagement_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAllCasesCasesManagement_Administrator.Location = new System.Drawing.Point(77, 19);
+            this.lblAllCasesCasesManagement_Administrator.Name = "lblAllCasesCasesManagement_Administrator";
+            this.lblAllCasesCasesManagement_Administrator.Size = new System.Drawing.Size(107, 18);
+            this.lblAllCasesCasesManagement_Administrator.TabIndex = 24;
+            this.lblAllCasesCasesManagement_Administrator.Text = "AUDIT LOGS";
+            // 
+            // grpAuditLogsGB_Administrator
+            // 
+            this.grpAuditLogsGB_Administrator.Controls.Add(this.btnAllCasesExport_Administrator);
+            this.grpAuditLogsGB_Administrator.Controls.Add(this.dgvAuditLogs_Administrator);
+            this.grpAuditLogsGB_Administrator.Controls.Add(this.grpAuditLogsFilters_Administrator);
+            this.grpAuditLogsGB_Administrator.Controls.Add(this.grpAuditLogsResType_Administrator);
+            this.grpAuditLogsGB_Administrator.Controls.Add(this.grpAuditLogsActTypes_Administrator);
+            this.grpAuditLogsGB_Administrator.Controls.Add(this.grpAuditLogsTotalCases_Administrator);
+            this.grpAuditLogsGB_Administrator.Controls.Add(this.lblAllCasesNofN_Administrator);
+            this.grpAuditLogsGB_Administrator.Controls.Add(this.lblAllCasesCasesManagement_Administrator);
+            this.grpAuditLogsGB_Administrator.Controls.Add(this.picAllCasesCasesManagement_Administrator);
+            this.grpAuditLogsGB_Administrator.Location = new System.Drawing.Point(12, 83);
+            this.grpAuditLogsGB_Administrator.Name = "grpAuditLogsGB_Administrator";
+            this.grpAuditLogsGB_Administrator.Size = new System.Drawing.Size(1260, 968);
+            this.grpAuditLogsGB_Administrator.TabIndex = 89;
+            this.grpAuditLogsGB_Administrator.TabStop = false;
+            // 
+            // btnAllCasesExport_Administrator
+            // 
+            this.btnAllCasesExport_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAllCasesExport_Administrator.Location = new System.Drawing.Point(1071, 19);
+            this.btnAllCasesExport_Administrator.Name = "btnAllCasesExport_Administrator";
+            this.btnAllCasesExport_Administrator.Size = new System.Drawing.Size(162, 42);
+            this.btnAllCasesExport_Administrator.TabIndex = 58;
+            this.btnAllCasesExport_Administrator.Text = "EXPORT LOGS";
+            this.btnAllCasesExport_Administrator.UseVisualStyleBackColor = true;
+            // 
+            // grpAuditLogsFilters_Administrator
+            // 
+            this.grpAuditLogsFilters_Administrator.Controls.Add(this.lblAuditLogsResourceType_Administrator);
+            this.grpAuditLogsFilters_Administrator.Controls.Add(this.lblAuditLogsSearch_Administrator);
+            this.grpAuditLogsFilters_Administrator.Controls.Add(this.lblAuditLogsActionType_Administrator);
+            this.grpAuditLogsFilters_Administrator.Controls.Add(this.lblAuditLogsFiltersDesc_Administrator);
+            this.grpAuditLogsFilters_Administrator.Controls.Add(this.picAuditLogsFilters_Administrator);
+            this.grpAuditLogsFilters_Administrator.Controls.Add(this.cmbAuditLogsResourceType_Administrator);
+            this.grpAuditLogsFilters_Administrator.Controls.Add(this.cmbAuditLogsActionType_Administrator);
+            this.grpAuditLogsFilters_Administrator.Controls.Add(this.txtAuditLogsSearch_Administrator);
+            this.grpAuditLogsFilters_Administrator.Controls.Add(this.lblAuditLogsFilters_Administrator);
+            this.grpAuditLogsFilters_Administrator.Location = new System.Drawing.Point(27, 173);
+            this.grpAuditLogsFilters_Administrator.Name = "grpAuditLogsFilters_Administrator";
+            this.grpAuditLogsFilters_Administrator.Size = new System.Drawing.Size(1206, 136);
+            this.grpAuditLogsFilters_Administrator.TabIndex = 53;
+            this.grpAuditLogsFilters_Administrator.TabStop = false;
+            // 
+            // lblAuditLogsResourceType_Administrator
+            // 
+            this.lblAuditLogsResourceType_Administrator.AutoSize = true;
+            this.lblAuditLogsResourceType_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAuditLogsResourceType_Administrator.Location = new System.Drawing.Point(814, 67);
+            this.lblAuditLogsResourceType_Administrator.Name = "lblAuditLogsResourceType_Administrator";
+            this.lblAuditLogsResourceType_Administrator.Size = new System.Drawing.Size(153, 24);
+            this.lblAuditLogsResourceType_Administrator.TabIndex = 57;
+            this.lblAuditLogsResourceType_Administrator.Text = "Resource Type";
+            // 
+            // lblAuditLogsSearch_Administrator
+            // 
+            this.lblAuditLogsSearch_Administrator.AutoSize = true;
+            this.lblAuditLogsSearch_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAuditLogsSearch_Administrator.Location = new System.Drawing.Point(7, 67);
+            this.lblAuditLogsSearch_Administrator.Name = "lblAuditLogsSearch_Administrator";
+            this.lblAuditLogsSearch_Administrator.Size = new System.Drawing.Size(76, 24);
+            this.lblAuditLogsSearch_Administrator.TabIndex = 56;
+            this.lblAuditLogsSearch_Administrator.Text = "Search";
+            // 
+            // lblAuditLogsActionType_Administrator
+            // 
+            this.lblAuditLogsActionType_Administrator.AutoSize = true;
+            this.lblAuditLogsActionType_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAuditLogsActionType_Administrator.Location = new System.Drawing.Point(406, 67);
+            this.lblAuditLogsActionType_Administrator.Name = "lblAuditLogsActionType_Administrator";
+            this.lblAuditLogsActionType_Administrator.Size = new System.Drawing.Size(122, 24);
+            this.lblAuditLogsActionType_Administrator.TabIndex = 55;
+            this.lblAuditLogsActionType_Administrator.Text = "Action Type";
+            // 
+            // lblAuditLogsFiltersDesc_Administrator
+            // 
+            this.lblAuditLogsFiltersDesc_Administrator.AutoSize = true;
+            this.lblAuditLogsFiltersDesc_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAuditLogsFiltersDesc_Administrator.Location = new System.Drawing.Point(6, 47);
+            this.lblAuditLogsFiltersDesc_Administrator.Name = "lblAuditLogsFiltersDesc_Administrator";
+            this.lblAuditLogsFiltersDesc_Administrator.Size = new System.Drawing.Size(277, 15);
+            this.lblAuditLogsFiltersDesc_Administrator.TabIndex = 54;
+            this.lblAuditLogsFiltersDesc_Administrator.Text = "Filter audit logs by action, resource type, or search";
+            // 
+            // picAuditLogsFilters_Administrator
+            // 
+            this.picAuditLogsFilters_Administrator.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picAuditLogsFilters_Administrator.BackgroundImage")));
+            this.picAuditLogsFilters_Administrator.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picAuditLogsFilters_Administrator.ErrorImage = null;
+            this.picAuditLogsFilters_Administrator.InitialImage = null;
+            this.picAuditLogsFilters_Administrator.Location = new System.Drawing.Point(9, 19);
+            this.picAuditLogsFilters_Administrator.Name = "picAuditLogsFilters_Administrator";
+            this.picAuditLogsFilters_Administrator.Size = new System.Drawing.Size(26, 25);
+            this.picAuditLogsFilters_Administrator.TabIndex = 53;
+            this.picAuditLogsFilters_Administrator.TabStop = false;
+            // 
+            // cmbAuditLogsResourceType_Administrator
+            // 
+            this.cmbAuditLogsResourceType_Administrator.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbAuditLogsResourceType_Administrator.FormattingEnabled = true;
+            this.cmbAuditLogsResourceType_Administrator.Items.AddRange(new object[] {
+            "ALL RESOURCES",
+            "CASE",
+            "EVIDENCE",
+            "STATUS"});
+            this.cmbAuditLogsResourceType_Administrator.Location = new System.Drawing.Point(816, 95);
+            this.cmbAuditLogsResourceType_Administrator.Name = "cmbAuditLogsResourceType_Administrator";
+            this.cmbAuditLogsResourceType_Administrator.Size = new System.Drawing.Size(378, 21);
+            this.cmbAuditLogsResourceType_Administrator.TabIndex = 26;
+            // 
+            // cmbAuditLogsActionType_Administrator
+            // 
+            this.cmbAuditLogsActionType_Administrator.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbAuditLogsActionType_Administrator.FormattingEnabled = true;
+            this.cmbAuditLogsActionType_Administrator.Items.AddRange(new object[] {
+            "ALL ACTIONS",
+            "UPDATE CASE STATUS",
+            "UPLOAD EVIDENCE",
+            "CREATE INCIDENT",
+            "UPDATE CASE"});
+            this.cmbAuditLogsActionType_Administrator.Location = new System.Drawing.Point(408, 94);
+            this.cmbAuditLogsActionType_Administrator.Name = "cmbAuditLogsActionType_Administrator";
+            this.cmbAuditLogsActionType_Administrator.Size = new System.Drawing.Size(390, 21);
+            this.cmbAuditLogsActionType_Administrator.TabIndex = 25;
+            // 
+            // txtAuditLogsSearch_Administrator
+            // 
+            this.txtAuditLogsSearch_Administrator.Location = new System.Drawing.Point(9, 95);
+            this.txtAuditLogsSearch_Administrator.Name = "txtAuditLogsSearch_Administrator";
+            this.txtAuditLogsSearch_Administrator.Size = new System.Drawing.Size(381, 20);
+            this.txtAuditLogsSearch_Administrator.TabIndex = 24;
+            // 
+            // lblAuditLogsFilters_Administrator
+            // 
+            this.lblAuditLogsFilters_Administrator.AutoSize = true;
+            this.lblAuditLogsFilters_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAuditLogsFilters_Administrator.Location = new System.Drawing.Point(39, 19);
+            this.lblAuditLogsFilters_Administrator.Name = "lblAuditLogsFilters_Administrator";
+            this.lblAuditLogsFilters_Administrator.Size = new System.Drawing.Size(105, 25);
+            this.lblAuditLogsFilters_Administrator.TabIndex = 19;
+            this.lblAuditLogsFilters_Administrator.Text = "FILTERS";
+            // 
+            // grpAuditLogsResType_Administrator
+            // 
+            this.grpAuditLogsResType_Administrator.Controls.Add(this.lblAuditLogsResType2_Administrator);
+            this.grpAuditLogsResType_Administrator.Controls.Add(this.txtAuditLogsResType_Administrator);
+            this.grpAuditLogsResType_Administrator.Controls.Add(this.lblAuditLogsResType_Administrator);
+            this.grpAuditLogsResType_Administrator.Location = new System.Drawing.Point(843, 67);
+            this.grpAuditLogsResType_Administrator.Name = "grpAuditLogsResType_Administrator";
+            this.grpAuditLogsResType_Administrator.Size = new System.Drawing.Size(390, 100);
+            this.grpAuditLogsResType_Administrator.TabIndex = 27;
+            this.grpAuditLogsResType_Administrator.TabStop = false;
+            // 
+            // lblAuditLogsResType2_Administrator
+            // 
+            this.lblAuditLogsResType2_Administrator.AutoSize = true;
+            this.lblAuditLogsResType2_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAuditLogsResType2_Administrator.Location = new System.Drawing.Point(8, 68);
+            this.lblAuditLogsResType2_Administrator.Name = "lblAuditLogsResType2_Administrator";
+            this.lblAuditLogsResType2_Administrator.Size = new System.Drawing.Size(135, 15);
+            this.lblAuditLogsResType2_Administrator.TabIndex = 55;
+            this.lblAuditLogsResType2_Administrator.Text = "Different resource types";
+            // 
+            // txtAuditLogsResType_Administrator
+            // 
+            this.txtAuditLogsResType_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAuditLogsResType_Administrator.Location = new System.Drawing.Point(9, 34);
+            this.txtAuditLogsResType_Administrator.Name = "txtAuditLogsResType_Administrator";
+            this.txtAuditLogsResType_Administrator.ReadOnly = true;
+            this.txtAuditLogsResType_Administrator.Size = new System.Drawing.Size(127, 31);
+            this.txtAuditLogsResType_Administrator.TabIndex = 5;
+            // 
+            // lblAuditLogsResType_Administrator
+            // 
+            this.lblAuditLogsResType_Administrator.AutoSize = true;
+            this.lblAuditLogsResType_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAuditLogsResType_Administrator.Location = new System.Drawing.Point(6, 16);
+            this.lblAuditLogsResType_Administrator.Name = "lblAuditLogsResType_Administrator";
+            this.lblAuditLogsResType_Administrator.Size = new System.Drawing.Size(130, 15);
+            this.lblAuditLogsResType_Administrator.TabIndex = 4;
+            this.lblAuditLogsResType_Administrator.Text = "RESOURCE TYPES";
+            // 
+            // grpAuditLogsActTypes_Administrator
+            // 
+            this.grpAuditLogsActTypes_Administrator.Controls.Add(this.lblAuditLogsActTypes2_Administrator);
+            this.grpAuditLogsActTypes_Administrator.Controls.Add(this.txtAuditLogsActTypes_Administrator);
+            this.grpAuditLogsActTypes_Administrator.Controls.Add(this.lblAuditLogsActTypes_Administrator);
+            this.grpAuditLogsActTypes_Administrator.Location = new System.Drawing.Point(435, 67);
+            this.grpAuditLogsActTypes_Administrator.Name = "grpAuditLogsActTypes_Administrator";
+            this.grpAuditLogsActTypes_Administrator.Size = new System.Drawing.Size(390, 100);
+            this.grpAuditLogsActTypes_Administrator.TabIndex = 27;
+            this.grpAuditLogsActTypes_Administrator.TabStop = false;
+            // 
+            // lblAuditLogsActTypes_Administrator
+            // 
+            this.lblAuditLogsActTypes_Administrator.AutoSize = true;
+            this.lblAuditLogsActTypes_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAuditLogsActTypes_Administrator.Location = new System.Drawing.Point(6, 16);
+            this.lblAuditLogsActTypes_Administrator.Name = "lblAuditLogsActTypes_Administrator";
+            this.lblAuditLogsActTypes_Administrator.Size = new System.Drawing.Size(103, 15);
+            this.lblAuditLogsActTypes_Administrator.TabIndex = 4;
+            this.lblAuditLogsActTypes_Administrator.Text = "ACTION TYPES";
+            // 
+            // txtAuditLogsTimestamp_Administrator
+            // 
+            this.txtAuditLogsTimestamp_Administrator.HeaderText = "TIMESTAMP";
+            this.txtAuditLogsTimestamp_Administrator.Name = "txtAuditLogsTimestamp_Administrator";
+            this.txtAuditLogsTimestamp_Administrator.ReadOnly = true;
+            this.txtAuditLogsTimestamp_Administrator.Width = 166;
+            // 
+            // txtAuditLogsAction_Administrator
+            // 
+            this.txtAuditLogsAction_Administrator.HeaderText = "ACTION";
+            this.txtAuditLogsAction_Administrator.Name = "txtAuditLogsAction_Administrator";
+            this.txtAuditLogsAction_Administrator.ReadOnly = true;
+            this.txtAuditLogsAction_Administrator.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.txtAuditLogsAction_Administrator.Width = 166;
+            // 
+            // txtAuditLogsUser_Administrator
+            // 
+            this.txtAuditLogsUser_Administrator.HeaderText = "USER";
+            this.txtAuditLogsUser_Administrator.Name = "txtAuditLogsUser_Administrator";
+            this.txtAuditLogsUser_Administrator.ReadOnly = true;
+            this.txtAuditLogsUser_Administrator.Width = 166;
+            // 
+            // txtAuditLogsResourceType_Administrator
+            // 
+            this.txtAuditLogsResourceType_Administrator.HeaderText = "RESOURCE TYPE";
+            this.txtAuditLogsResourceType_Administrator.Name = "txtAuditLogsResourceType_Administrator";
+            this.txtAuditLogsResourceType_Administrator.ReadOnly = true;
+            this.txtAuditLogsResourceType_Administrator.Width = 167;
+            // 
+            // txtAuditLogsResourceID_Administrator
+            // 
+            this.txtAuditLogsResourceID_Administrator.HeaderText = "RESOURCE ID";
+            this.txtAuditLogsResourceID_Administrator.Name = "txtAuditLogsResourceID_Administrator";
+            this.txtAuditLogsResourceID_Administrator.ReadOnly = true;
+            this.txtAuditLogsResourceID_Administrator.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.txtAuditLogsResourceID_Administrator.Width = 166;
+            // 
+            // txtAuditLogsIPAddress_Administrator
+            // 
+            this.txtAuditLogsIPAddress_Administrator.HeaderText = "IP ADDRESS";
+            this.txtAuditLogsIPAddress_Administrator.Name = "txtAuditLogsIPAddress_Administrator";
+            this.txtAuditLogsIPAddress_Administrator.ReadOnly = true;
+            this.txtAuditLogsIPAddress_Administrator.Width = 166;
+            // 
+            // lnkAuditLogsChanges_Administrator
+            // 
+            this.lnkAuditLogsChanges_Administrator.HeaderText = "CHANGES";
+            this.lnkAuditLogsChanges_Administrator.Name = "lnkAuditLogsChanges_Administrator";
+            this.lnkAuditLogsChanges_Administrator.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.lnkAuditLogsChanges_Administrator.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.lnkAuditLogsChanges_Administrator.Width = 166;
             // 
             // AuditLogs_Analyst
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1284, 1061);
-            this.Controls.Add(this.grbLogo_Analyst);
-            this.Controls.Add(this.grbPermissions_Analyst);
-            this.Controls.Add(this.grbUserLogo_Analyst);
-            this.Controls.Add(this.dgvAuditLogs1_Analyst);
-            this.Controls.Add(this.lblAuditLogsCompleteAuditTrail_Analyst);
-            this.Controls.Add(this.groupBox6_Analyst);
-            this.Controls.Add(this.groupBox5_Analyst);
-            this.Controls.Add(this.groupBox4_Analyst);
-            this.Controls.Add(this.groupBox3_Analyst);
-            this.Controls.Add(this.lblAuditLogsAuditLogs_Analyst);
-            this.Controls.Add(this.picAuditLogs_Analyst);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.AuditLogsGB_Analyst);
+            this.Controls.Add(this.grbLogo_Administrator);
+            this.Controls.Add(this.grbUserLogo_Administrator);
+            this.Controls.Add(this.grbPermissions_Administrator);
+            this.Controls.Add(this.grpAuditLogsGB_Administrator);
             this.Name = "AuditLogs_Analyst";
             this.Text = "AuditLogs_Analyst";
             this.Load += new System.EventHandler(this.AuditLogs_Analyst_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.groupBox5_Analyst.ResumeLayout(false);
-            this.groupBox5_Analyst.PerformLayout();
-            this.groupBox4_Analyst.ResumeLayout(false);
-            this.groupBox4_Analyst.PerformLayout();
-            this.groupBox3_Analyst.ResumeLayout(false);
-            this.groupBox3_Analyst.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picAuditLogs_Analyst)).EndInit();
-            this.groupBox6_Analyst.ResumeLayout(false);
-            this.groupBox6_Analyst.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAuditLogs1_Analyst)).EndInit();
-            this.grbLogo_Analyst.ResumeLayout(false);
-            this.grbLogo_Analyst.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_Analyst)).EndInit();
-            this.grbPermissions_Analyst.ResumeLayout(false);
-            this.grbPermissions_Analyst.PerformLayout();
-            this.grbUserLogo_Analyst.ResumeLayout(false);
-            this.grbUserLogo_Analyst.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_Analyst)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAllCasesCasesManagement_Administrator)).EndInit();
+            this.grbLogo_Administrator.ResumeLayout(false);
+            this.grbLogo_Administrator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_Administrator)).EndInit();
+            this.grbUserLogo_Administrator.ResumeLayout(false);
+            this.grbUserLogo_Administrator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_Administrator)).EndInit();
+            this.grbPermissions_Administrator.ResumeLayout(false);
+            this.grbPermissions_Administrator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAuditLogs_Administrator)).EndInit();
+            this.grpAuditLogsTotalCases_Administrator.ResumeLayout(false);
+            this.grpAuditLogsTotalCases_Administrator.PerformLayout();
+            this.grpAuditLogsGB_Administrator.ResumeLayout(false);
+            this.grpAuditLogsGB_Administrator.PerformLayout();
+            this.grpAuditLogsFilters_Administrator.ResumeLayout(false);
+            this.grpAuditLogsFilters_Administrator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picAuditLogsFilters_Administrator)).EndInit();
+            this.grpAuditLogsResType_Administrator.ResumeLayout(false);
+            this.grpAuditLogsResType_Administrator.PerformLayout();
+            this.grpAuditLogsActTypes_Administrator.ResumeLayout(false);
+            this.grpAuditLogsActTypes_Administrator.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.GroupBox groupBox5_Analyst;
-        private System.Windows.Forms.TextBox txtAuditLogsResourceTypes_Analyst;
-        private System.Windows.Forms.Label lblAuditLogsResourceTypes_Analyst;
-        private System.Windows.Forms.GroupBox groupBox4_Analyst;
-        private System.Windows.Forms.TextBox txtAuditLogsActionTypes_Analyst;
-        private System.Windows.Forms.Label lblAuditLogsActionTypes_Analyst;
+        private System.Windows.Forms.Label lblAuditLogsActTypes2_Administrator;
+        private System.Windows.Forms.PictureBox picAllCasesCasesManagement_Administrator;
+        private System.Windows.Forms.GroupBox grbLogo_Administrator;
+        private System.Windows.Forms.PictureBox picCyberTrackLogo_Administrator;
+        private System.Windows.Forms.Label lblIncidentManagementSystem_Administrator;
+        private System.Windows.Forms.Label lblCyberTrack_Administrator;
+        private System.Windows.Forms.GroupBox grbUserLogo_Administrator;
+        private System.Windows.Forms.PictureBox picUserPhoto_Administrator;
+        private System.Windows.Forms.Label lblUserRole_Administrator;
+        private System.Windows.Forms.Label lblUserName_Administrator;
+        private System.Windows.Forms.GroupBox grbPermissions_Administrator;
+        private System.Windows.Forms.TextBox txtDelete_Administrator;
+        private System.Windows.Forms.TextBox txtUpdate_Administrator;
+        private System.Windows.Forms.TextBox txtCreate_Administrator;
+        private System.Windows.Forms.Label lblDelete_Administrator;
+        private System.Windows.Forms.Label lblUpdate_Administrator;
+        private System.Windows.Forms.Label lblCreate_Administrator;
+        private System.Windows.Forms.Label lblPermissions_Administrator;
+        private System.Windows.Forms.TextBox txtAuditLogsActTypes_Administrator;
+        private System.Windows.Forms.DataGridView dgvAuditLogs_Administrator;
+        private System.Windows.Forms.TextBox txtAuditLogsTotalCases_Administrator;
+        private System.Windows.Forms.Label lblAuditLogsTotalCases_Administrator;
+        private System.Windows.Forms.GroupBox grpAuditLogsTotalCases_Administrator;
+        private System.Windows.Forms.Label lblAuditLogsTotalCases2_Administrator;
+        private System.Windows.Forms.Label lblAllCasesNofN_Administrator;
+        private System.Windows.Forms.Label lblAllCasesCasesManagement_Administrator;
+        private System.Windows.Forms.GroupBox grpAuditLogsGB_Administrator;
+        private System.Windows.Forms.Button btnAllCasesExport_Administrator;
+        private System.Windows.Forms.GroupBox grpAuditLogsFilters_Administrator;
+        private System.Windows.Forms.Label lblAuditLogsResourceType_Administrator;
+        private System.Windows.Forms.Label lblAuditLogsSearch_Administrator;
+        private System.Windows.Forms.Label lblAuditLogsActionType_Administrator;
+        private System.Windows.Forms.Label lblAuditLogsFiltersDesc_Administrator;
+        private System.Windows.Forms.PictureBox picAuditLogsFilters_Administrator;
+        private System.Windows.Forms.ComboBox cmbAuditLogsResourceType_Administrator;
+        private System.Windows.Forms.ComboBox cmbAuditLogsActionType_Administrator;
+        private System.Windows.Forms.TextBox txtAuditLogsSearch_Administrator;
+        private System.Windows.Forms.Label lblAuditLogsFilters_Administrator;
+        private System.Windows.Forms.GroupBox grpAuditLogsResType_Administrator;
+        private System.Windows.Forms.Label lblAuditLogsResType2_Administrator;
+        private System.Windows.Forms.TextBox txtAuditLogsResType_Administrator;
+        private System.Windows.Forms.Label lblAuditLogsResType_Administrator;
+        private System.Windows.Forms.GroupBox grpAuditLogsActTypes_Administrator;
+        private System.Windows.Forms.Label lblAuditLogsActTypes_Administrator;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtAuditLogsTimestamp_Administrator;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtAuditLogsAction_Administrator;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtAuditLogsUser_Administrator;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtAuditLogsResourceType_Administrator;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtAuditLogsResourceID_Administrator;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtAuditLogsIPAddress_Administrator;
+        private System.Windows.Forms.DataGridViewLinkColumn lnkAuditLogsChanges_Administrator;
         private System.Windows.Forms.GroupBox groupBox3_Analyst;
-        private System.Windows.Forms.TextBox txtAuditLogsTotalActivities_Analyst;
-        private System.Windows.Forms.Label lblAuditLogsTotalActivities_Analyst;
-        private System.Windows.Forms.Label lblAuditLogsAuditLogs_Analyst;
-        private System.Windows.Forms.PictureBox picAuditLogs_Analyst;
-        private System.Windows.Forms.GroupBox groupBox6_Analyst;
-        private System.Windows.Forms.ComboBox cmbAuditLogsCategory_Analyst;
-        private System.Windows.Forms.ComboBox cmbAuditLogsStatus_Analyst;
-        private System.Windows.Forms.ComboBox cmbAuditLogsSeverity_Analyst;
-        private System.Windows.Forms.TextBox txtAuditLogsSearch_Analyst;
-        private System.Windows.Forms.Label lblAuditLogsCategory_Analyst;
-        private System.Windows.Forms.Label lblAuditLogsStatus_Analyst;
-        private System.Windows.Forms.Label lblAuditLogsSeverity_Analyst;
-        private System.Windows.Forms.Label lblAuditLogsSearch_Analyst;
-        private System.Windows.Forms.Label lblAuditLogsFilters_Analyst;
-        private System.Windows.Forms.Label lblAuditLogsCompleteAuditTrail_Analyst;
-        private System.Windows.Forms.DataGridView dgvAuditLogs1_Analyst;
-        private System.Windows.Forms.GroupBox AuditLogsGB_Analyst;
-        private System.Windows.Forms.GroupBox grbLogo_Analyst;
-        private System.Windows.Forms.PictureBox picCyberTrackLogo_Analyst;
-        private System.Windows.Forms.Label lblIncidentManagementSystem_Analyst;
-        private System.Windows.Forms.Label lblCyberTrack_Analyst;
-        private System.Windows.Forms.GroupBox grbPermissions_Analyst;
-        private System.Windows.Forms.TextBox txtDelete_Analyst;
-        private System.Windows.Forms.TextBox txtUpdate_Analyst;
-        private System.Windows.Forms.TextBox txtCreate_Analyst;
-        private System.Windows.Forms.Label lblDelete_Analyst;
-        private System.Windows.Forms.Label lblUpdate_Analyst;
-        private System.Windows.Forms.Label lblCreate_Analyst;
-        private System.Windows.Forms.Label lblPermissions_Analyst;
-        private System.Windows.Forms.GroupBox grbUserLogo_Analyst;
-        private System.Windows.Forms.PictureBox picUserPhoto_Analyst;
-        private System.Windows.Forms.Label lblUserRole_Analyst;
-        private System.Windows.Forms.Label lblUserName_Analyst;
-        private System.Windows.Forms.DataGridViewTextBoxColumn txtAuditLogsTimestamp_Analyst;
-        private System.Windows.Forms.DataGridViewComboBoxColumn cmbAuditLogsAction_Analyst;
-        private System.Windows.Forms.DataGridViewComboBoxColumn cmbAuditLogsUser_Analyst;
-        private System.Windows.Forms.DataGridViewComboBoxColumn cmbAuditLogsResourceType_Analyst;
-        private System.Windows.Forms.DataGridViewTextBoxColumn txtAuditLogsResourceID_Analyst;
-        private System.Windows.Forms.DataGridViewTextBoxColumn txtAuditLogsIPAddress_Analyst;
-        private System.Windows.Forms.DataGridViewButtonColumn btnAuditLogsChanges_Analyst;
     }
 }

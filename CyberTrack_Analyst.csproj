@@ -184,6 +184,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="SubmitReport_Analyst.resx">
       <DependentUpon>SubmitReport_Analyst.cs</DependentUpon>
@@ -209,6 +210,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>CyberTrack_Database.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\AuditLogsIcon.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
