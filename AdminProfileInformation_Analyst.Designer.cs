@@ -95,8 +95,8 @@
             this.txtProfileActivity_Analyst = new System.Windows.Forms.TextBox();
             this.txtProfileRole_Analyst = new System.Windows.Forms.TextBox();
             this.txtProfileUserFullName_Analyst = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblUserProfileDesc_Analyst = new System.Windows.Forms.Label();
+            this.lblSecuritySettingsDesc_Analyst = new System.Windows.Forms.Label();
             this.PINFORMATIONgb_ANALYST.SuspendLayout();
             this.LOGINgroupBox6_ANALYST.SuspendLayout();
             this.ASSIGNEDgroupBox5_ANALYST.SuspendLayout();
@@ -129,7 +129,7 @@
             // 
             // PINFORMATIONgb_ANALYST
             // 
-            this.PINFORMATIONgb_ANALYST.Controls.Add(this.label2);
+            this.PINFORMATIONgb_ANALYST.Controls.Add(this.lblSecuritySettingsDesc_Analyst);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.LOGINgroupBox6_ANALYST);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.ASSIGNEDgroupBox5_ANALYST);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.CREATEDgroupBox4_ANALYST);
@@ -726,30 +726,30 @@
             this.txtProfileUserFullName_Analyst.Size = new System.Drawing.Size(147, 20);
             this.txtProfileUserFullName_Analyst.TabIndex = 1;
             // 
-            // label1
+            // lblUserProfileDesc_Analyst
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 127);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(245, 13);
-            this.label1.TabIndex = 28;
-            this.label1.Text = "Manage your account information and preferences";
+            this.lblUserProfileDesc_Analyst.AutoSize = true;
+            this.lblUserProfileDesc_Analyst.Location = new System.Drawing.Point(9, 127);
+            this.lblUserProfileDesc_Analyst.Name = "lblUserProfileDesc_Analyst";
+            this.lblUserProfileDesc_Analyst.Size = new System.Drawing.Size(245, 13);
+            this.lblUserProfileDesc_Analyst.TabIndex = 28;
+            this.lblUserProfileDesc_Analyst.Text = "Manage your account information and preferences";
             // 
-            // label2
+            // lblSecuritySettingsDesc_Analyst
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(74, 61);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(218, 13);
-            this.label2.TabIndex = 87;
-            this.label2.Text = "Your account details and contact information";
+            this.lblSecuritySettingsDesc_Analyst.AutoSize = true;
+            this.lblSecuritySettingsDesc_Analyst.Location = new System.Drawing.Point(74, 61);
+            this.lblSecuritySettingsDesc_Analyst.Name = "lblSecuritySettingsDesc_Analyst";
+            this.lblSecuritySettingsDesc_Analyst.Size = new System.Drawing.Size(218, 13);
+            this.lblSecuritySettingsDesc_Analyst.TabIndex = 87;
+            this.lblSecuritySettingsDesc_Analyst.Text = "Your account details and contact information";
             // 
             // AdminProfileInformation_Analyst
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1284, 1021);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblUserProfileDesc_Analyst);
             this.Controls.Add(this.USERPROFILEgb_ANALYST);
             this.Controls.Add(this.grbLogo_Analyst);
             this.Controls.Add(this.grbPermissions_Analyst);
@@ -857,7 +857,7 @@
         private System.Windows.Forms.DataGridViewCheckBoxColumn chkProfileCreate_Analyst;
         private System.Windows.Forms.DataGridViewCheckBoxColumn chkProfileRead_Analyst;
         private System.Windows.Forms.DataGridViewCheckBoxColumn chkProfileUpdate_Analyst;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblUserProfileDesc_Analyst;
+        private System.Windows.Forms.Label lblSecuritySettingsDesc_Analyst;
     }
 }
