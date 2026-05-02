@@ -151,7 +151,6 @@
             this.txtSubmitReportImpactLevel_Analyst.Name = "txtSubmitReportImpactLevel_Analyst";
             this.txtSubmitReportImpactLevel_Analyst.Size = new System.Drawing.Size(736, 20);
             this.txtSubmitReportImpactLevel_Analyst.TabIndex = 34;
-            this.txtSubmitReportImpactLevel_Analyst.Text = " e.g., Organization-wide, Department-specific, Individual user";
             // 
             // lblSubmitReportListAll_Analyst
             // 
@@ -257,7 +256,6 @@
             this.txtSubmitReportAffectedSystems_Analyst.Name = "txtSubmitReportAffectedSystems_Analyst";
             this.txtSubmitReportAffectedSystems_Analyst.Size = new System.Drawing.Size(736, 20);
             this.txtSubmitReportAffectedSystems_Analyst.TabIndex = 22;
-            this.txtSubmitReportAffectedSystems_Analyst.Text = " e.g., Web Server, Database, Workstation ID";
             // 
             // cmbSubmitReportCategory_Analyst
             // 
