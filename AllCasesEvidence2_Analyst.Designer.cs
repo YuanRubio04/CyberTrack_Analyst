@@ -1,6 +1,6 @@
 ﻿namespace CyberTrack_Analyst
 {
-    partial class AllCasesBrowseFiles_Analyst
+    partial class AllCasesEvidence2_Analyst
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AllCasesBrowseFiles_Analyst));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AllCasesEvidence2_Analyst));
             this.grbLogo_Analyst = new System.Windows.Forms.GroupBox();
             this.picCyberTrackLogo_Analyst = new System.Windows.Forms.PictureBox();
             this.lblIncidentManagementSystem_Analyst = new System.Windows.Forms.Label();

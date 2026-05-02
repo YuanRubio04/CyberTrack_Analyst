@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CyberTrack_Analyst
 {
-    public partial class AllCasesView_Analyst : Form
+    public partial class AllCasesStatusWorkflow_Analyst : Form
     {
-        public AllCasesView_Analyst()
+        public AllCasesStatusWorkflow_Analyst()
         {
             InitializeComponent();
         }
