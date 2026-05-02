@@ -16,10 +16,5 @@ namespace CyberTrack_Analyst
         {
             InitializeComponent();
         }
-
-        private void groupBox2_Enter(object sender, EventArgs e)
-        {
-
-        }
     }
 }

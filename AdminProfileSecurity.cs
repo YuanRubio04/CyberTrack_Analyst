@@ -16,20 +16,5 @@ namespace CyberTrack_Analyst
         {
             InitializeComponent();
         }
-
-        private void PINFORMATIONlbl_ANALYST_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void PINFORMATIONgb_ANALYST_Enter(object sender, EventArgs e)
-        {
-
-        }
     }
 }

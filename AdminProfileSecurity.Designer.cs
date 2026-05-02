@@ -32,12 +32,15 @@
             this.PINFORMATIONgb_ANALYST = new System.Windows.Forms.GroupBox();
             this.APIgb_ANALYST = new System.Windows.Forms.GroupBox();
             this.dgvProfileAPIAccessTokens_Analyst = new System.Windows.Forms.DataGridView();
+            this.btnProfileGenerateAPI_Analyst = new System.Windows.Forms.DataGridViewButtonColumn();
             this.lblProfileAPIAccessTokens_Analyst = new System.Windows.Forms.Label();
             this.ACTIVESESHgb_ANALYST = new System.Windows.Forms.GroupBox();
             this.dgvProfileActiveSessions_Analyst = new System.Windows.Forms.DataGridView();
+            this.txtProfileCurrentSession_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblProfileActiveSessions_Analyst = new System.Windows.Forms.Label();
             this.TWOFACTORAUTHE_ANALYST = new System.Windows.Forms.GroupBox();
             this.dgvProfileTwoFactorEnabled_Analyst = new System.Windows.Forms.DataGridView();
+            this.chkProfileEnabled1_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.lblProfileAddExtraLayerofSecurity_Analyst = new System.Windows.Forms.Label();
             this.lblProfileTwoFactorAuthentication_Analyst = new System.Windows.Forms.Label();
             this.PassREQLlbl_ANALYST = new System.Windows.Forms.Label();
@@ -48,7 +51,6 @@
             this.lblProfileUserProfile_Analyst = new System.Windows.Forms.Label();
             this.USERPROFILEgb_ANALYST = new System.Windows.Forms.GroupBox();
             this.picProfileUserPhoto_Analyst = new System.Windows.Forms.PictureBox();
-            this.btnProfileNotifications_Analyst = new System.Windows.Forms.Button();
             this.btnProfileSecurity_Analyst = new System.Windows.Forms.Button();
             this.btnProfileInformation_Analyst = new System.Windows.Forms.Button();
             this.txtProfileActivity_Analyst = new System.Windows.Forms.TextBox();
@@ -70,9 +72,8 @@
             this.picUserPhoto_Analyst = new System.Windows.Forms.PictureBox();
             this.lblUserRole_Analyst = new System.Windows.Forms.Label();
             this.lblUserName_Analyst = new System.Windows.Forms.Label();
-            this.chkProfileEnabled1_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.txtProfileCurrentSession_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnProfileGenerateAPI_Analyst = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.lblUserProfileDesc_Analyst = new System.Windows.Forms.Label();
+            this.lblSecuritySettingsDesc_Analyst = new System.Windows.Forms.Label();
             this.PINFORMATIONgb_ANALYST.SuspendLayout();
             this.APIgb_ANALYST.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProfileAPIAccessTokens_Analyst)).BeginInit();
@@ -92,6 +93,7 @@
             // 
             // PINFORMATIONgb_ANALYST
             // 
+            this.PINFORMATIONgb_ANALYST.Controls.Add(this.lblSecuritySettingsDesc_Analyst);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.APIgb_ANALYST);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.ACTIVESESHgb_ANALYST);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.TWOFACTORAUTHE_ANALYST);
@@ -100,12 +102,11 @@
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.lblProfileSecuritySettings);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.picProfileSecuritySettingsPhoto_Analyst);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.grbProfilePassrRequirement_Analyst);
-            this.PINFORMATIONgb_ANALYST.Location = new System.Drawing.Point(442, 153);
+            this.PINFORMATIONgb_ANALYST.Location = new System.Drawing.Point(436, 153);
             this.PINFORMATIONgb_ANALYST.Name = "PINFORMATIONgb_ANALYST";
-            this.PINFORMATIONgb_ANALYST.Size = new System.Drawing.Size(830, 775);
+            this.PINFORMATIONgb_ANALYST.Size = new System.Drawing.Size(836, 775);
             this.PINFORMATIONgb_ANALYST.TabIndex = 52;
             this.PINFORMATIONgb_ANALYST.TabStop = false;
-            this.PINFORMATIONgb_ANALYST.Enter += new System.EventHandler(this.PINFORMATIONgb_ANALYST_Enter);
             // 
             // APIgb_ANALYST
             // 
@@ -126,6 +127,13 @@
             this.dgvProfileAPIAccessTokens_Analyst.Name = "dgvProfileAPIAccessTokens_Analyst";
             this.dgvProfileAPIAccessTokens_Analyst.Size = new System.Drawing.Size(759, 71);
             this.dgvProfileAPIAccessTokens_Analyst.TabIndex = 51;
+            // 
+            // btnProfileGenerateAPI_Analyst
+            // 
+            this.btnProfileGenerateAPI_Analyst.HeaderText = "Generate Tokens";
+            this.btnProfileGenerateAPI_Analyst.Name = "btnProfileGenerateAPI_Analyst";
+            this.btnProfileGenerateAPI_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.btnProfileGenerateAPI_Analyst.Width = 720;
             // 
             // lblProfileAPIAccessTokens_Analyst
             // 
@@ -156,6 +164,14 @@
             this.dgvProfileActiveSessions_Analyst.Name = "dgvProfileActiveSessions_Analyst";
             this.dgvProfileActiveSessions_Analyst.Size = new System.Drawing.Size(759, 71);
             this.dgvProfileActiveSessions_Analyst.TabIndex = 51;
+            // 
+            // txtProfileCurrentSession_Analyst
+            // 
+            this.txtProfileCurrentSession_Analyst.HeaderText = "Current Session";
+            this.txtProfileCurrentSession_Analyst.Name = "txtProfileCurrentSession_Analyst";
+            this.txtProfileCurrentSession_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.txtProfileCurrentSession_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.txtProfileCurrentSession_Analyst.Width = 720;
             // 
             // lblProfileActiveSessions_Analyst
             // 
@@ -188,6 +204,12 @@
             this.dgvProfileTwoFactorEnabled_Analyst.Size = new System.Drawing.Size(759, 71);
             this.dgvProfileTwoFactorEnabled_Analyst.TabIndex = 51;
             // 
+            // chkProfileEnabled1_Analyst
+            // 
+            this.chkProfileEnabled1_Analyst.HeaderText = "Enabled";
+            this.chkProfileEnabled1_Analyst.Name = "chkProfileEnabled1_Analyst";
+            this.chkProfileEnabled1_Analyst.Width = 720;
+            // 
             // lblProfileAddExtraLayerofSecurity_Analyst
             // 
             this.lblProfileAddExtraLayerofSecurity_Analyst.AutoSize = true;
@@ -206,7 +228,6 @@
             this.lblProfileTwoFactorAuthentication_Analyst.Size = new System.Drawing.Size(267, 18);
             this.lblProfileTwoFactorAuthentication_Analyst.TabIndex = 50;
             this.lblProfileTwoFactorAuthentication_Analyst.Text = "TWO-FACTOR AUTHENTICATION";
-            this.lblProfileTwoFactorAuthentication_Analyst.Click += new System.EventHandler(this.label3_Click);
             // 
             // PassREQLlbl_ANALYST
             // 
@@ -238,7 +259,6 @@
             this.lblProfileSecuritySettings.Size = new System.Drawing.Size(177, 18);
             this.lblProfileSecuritySettings.TabIndex = 47;
             this.lblProfileSecuritySettings.Text = "SECURITY SETTINGS";
-            this.lblProfileSecuritySettings.Click += new System.EventHandler(this.PINFORMATIONlbl_ANALYST_Click);
             // 
             // picProfileSecuritySettingsPhoto_Analyst
             // 
@@ -264,7 +284,7 @@
             // 
             this.lblProfileUserProfile_Analyst.AutoSize = true;
             this.lblProfileUserProfile_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProfileUserProfile_Analyst.Location = new System.Drawing.Point(15, 109);
+            this.lblProfileUserProfile_Analyst.Location = new System.Drawing.Point(9, 109);
             this.lblProfileUserProfile_Analyst.Name = "lblProfileUserProfile_Analyst";
             this.lblProfileUserProfile_Analyst.Size = new System.Drawing.Size(129, 18);
             this.lblProfileUserProfile_Analyst.TabIndex = 51;
@@ -273,15 +293,14 @@
             // USERPROFILEgb_ANALYST
             // 
             this.USERPROFILEgb_ANALYST.Controls.Add(this.picProfileUserPhoto_Analyst);
-            this.USERPROFILEgb_ANALYST.Controls.Add(this.btnProfileNotifications_Analyst);
             this.USERPROFILEgb_ANALYST.Controls.Add(this.btnProfileSecurity_Analyst);
             this.USERPROFILEgb_ANALYST.Controls.Add(this.btnProfileInformation_Analyst);
             this.USERPROFILEgb_ANALYST.Controls.Add(this.txtProfileActivity_Analyst);
             this.USERPROFILEgb_ANALYST.Controls.Add(this.txtProfileRole_Analyst);
             this.USERPROFILEgb_ANALYST.Controls.Add(this.txtProfileUserFullName_Analyst);
-            this.USERPROFILEgb_ANALYST.Location = new System.Drawing.Point(18, 153);
+            this.USERPROFILEgb_ANALYST.Location = new System.Drawing.Point(12, 153);
             this.USERPROFILEgb_ANALYST.Name = "USERPROFILEgb_ANALYST";
-            this.USERPROFILEgb_ANALYST.Size = new System.Drawing.Size(395, 519);
+            this.USERPROFILEgb_ANALYST.Size = new System.Drawing.Size(395, 476);
             this.USERPROFILEgb_ANALYST.TabIndex = 50;
             this.USERPROFILEgb_ANALYST.TabStop = false;
             // 
@@ -296,16 +315,6 @@
             this.picProfileUserPhoto_Analyst.Size = new System.Drawing.Size(173, 156);
             this.picProfileUserPhoto_Analyst.TabIndex = 7;
             this.picProfileUserPhoto_Analyst.TabStop = false;
-            // 
-            // btnProfileNotifications_Analyst
-            // 
-            this.btnProfileNotifications_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProfileNotifications_Analyst.Location = new System.Drawing.Point(6, 462);
-            this.btnProfileNotifications_Analyst.Name = "btnProfileNotifications_Analyst";
-            this.btnProfileNotifications_Analyst.Size = new System.Drawing.Size(383, 37);
-            this.btnProfileNotifications_Analyst.TabIndex = 6;
-            this.btnProfileNotifications_Analyst.Text = "NOTIFICATIONS";
-            this.btnProfileNotifications_Analyst.UseVisualStyleBackColor = true;
             // 
             // btnProfileSecurity_Analyst
             // 
@@ -515,32 +524,30 @@
             this.lblUserName_Analyst.TabIndex = 5;
             this.lblUserName_Analyst.Text = "Skibidi Toilet";
             // 
-            // chkProfileEnabled1_Analyst
+            // lblUserProfileDesc_Analyst
             // 
-            this.chkProfileEnabled1_Analyst.HeaderText = "Enabled";
-            this.chkProfileEnabled1_Analyst.Name = "chkProfileEnabled1_Analyst";
-            this.chkProfileEnabled1_Analyst.Width = 720;
+            this.lblUserProfileDesc_Analyst.AutoSize = true;
+            this.lblUserProfileDesc_Analyst.Location = new System.Drawing.Point(9, 127);
+            this.lblUserProfileDesc_Analyst.Name = "lblUserProfileDesc_Analyst";
+            this.lblUserProfileDesc_Analyst.Size = new System.Drawing.Size(245, 13);
+            this.lblUserProfileDesc_Analyst.TabIndex = 85;
+            this.lblUserProfileDesc_Analyst.Text = "Manage your account information and preferences";
             // 
-            // txtProfileCurrentSession_Analyst
+            // lblSecuritySettingsDesc_Analyst
             // 
-            this.txtProfileCurrentSession_Analyst.HeaderText = "Current Session";
-            this.txtProfileCurrentSession_Analyst.Name = "txtProfileCurrentSession_Analyst";
-            this.txtProfileCurrentSession_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.txtProfileCurrentSession_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.txtProfileCurrentSession_Analyst.Width = 720;
-            // 
-            // btnProfileGenerateAPI_Analyst
-            // 
-            this.btnProfileGenerateAPI_Analyst.HeaderText = "Generate Tokens";
-            this.btnProfileGenerateAPI_Analyst.Name = "btnProfileGenerateAPI_Analyst";
-            this.btnProfileGenerateAPI_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.btnProfileGenerateAPI_Analyst.Width = 720;
+            this.lblSecuritySettingsDesc_Analyst.AutoSize = true;
+            this.lblSecuritySettingsDesc_Analyst.Location = new System.Drawing.Point(74, 60);
+            this.lblSecuritySettingsDesc_Analyst.Name = "lblSecuritySettingsDesc_Analyst";
+            this.lblSecuritySettingsDesc_Analyst.Size = new System.Drawing.Size(236, 13);
+            this.lblSecuritySettingsDesc_Analyst.TabIndex = 88;
+            this.lblSecuritySettingsDesc_Analyst.Text = "Manage your password and security preferences";
             // 
             // AdminProfileSecurity
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1284, 1061);
+            this.ClientSize = new System.Drawing.Size(1284, 941);
+            this.Controls.Add(this.lblUserProfileDesc_Analyst);
             this.Controls.Add(this.grbLogo_Analyst);
             this.Controls.Add(this.grbPermissions_Analyst);
             this.Controls.Add(this.PINFORMATIONgb_ANALYST);
@@ -585,7 +592,6 @@
         private System.Windows.Forms.Label lblProfileUserProfile_Analyst;
         private System.Windows.Forms.GroupBox USERPROFILEgb_ANALYST;
         private System.Windows.Forms.PictureBox picProfileUserPhoto_Analyst;
-        private System.Windows.Forms.Button btnProfileNotifications_Analyst;
         private System.Windows.Forms.Button btnProfileSecurity_Analyst;
         private System.Windows.Forms.Button btnProfileInformation_Analyst;
         private System.Windows.Forms.TextBox txtProfileActivity_Analyst;
@@ -623,5 +629,7 @@
         private System.Windows.Forms.DataGridViewButtonColumn btnProfileGenerateAPI_Analyst;
         private System.Windows.Forms.DataGridViewTextBoxColumn txtProfileCurrentSession_Analyst;
         private System.Windows.Forms.DataGridViewCheckBoxColumn chkProfileEnabled1_Analyst;
+        private System.Windows.Forms.Label lblUserProfileDesc_Analyst;
+        private System.Windows.Forms.Label lblSecuritySettingsDesc_Analyst;
     }
 }

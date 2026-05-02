@@ -44,14 +44,32 @@
             this.lblProfileAssignedPermissions_Analyst = new System.Windows.Forms.Label();
             this.PERMISSIONSgb_ANALYST = new System.Windows.Forms.GroupBox();
             this.dgvProfileAuditLogs_Analyst = new System.Windows.Forms.DataGridView();
+            this.chkProfileCreate4_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.chkProfileRead4_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.chkProfileUpdate4_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.dgvProfileUsers_Analyst = new System.Windows.Forms.DataGridView();
+            this.chkProfileCreate3_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.chkProfileRead3_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.chkProfileUpdate3_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.lblProfileAuditLogs_Analyst = new System.Windows.Forms.Label();
             this.lblProfileUsers_Analyst = new System.Windows.Forms.Label();
             this.lblProfileEvidence_Analyst = new System.Windows.Forms.Label();
             this.dgvProfileEvidence_Analyst = new System.Windows.Forms.DataGridView();
+            this.chkProfileCreate2_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.chkProfileRead2_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.chkProfileUpdate2_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.dgvProfileCases_Analyst = new System.Windows.Forms.DataGridView();
+            this.chkProfileCreate_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.chkProfileRead_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.chkProfileUpdate_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.lblProfileCases_Analyst = new System.Windows.Forms.Label();
             this.dgvProfilePersonalInformation_Analyst = new System.Windows.Forms.DataGridView();
+            this.txtProfileUserID_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtProfileFullName_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtProfileEmail_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtProfileRole2_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtProfileDepartment_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtProfileStatus_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblProfilePersonalInformation_Analyst = new System.Windows.Forms.Label();
             this.picProfilePersonalInfoPhoto_Analyst = new System.Windows.Forms.PictureBox();
             this.grbLogo_Analyst = new System.Windows.Forms.GroupBox();
@@ -72,30 +90,13 @@
             this.lblUserName_Analyst = new System.Windows.Forms.Label();
             this.USERPROFILEgb_ANALYST = new System.Windows.Forms.GroupBox();
             this.picProfileUserPhoto_Analyst = new System.Windows.Forms.PictureBox();
-            this.btnProfileNotifications_Analyst = new System.Windows.Forms.Button();
             this.btnProfileSecurity_Analyst = new System.Windows.Forms.Button();
             this.btnProfileInformation_Analyst = new System.Windows.Forms.Button();
             this.txtProfileActivity_Analyst = new System.Windows.Forms.TextBox();
             this.txtProfileRole_Analyst = new System.Windows.Forms.TextBox();
             this.txtProfileUserFullName_Analyst = new System.Windows.Forms.TextBox();
-            this.txtProfileUserID_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtProfileFullName_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtProfileEmail_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtProfileRole2_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtProfileDepartment_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtProfileStatus_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.chkProfileCreate_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.chkProfileRead_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.chkProfileUpdate_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.chkProfileCreate2_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.chkProfileRead2_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.chkProfileUpdate2_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.chkProfileCreate3_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.chkProfileRead3_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.chkProfileUpdate3_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.chkProfileCreate4_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.chkProfileRead4_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.chkProfileUpdate4_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.PINFORMATIONgb_ANALYST.SuspendLayout();
             this.LOGINgroupBox6_ANALYST.SuspendLayout();
             this.ASSIGNEDgroupBox5_ANALYST.SuspendLayout();
@@ -120,7 +121,7 @@
             // 
             this.USERPROFILElbl_ANALYST.AutoSize = true;
             this.USERPROFILElbl_ANALYST.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.USERPROFILElbl_ANALYST.Location = new System.Drawing.Point(15, 109);
+            this.USERPROFILElbl_ANALYST.Location = new System.Drawing.Point(9, 109);
             this.USERPROFILElbl_ANALYST.Name = "USERPROFILElbl_ANALYST";
             this.USERPROFILElbl_ANALYST.Size = new System.Drawing.Size(129, 18);
             this.USERPROFILElbl_ANALYST.TabIndex = 45;
@@ -128,6 +129,7 @@
             // 
             // PINFORMATIONgb_ANALYST
             // 
+            this.PINFORMATIONgb_ANALYST.Controls.Add(this.label2);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.LOGINgroupBox6_ANALYST);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.ASSIGNEDgroupBox5_ANALYST);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.CREATEDgroupBox4_ANALYST);
@@ -137,12 +139,11 @@
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.dgvProfilePersonalInformation_Analyst);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.lblProfilePersonalInformation_Analyst);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.picProfilePersonalInfoPhoto_Analyst);
-            this.PINFORMATIONgb_ANALYST.Location = new System.Drawing.Point(442, 153);
+            this.PINFORMATIONgb_ANALYST.Location = new System.Drawing.Point(436, 153);
             this.PINFORMATIONgb_ANALYST.Name = "PINFORMATIONgb_ANALYST";
-            this.PINFORMATIONgb_ANALYST.Size = new System.Drawing.Size(830, 896);
+            this.PINFORMATIONgb_ANALYST.Size = new System.Drawing.Size(836, 896);
             this.PINFORMATIONgb_ANALYST.TabIndex = 46;
             this.PINFORMATIONgb_ANALYST.TabStop = false;
-            this.PINFORMATIONgb_ANALYST.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // LOGINgroupBox6_ANALYST
             // 
@@ -273,6 +274,24 @@
             this.dgvProfileAuditLogs_Analyst.Size = new System.Drawing.Size(750, 59);
             this.dgvProfileAuditLogs_Analyst.TabIndex = 61;
             // 
+            // chkProfileCreate4_Analyst
+            // 
+            this.chkProfileCreate4_Analyst.HeaderText = "Create";
+            this.chkProfileCreate4_Analyst.Name = "chkProfileCreate4_Analyst";
+            this.chkProfileCreate4_Analyst.Width = 250;
+            // 
+            // chkProfileRead4_Analyst
+            // 
+            this.chkProfileRead4_Analyst.HeaderText = "Read";
+            this.chkProfileRead4_Analyst.Name = "chkProfileRead4_Analyst";
+            this.chkProfileRead4_Analyst.Width = 250;
+            // 
+            // chkProfileUpdate4_Analyst
+            // 
+            this.chkProfileUpdate4_Analyst.HeaderText = "Update";
+            this.chkProfileUpdate4_Analyst.Name = "chkProfileUpdate4_Analyst";
+            this.chkProfileUpdate4_Analyst.Width = 220;
+            // 
             // dgvProfileUsers_Analyst
             // 
             this.dgvProfileUsers_Analyst.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -284,6 +303,24 @@
             this.dgvProfileUsers_Analyst.Name = "dgvProfileUsers_Analyst";
             this.dgvProfileUsers_Analyst.Size = new System.Drawing.Size(750, 59);
             this.dgvProfileUsers_Analyst.TabIndex = 60;
+            // 
+            // chkProfileCreate3_Analyst
+            // 
+            this.chkProfileCreate3_Analyst.HeaderText = "Create";
+            this.chkProfileCreate3_Analyst.Name = "chkProfileCreate3_Analyst";
+            this.chkProfileCreate3_Analyst.Width = 250;
+            // 
+            // chkProfileRead3_Analyst
+            // 
+            this.chkProfileRead3_Analyst.HeaderText = "Read";
+            this.chkProfileRead3_Analyst.Name = "chkProfileRead3_Analyst";
+            this.chkProfileRead3_Analyst.Width = 250;
+            // 
+            // chkProfileUpdate3_Analyst
+            // 
+            this.chkProfileUpdate3_Analyst.HeaderText = "Update";
+            this.chkProfileUpdate3_Analyst.Name = "chkProfileUpdate3_Analyst";
+            this.chkProfileUpdate3_Analyst.Width = 220;
             // 
             // lblProfileAuditLogs_Analyst
             // 
@@ -327,6 +364,24 @@
             this.dgvProfileEvidence_Analyst.Size = new System.Drawing.Size(750, 59);
             this.dgvProfileEvidence_Analyst.TabIndex = 56;
             // 
+            // chkProfileCreate2_Analyst
+            // 
+            this.chkProfileCreate2_Analyst.HeaderText = "Create";
+            this.chkProfileCreate2_Analyst.Name = "chkProfileCreate2_Analyst";
+            this.chkProfileCreate2_Analyst.Width = 250;
+            // 
+            // chkProfileRead2_Analyst
+            // 
+            this.chkProfileRead2_Analyst.HeaderText = "Read";
+            this.chkProfileRead2_Analyst.Name = "chkProfileRead2_Analyst";
+            this.chkProfileRead2_Analyst.Width = 250;
+            // 
+            // chkProfileUpdate2_Analyst
+            // 
+            this.chkProfileUpdate2_Analyst.HeaderText = "Update";
+            this.chkProfileUpdate2_Analyst.Name = "chkProfileUpdate2_Analyst";
+            this.chkProfileUpdate2_Analyst.Width = 220;
+            // 
             // dgvProfileCases_Analyst
             // 
             this.dgvProfileCases_Analyst.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -338,6 +393,24 @@
             this.dgvProfileCases_Analyst.Name = "dgvProfileCases_Analyst";
             this.dgvProfileCases_Analyst.Size = new System.Drawing.Size(750, 59);
             this.dgvProfileCases_Analyst.TabIndex = 55;
+            // 
+            // chkProfileCreate_Analyst
+            // 
+            this.chkProfileCreate_Analyst.HeaderText = "Create";
+            this.chkProfileCreate_Analyst.Name = "chkProfileCreate_Analyst";
+            this.chkProfileCreate_Analyst.Width = 250;
+            // 
+            // chkProfileRead_Analyst
+            // 
+            this.chkProfileRead_Analyst.HeaderText = "Read";
+            this.chkProfileRead_Analyst.Name = "chkProfileRead_Analyst";
+            this.chkProfileRead_Analyst.Width = 250;
+            // 
+            // chkProfileUpdate_Analyst
+            // 
+            this.chkProfileUpdate_Analyst.HeaderText = "Update";
+            this.chkProfileUpdate_Analyst.Name = "chkProfileUpdate_Analyst";
+            this.chkProfileUpdate_Analyst.Width = 220;
             // 
             // lblProfileCases_Analyst
             // 
@@ -363,6 +436,39 @@
             this.dgvProfilePersonalInformation_Analyst.Name = "dgvProfilePersonalInformation_Analyst";
             this.dgvProfilePersonalInformation_Analyst.Size = new System.Drawing.Size(784, 62);
             this.dgvProfilePersonalInformation_Analyst.TabIndex = 48;
+            // 
+            // txtProfileUserID_Analyst
+            // 
+            this.txtProfileUserID_Analyst.HeaderText = "User ID";
+            this.txtProfileUserID_Analyst.Name = "txtProfileUserID_Analyst";
+            // 
+            // txtProfileFullName_Analyst
+            // 
+            this.txtProfileFullName_Analyst.HeaderText = "Full Name";
+            this.txtProfileFullName_Analyst.Name = "txtProfileFullName_Analyst";
+            this.txtProfileFullName_Analyst.Width = 150;
+            // 
+            // txtProfileEmail_Analyst
+            // 
+            this.txtProfileEmail_Analyst.HeaderText = "Email";
+            this.txtProfileEmail_Analyst.Name = "txtProfileEmail_Analyst";
+            this.txtProfileEmail_Analyst.Width = 150;
+            // 
+            // txtProfileRole2_Analyst
+            // 
+            this.txtProfileRole2_Analyst.HeaderText = "Role";
+            this.txtProfileRole2_Analyst.Name = "txtProfileRole2_Analyst";
+            // 
+            // txtProfileDepartment_Analyst
+            // 
+            this.txtProfileDepartment_Analyst.HeaderText = "Department";
+            this.txtProfileDepartment_Analyst.Name = "txtProfileDepartment_Analyst";
+            this.txtProfileDepartment_Analyst.Width = 150;
+            // 
+            // txtProfileStatus_Analyst
+            // 
+            this.txtProfileStatus_Analyst.HeaderText = "Status";
+            this.txtProfileStatus_Analyst.Name = "txtProfileStatus_Analyst";
             // 
             // lblProfilePersonalInformation_Analyst
             // 
@@ -391,7 +497,7 @@
             this.grbLogo_Analyst.Controls.Add(this.picCyberTrackLogo_Analyst);
             this.grbLogo_Analyst.Controls.Add(this.lblIncidentManagementSystem_Analyst);
             this.grbLogo_Analyst.Controls.Add(this.lblCyberTrack_Analyst);
-            this.grbLogo_Analyst.Location = new System.Drawing.Point(18, 2);
+            this.grbLogo_Analyst.Location = new System.Drawing.Point(12, 12);
             this.grbLogo_Analyst.Name = "grbLogo_Analyst";
             this.grbLogo_Analyst.Size = new System.Drawing.Size(754, 74);
             this.grbLogo_Analyst.TabIndex = 84;
@@ -435,7 +541,7 @@
             this.grbPermissions_Analyst.Controls.Add(this.lblUpdate_Analyst);
             this.grbPermissions_Analyst.Controls.Add(this.lblCreate_Analyst);
             this.grbPermissions_Analyst.Controls.Add(this.lblPermissions_Analyst);
-            this.grbPermissions_Analyst.Location = new System.Drawing.Point(778, 2);
+            this.grbPermissions_Analyst.Location = new System.Drawing.Point(772, 12);
             this.grbPermissions_Analyst.Name = "grbPermissions_Analyst";
             this.grbPermissions_Analyst.Size = new System.Drawing.Size(311, 74);
             this.grbPermissions_Analyst.TabIndex = 82;
@@ -516,7 +622,7 @@
             this.grbUserLogo_Analyst.Controls.Add(this.picUserPhoto_Analyst);
             this.grbUserLogo_Analyst.Controls.Add(this.lblUserRole_Analyst);
             this.grbUserLogo_Analyst.Controls.Add(this.lblUserName_Analyst);
-            this.grbUserLogo_Analyst.Location = new System.Drawing.Point(1095, 2);
+            this.grbUserLogo_Analyst.Location = new System.Drawing.Point(1089, 12);
             this.grbUserLogo_Analyst.Name = "grbUserLogo_Analyst";
             this.grbUserLogo_Analyst.Size = new System.Drawing.Size(183, 74);
             this.grbUserLogo_Analyst.TabIndex = 83;
@@ -556,7 +662,6 @@
             // USERPROFILEgb_ANALYST
             // 
             this.USERPROFILEgb_ANALYST.Controls.Add(this.picProfileUserPhoto_Analyst);
-            this.USERPROFILEgb_ANALYST.Controls.Add(this.btnProfileNotifications_Analyst);
             this.USERPROFILEgb_ANALYST.Controls.Add(this.btnProfileSecurity_Analyst);
             this.USERPROFILEgb_ANALYST.Controls.Add(this.btnProfileInformation_Analyst);
             this.USERPROFILEgb_ANALYST.Controls.Add(this.txtProfileActivity_Analyst);
@@ -564,7 +669,7 @@
             this.USERPROFILEgb_ANALYST.Controls.Add(this.txtProfileUserFullName_Analyst);
             this.USERPROFILEgb_ANALYST.Location = new System.Drawing.Point(12, 153);
             this.USERPROFILEgb_ANALYST.Name = "USERPROFILEgb_ANALYST";
-            this.USERPROFILEgb_ANALYST.Size = new System.Drawing.Size(395, 519);
+            this.USERPROFILEgb_ANALYST.Size = new System.Drawing.Size(395, 480);
             this.USERPROFILEgb_ANALYST.TabIndex = 86;
             this.USERPROFILEgb_ANALYST.TabStop = false;
             // 
@@ -579,16 +684,6 @@
             this.picProfileUserPhoto_Analyst.Size = new System.Drawing.Size(173, 156);
             this.picProfileUserPhoto_Analyst.TabIndex = 7;
             this.picProfileUserPhoto_Analyst.TabStop = false;
-            // 
-            // btnProfileNotifications_Analyst
-            // 
-            this.btnProfileNotifications_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProfileNotifications_Analyst.Location = new System.Drawing.Point(6, 462);
-            this.btnProfileNotifications_Analyst.Name = "btnProfileNotifications_Analyst";
-            this.btnProfileNotifications_Analyst.Size = new System.Drawing.Size(383, 37);
-            this.btnProfileNotifications_Analyst.TabIndex = 6;
-            this.btnProfileNotifications_Analyst.Text = "NOTIFICATIONS";
-            this.btnProfileNotifications_Analyst.UseVisualStyleBackColor = true;
             // 
             // btnProfileSecurity_Analyst
             // 
@@ -631,116 +726,30 @@
             this.txtProfileUserFullName_Analyst.Size = new System.Drawing.Size(147, 20);
             this.txtProfileUserFullName_Analyst.TabIndex = 1;
             // 
-            // txtProfileUserID_Analyst
+            // label1
             // 
-            this.txtProfileUserID_Analyst.HeaderText = "User ID";
-            this.txtProfileUserID_Analyst.Name = "txtProfileUserID_Analyst";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(9, 127);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(245, 13);
+            this.label1.TabIndex = 28;
+            this.label1.Text = "Manage your account information and preferences";
             // 
-            // txtProfileFullName_Analyst
+            // label2
             // 
-            this.txtProfileFullName_Analyst.HeaderText = "Full Name";
-            this.txtProfileFullName_Analyst.Name = "txtProfileFullName_Analyst";
-            this.txtProfileFullName_Analyst.Width = 150;
-            // 
-            // txtProfileEmail_Analyst
-            // 
-            this.txtProfileEmail_Analyst.HeaderText = "Email";
-            this.txtProfileEmail_Analyst.Name = "txtProfileEmail_Analyst";
-            this.txtProfileEmail_Analyst.Width = 150;
-            // 
-            // txtProfileRole2_Analyst
-            // 
-            this.txtProfileRole2_Analyst.HeaderText = "Role";
-            this.txtProfileRole2_Analyst.Name = "txtProfileRole2_Analyst";
-            // 
-            // txtProfileDepartment_Analyst
-            // 
-            this.txtProfileDepartment_Analyst.HeaderText = "Department";
-            this.txtProfileDepartment_Analyst.Name = "txtProfileDepartment_Analyst";
-            this.txtProfileDepartment_Analyst.Width = 150;
-            // 
-            // txtProfileStatus_Analyst
-            // 
-            this.txtProfileStatus_Analyst.HeaderText = "Status";
-            this.txtProfileStatus_Analyst.Name = "txtProfileStatus_Analyst";
-            // 
-            // chkProfileCreate_Analyst
-            // 
-            this.chkProfileCreate_Analyst.HeaderText = "Create";
-            this.chkProfileCreate_Analyst.Name = "chkProfileCreate_Analyst";
-            this.chkProfileCreate_Analyst.Width = 250;
-            // 
-            // chkProfileRead_Analyst
-            // 
-            this.chkProfileRead_Analyst.HeaderText = "Read";
-            this.chkProfileRead_Analyst.Name = "chkProfileRead_Analyst";
-            this.chkProfileRead_Analyst.Width = 250;
-            // 
-            // chkProfileUpdate_Analyst
-            // 
-            this.chkProfileUpdate_Analyst.HeaderText = "Update";
-            this.chkProfileUpdate_Analyst.Name = "chkProfileUpdate_Analyst";
-            this.chkProfileUpdate_Analyst.Width = 220;
-            // 
-            // chkProfileCreate2_Analyst
-            // 
-            this.chkProfileCreate2_Analyst.HeaderText = "Create";
-            this.chkProfileCreate2_Analyst.Name = "chkProfileCreate2_Analyst";
-            this.chkProfileCreate2_Analyst.Width = 250;
-            // 
-            // chkProfileRead2_Analyst
-            // 
-            this.chkProfileRead2_Analyst.HeaderText = "Read";
-            this.chkProfileRead2_Analyst.Name = "chkProfileRead2_Analyst";
-            this.chkProfileRead2_Analyst.Width = 250;
-            // 
-            // chkProfileUpdate2_Analyst
-            // 
-            this.chkProfileUpdate2_Analyst.HeaderText = "Update";
-            this.chkProfileUpdate2_Analyst.Name = "chkProfileUpdate2_Analyst";
-            this.chkProfileUpdate2_Analyst.Width = 220;
-            // 
-            // chkProfileCreate3_Analyst
-            // 
-            this.chkProfileCreate3_Analyst.HeaderText = "Create";
-            this.chkProfileCreate3_Analyst.Name = "chkProfileCreate3_Analyst";
-            this.chkProfileCreate3_Analyst.Width = 250;
-            // 
-            // chkProfileRead3_Analyst
-            // 
-            this.chkProfileRead3_Analyst.HeaderText = "Read";
-            this.chkProfileRead3_Analyst.Name = "chkProfileRead3_Analyst";
-            this.chkProfileRead3_Analyst.Width = 250;
-            // 
-            // chkProfileUpdate3_Analyst
-            // 
-            this.chkProfileUpdate3_Analyst.HeaderText = "Update";
-            this.chkProfileUpdate3_Analyst.Name = "chkProfileUpdate3_Analyst";
-            this.chkProfileUpdate3_Analyst.Width = 220;
-            // 
-            // chkProfileCreate4_Analyst
-            // 
-            this.chkProfileCreate4_Analyst.HeaderText = "Create";
-            this.chkProfileCreate4_Analyst.Name = "chkProfileCreate4_Analyst";
-            this.chkProfileCreate4_Analyst.Width = 250;
-            // 
-            // chkProfileRead4_Analyst
-            // 
-            this.chkProfileRead4_Analyst.HeaderText = "Read";
-            this.chkProfileRead4_Analyst.Name = "chkProfileRead4_Analyst";
-            this.chkProfileRead4_Analyst.Width = 250;
-            // 
-            // chkProfileUpdate4_Analyst
-            // 
-            this.chkProfileUpdate4_Analyst.HeaderText = "Update";
-            this.chkProfileUpdate4_Analyst.Name = "chkProfileUpdate4_Analyst";
-            this.chkProfileUpdate4_Analyst.Width = 220;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(74, 61);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(218, 13);
+            this.label2.TabIndex = 87;
+            this.label2.Text = "Your account details and contact information";
             // 
             // AdminProfileInformation_Analyst
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1284, 1061);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.USERPROFILEgb_ANALYST);
             this.Controls.Add(this.grbLogo_Analyst);
             this.Controls.Add(this.grbPermissions_Analyst);
@@ -825,7 +834,6 @@
         private System.Windows.Forms.Label lblUserName_Analyst;
         private System.Windows.Forms.GroupBox USERPROFILEgb_ANALYST;
         private System.Windows.Forms.PictureBox picProfileUserPhoto_Analyst;
-        private System.Windows.Forms.Button btnProfileNotifications_Analyst;
         private System.Windows.Forms.Button btnProfileSecurity_Analyst;
         private System.Windows.Forms.Button btnProfileInformation_Analyst;
         private System.Windows.Forms.TextBox txtProfileActivity_Analyst;
@@ -849,5 +857,7 @@
         private System.Windows.Forms.DataGridViewCheckBoxColumn chkProfileCreate_Analyst;
         private System.Windows.Forms.DataGridViewCheckBoxColumn chkProfileRead_Analyst;
         private System.Windows.Forms.DataGridViewCheckBoxColumn chkProfileUpdate_Analyst;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
