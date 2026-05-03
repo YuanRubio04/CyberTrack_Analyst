@@ -9,9 +9,7 @@ namespace CyberTrack_Analyst.Repositories
 {
     public class User_Repository
     {
-        private readonly string _connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\HP\\source\\repos\\Cybetrack_analyst\\CyberTrack_Database.mdf;Integrated Security=True";
-
-
+        private readonly string _connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=master;Integrated Security=True";
 
         public List<User> GetUsers()
         {
@@ -30,7 +28,7 @@ namespace CyberTrack_Analyst.Repositories
                             UserID = reader["UserID"].ToString(),
                             FullName = reader["FullName"].ToString(),
                             Email = reader["Email"].ToString(),
-                            Role = reader["Role"].ToString(),
+                            Role = reader["RoleID"].ToString() == "1" ? "Admin" : reader["RoleID"].ToString() == "2" ? "Analyst" : "Reporter",
                             Department = reader["Department"].ToString(),
                             status = reader["status"].ToString()
                         };

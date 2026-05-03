@@ -203,13 +203,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CyberTrack_Database.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="CyberTrack_Database_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>CyberTrack_Database.mdf</DependentUpon>
-    </Content>
     <None Include="Resources\CyberTrack Icon.png" />
     <None Include="Resources\AuditLogsIcon.png" />
   </ItemGroup>
